@@ -1,0 +1,25 @@
+{
+	"name": "弱电钻头",
+	"description": "通过内部微型FX弱放射反应堆发电来提供钻头用电，适用于应急情况下反应堆材料输入。",
+	"type": "Drill",
+	"size":2 ,
+	"health":420 ,
+	"tier": 5,
+	"drillTime":240 ,
+	"consumes":{
+		 "liquid": {
+			"liquid": "water", "amount": 0.1,
+			"booster":true,
+			"optional": true
+		}
+	},
+	"requirements": [
+		{"item": "titanium", "amount":25 }
+		{"item": "lead", "amount":15 }
+		{"item": "graphite", "amount":45 }
+		{"item": "thorium", "amount":30}
+		{"item": "silicon", "amount":25 }
+	],
+	"category": "production",
+	"research":"pneumatic-drill"
+}

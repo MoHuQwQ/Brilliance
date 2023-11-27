@@ -1,0 +1,37 @@
+{
+	"type": "AttributeCrafter",
+	"name": "钛钢硅炉",
+	"description": "利用钛的优良的工业性能，与远古科技辅之'我们'的致密化技术下，提高了单位生产效能。",
+    "category": "crafting",
+    "size": "2",
+    "health": "200",
+    "itemCapacity": 30,
+    "craftTime": 60,
+    "hasLiquids": "true",
+    "hasPower": "true",
+    "hasItems": "true",
+    "requirements": [
+        { "item": "copper", "amount": 50}
+        { "item": "lead", "amount": 35}
+        { "item": "titanium", "amount": 35}
+        { "item": "metaglass", "amount": 75}
+       ],
+    "consumes": {
+        "power": 1.5,
+        "items": {
+		"items": [
+				{ "item": "coal", "amount": 2 }
+				{ "item": "sand", "amount": 4 }			
+			]
+		}
+    },
+    "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+    "DrawDefault",
+    "DrawFlame"
+        ]
+    },
+    "outputItem": {"item": "silicon","amount":4 },
+    "research": "silicon-smelter",
+}

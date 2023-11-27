@@ -1,0 +1,26 @@
+{
+	"type": "SolidPump",
+	"name": "深钻抽水机",
+	"description": "利用强化的钻头突破深层坚硬的岩石，以获得大量的地下水。",
+	"size":3 ,
+	"health":320 ,
+	"liquidCapacity": 60,
+	"pumpAmount": 0.3,
+	"rotateSpeed": 4.2,
+	"attribute": "water",
+
+	"requirements": [
+		{"item": "titanium", "amount":50 }
+		{"item": "metaglass", "amount":60 }
+		{"item": "silicon", "amount":50 }
+		{"item": "封装铍", "amount":75 }
+		{"item": "高纯钨", "amount":75 }
+	],
+
+	"consumes": {
+        "power": 3,
+    },
+
+	"category": "production",
+	"research":"water-extractor"
+}

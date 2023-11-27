@@ -1,0 +1,16 @@
+{
+	"type": "Junction",
+	"name": "钛交叉器",
+	"description": "通过时间为0的交叉器，可能会有意想不到的问题",
+	"health": 80,
+	"capacity": 8,
+	"speed": 0,
+	"buildCostMultiplier": 6,
+	"requirements": [
+                { "item": "copper", "amount": 2}
+                { "item": "titanium", "amount": 2}
+    ],
+
+	"category": "distribution",
+	"research": "junction",
+}

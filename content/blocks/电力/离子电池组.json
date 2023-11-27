@@ -1,0 +1,22 @@
+{
+    "type": "battery",
+    "name": "离子电池组",
+    "description": "：‘九根铍晶体能量棒整齐的放置在中心区域......嘿!你在旁边建石油钻井干什么？！！！！！！！’" ,
+    "category": "power",
+    "health": 1350,
+    "size": 3,
+    "requirements": [
+        { "item": "copper", "amount": 115}
+        { "item": "lead", "amount":80 }
+        { "item": "titanium", "amount":65 }
+        { "item": "silicon", "amount":55 }
+        { "item": "封装铍", "amount":60 }       
+    ],
+    "heating": "0.01",
+    "explosionRadius": "64",
+    "explosionDamage": "99999",
+    "consumes": {
+		"powerBuffered": 250000.00
+	},
+	"research": "离子电池",
+}

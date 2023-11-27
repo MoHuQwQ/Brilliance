@@ -1,0 +1,30 @@
+{
+	"name": "塑钢钻头",
+	"description": "改进的的激光钻头，能够更快的挖掘矿物",
+	"type": "Drill",
+	"size":3 ,
+	"health":350,
+	"tier": 4,
+	"drillTime":200,
+	"liquidCapacity": 12,
+	"updateEffect": "pulverizeMedium",
+	"drillEffect": "mineBig",
+	"consumes":{
+		"power": 1.5,
+		"liquid": {
+			"liquid": "water", "amount": 0.2,
+			"booster":true,
+			"optional": true
+		}
+	},
+	"requirements": [
+		{"item": "copper", "amount":50 }
+		{"item": "graphite", "amount":45 }
+		{"item": "silicon", "amount":40 }
+		{"item": "titanium", "amount":40}
+		{"item": "plastanium", "amount":30 }
+	],
+	"category": "production",
+	"research":"laser-drill"
+}
+//激光钻头满足不了后勤！

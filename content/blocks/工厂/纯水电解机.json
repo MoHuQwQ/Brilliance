@@ -1,0 +1,51 @@
+{
+	"type": "GenericCrafter",
+	"name": "纯水电解机",
+	"description": "将水直接电解为氢气和臭氧...不需要过滤？",
+	"size": 3,
+	"health": 560,
+	"craftTime": 10,
+	"rotate": true,
+	"invertFlip": true,
+	"liquidCapacity": 50,
+	"regionRotated1": 3,
+
+	"drawe":{
+		 "type":"DrawRegion",
+         "suffix":"-bottom",
+         "drawers":[
+         	{"type": "DrawBubbles",
+         	 "flameColor": "7693e3"},
+         	{"type": "DrawGlowRegion",
+            "flameColor": "c4bdf3",
+         	"alpha": 0.7,
+            "glowIntensity": 0.3,
+            "glowScale": 6, },
+         ]
+	},
+
+	"requirements": [
+                { "item": "graphite", "amount": 65}
+                { "item": "titanium", "amount": 120}
+                { "item": "silicon", "amount": 80}
+                { "item": "thorium", "amount": 120}
+                { "item": "metaglass", "amount": 120}
+    ],
+    "outputLiquids":[
+
+        {"liquid": "ozone","amount":0.33}
+		{"liquid": "hydrogen","amount":1}
+		],
+
+	"consumes": {
+		"power":8,
+		"liquid": {"liquid":"water","amount":1,"booster":false},
+		"items": {"item": "scrap", "amount": 2 }				
+	},
+
+    "liquidOutputDirections": [1,3],
+    "ambientSound": "electricHum",
+    "ambientSoundVolume": 0.08,
+	"category": "crafting",
+	"research": "spore-press",
+	}

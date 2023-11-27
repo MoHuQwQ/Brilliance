@@ -1,0 +1,56 @@
+{
+	"type": "GenericCrafter",
+	"name": "臭氧碳相变工厂",
+	"description": "我们忽略的臭氧，在这个星球中有令人惊讶的物质转化作用，这无法解释得清楚",
+    "category": "crafting",
+    "size": 3,
+    "health": 300,
+    "itemCapacity": 12,
+    "liquidCapacity": 12,
+    "craftTime": 90,
+    "hasPower": "true",
+    "hasItems": "true",
+    "hasLiquids": "true",
+    "buildCostMultiplier": "0.85",
+    "requirements": [
+        { "item": "copper", "amount":100}
+        { "item": "lead", "amount": 100}
+        { "item": "titanium", "amount": 50}
+        { "item": "silicon", "amount": 50}
+        { "item": "封装铍", "amount": 75}
+        { "item": "高纯钨", "amount": 75}
+       ],
+
+    "drawer":{
+           "type":"DrawMulti",
+        "drawers":[
+        "DrawDefault",
+        {"type":"DrawLiquidRegion",
+        "drawLiquid":"ozone",
+        "suffix":"-liquid"},
+    ]},
+
+    "consumes": {
+        "power": 2.5,
+        "items": {
+		"items": [
+				{ "item": "coal", "amount": 2 }		
+			]
+		},
+        "liquid": "ozone/0.1"
+    },
+
+    "updateEffect": {
+        "type": "WaveEffect",
+        "lifetime": 90,
+        "sizeFrom": 0,
+        "sizeTo": 32,
+        "strokeFrom": 2,
+        "strokeTo": 0,
+        "colorFrom": "FFBDD4",//浅色
+        "colorTo": "FC81DD"//深色
+    },//随机的逐渐放大的圆圈
+
+    "outputItem": {"item": "pyratite","amount":3 },
+    "research": "pyratite-mixer",
+}

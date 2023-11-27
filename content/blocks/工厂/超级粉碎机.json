@@ -1,0 +1,46 @@
+{
+	"type": "GenericCrafter",
+	"name": "超级粉碎机",
+	"description": " 将废料更高效粉碎！",
+    "size": "2",
+    "health": "200",
+    "itemCapacity": 48,
+    "craftTime": 30,
+    "hasPower": "true",
+    "hasItems": "true",
+
+    "requirements": [
+
+        { "item": "copper", "amount": 60}
+        { "item": "lead", "amount": 45}
+        { "item": "silicon", "amount": 20}
+        { "item": "titanium", "amount": 30}
+
+       ],
+
+    "drawer":{
+    "type":"DrawMulti",
+        "drawers":[
+        "DrawDefault",
+    {"type":"DrawRegion",
+        "suffix":"-rotator",
+        "spinSprite":true,
+        "rotateSpeed":12},
+            ]
+    },
+    "craftEffect": "pulverize",
+
+    "consumes": {
+        "power": 1,
+        "items": {
+		"items": [
+				{ "item": "scrap", "amount": 6 }			
+			]
+		}
+    },
+
+    "outputItem": {"item": "sand","amount":6 },
+
+    "research": "pulverizer",
+    "category": "crafting",
+}

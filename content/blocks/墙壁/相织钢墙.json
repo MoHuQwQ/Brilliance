@@ -1,0 +1,15 @@
+{
+	"type": "Wall",
+	"name": "相织钢墙",
+	"description": "性能比原版墙体更好。",
+	"category": "defense",
+	"health": "1500",
+	"size": "1",
+	"flashHit": "ture",
+	"requirements": [
+		{ "item": "phase-fabric", "amount": 10 }
+		{ "item": "高纯钨", "amount": 5 }
+	],
+	"chanceDeflect": "25",
+	"research": "surge-wall",
+}

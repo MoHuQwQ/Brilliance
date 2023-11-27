@@ -1,0 +1,16 @@
+{
+	"type": "Wall",
+	"name": "大型铍混合墙",
+	"description": "塑钢虽然优良的能量吸收特性，但是同时还拥有电力绝缘性和材料强度不高的致命缺点。通过使用铍晶体材料作为骨架，能大大提高总体强度同时还能允许电力自动连接。",
+	"category": "defense",
+	"health": "3520",
+	"size": "2",
+	"insulated": "flase",
+	"absorbLasers": "true",
+	"requirements": [
+		{ "item": "metaglass", "amount": 8 }
+		{ "item": "plastanium", "amount": 12 }
+		{ "item": "封装铍", "amount": 8 }
+	],
+	"research": "铍混合墙",
+}

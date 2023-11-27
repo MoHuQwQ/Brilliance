@@ -1,0 +1,19 @@
+{
+	"type": "Pump",
+	"name": "钛泵",
+	"description": "泵送液体，不需要额外的电力",
+	"size":1 ,
+	"health":85 ,
+	"pumpAmount": 0.2,
+	"liquidCapacity": 12,
+	//"attribute": "light",
+
+	"requirements": [
+		{"item": "metaglass", "amount":15 }
+		{"item": "titanium", "amount":10 }
+		{"item": "silicon", "amount":10 }
+	],
+
+	"category": "liquid",
+	"research":"mechanical-pump"
+}

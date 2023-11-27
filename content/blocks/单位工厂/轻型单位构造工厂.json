@@ -1,0 +1,34 @@
+{
+	"type": "UnitFactory",
+	"name": "轻型单位构造工厂",
+	"description": "我们不清楚设备能否在这个星球上稳定的工作，就目前而看并没有出现差错。",
+	"size":3 ,
+	"health": 150 ,
+    "itemCapacity": 40,
+
+    "consumes": {
+
+        "power": 1.75,
+
+       },
+
+    "requirements": [
+
+                { "item": "copper", "amount": 75}
+                { "item": "lead", "amount": 75}
+                { "item": "titanium", "amount": 75}
+                { "item": "silicon", "amount": 50}
+    ],
+
+    "plans":[
+        {
+            "unit": "星萤",
+            "time": 600.0,
+            "requirements": [ "silicon/20","lead/10" ]
+        },
+
+        ],
+
+	"category": "units",
+	"research":"ground-factory"
+}

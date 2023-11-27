@@ -1,0 +1,24 @@
+{
+    "type": "BeamNode",
+    "name": "能量枢纽",
+    "description": "利用玻璃的特殊的能量传送特性，可以在有相对厚度的障碍物的情况下，近乎没有能量损耗的情况下，传输大量电力。" ,
+    "category": "power",
+    "health": 100,
+    "range" : 15,
+    "fogRadius" : 2,
+    "consumesPower" : true,
+    "outputsPower" : true,
+    "placeableLiquid":true,
+    "requirements": [
+        { "item": "copper", "amount": 10}
+        { "item": "lead", "amount": 10}
+        { "item": "metaglass", "amount": 10}
+        { "item": "silicon", "amount": 5}       
+    ],
+
+    "consumes": {
+        "powerBuffered": 100
+    },
+
+	"research": "power-node",
+}

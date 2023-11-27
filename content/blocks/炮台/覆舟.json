@@ -1,0 +1,133 @@
+{
+	"type": "ItemTurret",
+	"name": "覆舟",
+	"description": "吾等非神明，当灭世危，唤浪御亵寇，覆葬敌舟海中湮",
+    "category": "turret",
+    "size": 4,
+    "health": 2000,
+    "targetAir": false,
+    "inaccuracy": 12,
+    "reload": 30,
+     "shoot": {
+        "shots": 8,
+    },//源代码那个 shoot.shots = 4; 什么鬼
+    "ammoEjectBack": 5,
+    "ammoUseEffect": "casing3Double",
+    "ammoPerShot": 2,
+    "velocityRnd": 0.2,
+    "recoil": 6,
+    "shake": 2,
+    "range": 320,
+    "minRange": 50,
+    "scaledHealth": 130,
+    "buildCostMultiplier": 0.5,
+    "shootSound": "artillery",
+
+    "requirements": [
+        { "item": "copper", "amount": 1250}
+        { "item": "graphite", "amount": 750}
+        { "item": "titanium", "amount": 550}
+        { "item": "thorium", "amount": 600}
+        { "item": "plastanium", "amount": 500}
+        { "item": "surge-alloy", "amount":500}
+        { "item": "封装铍", "amount": 1500}
+        { "item": "高纯钨", "amount":1500}
+      
+    ],
+
+    "consumes" : {
+        "coolant": {
+        "amount": 0.2,
+        "optional": true,
+        },
+    },
+
+    "ammoTypes":{
+        "graphite":{
+        "type":"ArtilleryBulletType",
+        "speed": 6,
+        "damage": 20,
+        "knockback": 1.25,
+        "lifetime": 80,
+        "width": 11,
+        "height": 11,
+        "collidesTiles": false,
+        "splashDamageRadius": 25,
+        "splashDamage": 45,
+        "reloadMultiplier": 2.0,
+        "ammoMultiplier": 3,
+        },
+
+        "silicon":{
+        "type":"ArtilleryBulletType",
+        "speed": 6,
+        "damage": 20,
+        "knockback": 1,
+        "width": 11,
+        "height": 11,
+        "collidesTiles": true,
+        "splashDamageRadius": 25,
+        "splashDamage": 45,
+        "reloadMultiplier": 0.75,
+        "ammoMultiplier": 4,
+        "homingPower": 0.08,
+        "homingRange": 50,
+        },
+
+        "blast-compound":{
+        "type":"ArtilleryBulletType",
+        "speed": 6,
+        "damage": 20,
+        "knockback": 3.0,
+        "lifetime": 80,
+        "width": 14,
+        "height": 14,
+        "collidesTiles": true,
+        "ammoMultiplier": 4,
+        "splashDamageRadius": 48,
+        "splashDamage": 115,
+        "reloadMultiplier": 0.1,
+        "backColor":"e58956",
+        "frontColor":"ffd2ae",
+        "status": "blasted",
+        },
+
+        "surge-alloy":{
+        "type":"ArtilleryBulletType",
+        "speed": 6,
+        "damage": 10,
+        "knockback": 2.0,
+        "lifetime": 80,
+        "width": 8,
+        "height": 8,
+        "collidesTiles": false,
+        "ammoMultiplier": 2,
+        "splashDamageRadius": 25,
+        "splashDamage": 30,
+        "reloadMultiplier": 1.25,
+        "hitEffect": "blastExplosion",
+        "despawnEffect": "blastExplosion",
+        "lightningDamage": 50,
+        "lightning": 2,
+        "lightningLength": 10,
+        
+        
+        },
+    },
+
+    "research": {
+    "parent": "ripple",
+    "objectives": [
+            {
+                "type": "SectorComplete",
+                "preset": "impact0078"
+            }
+        ]
+}
+
+    //"thorium": {
+        //"type": "SectorComplete",
+        //"preset": "impact0078"
+    //}//别看了 没有用的代码-_-...好像是科技树这里的代码(问题2023/11/5 解决,BYD的没发现thorium是钍)
+}
+//这个炮台代码写的头疼>_<

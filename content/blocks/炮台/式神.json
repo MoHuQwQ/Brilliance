@@ -1,0 +1,36 @@
+{
+	"name": "式神",
+	"description": " 将极其密集的弱导向弹药发射出去，使用不同的弹药来应对不同的特点的敌人。",
+	"type": "ItemTurret",
+	"size":2 ,
+	"health":350 ,
+	"maxAmmo": 30,
+	"targetGround": false,
+
+	"spread": 4.00,
+    "shots": 2,
+    "alternate": true,
+    "reloadTime": 20.0,
+    "restitution": 0.03,
+    "range": 100,
+    "shootCone": 15.00,
+    "inaccuracy": 2.00,
+    "rotateSpeed": 10.00,
+
+	"ammoTypes": {
+	"copper": {
+	"type": "FlakBulletType",
+    "speed": 4.00,
+    "damage": 6,
+    "splashDamageRadius": 40.00,
+    "splashDamage": 37.50,
+    "collidesGround": false,
+    "explodeRange": 20.00, 
+	},
+	},
+		"requirements": [
+		{ "item": "titanium", "amount": 120}
+	],
+
+	"category": "turret",
+}

@@ -1,0 +1,15 @@
+{
+	"type": "conveyor",
+	"name": "提速传送带",
+	"description": "使用了混合材料的传送带齿轮，使运输物品的速度提升，但随之而来的是运输物品的重量上限降低，运输效率并没有提高多少",
+	"category": "distribution",
+	"health": "75",
+	"speed": "0.06",
+	"displayedSpeed": "6.0",
+	"itemCapacity": "1",
+	"requirements": [
+        { "item": "copper", "amount": 2}
+        { "item": "lead", "amount": 2 }       
+    ],
+    "research": "conveyor",
+}

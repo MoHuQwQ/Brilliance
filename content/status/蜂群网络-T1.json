@@ -1,0 +1,6 @@
+{
+"type":"StatusEffect",
+"description": "我们通过在机械上安装了量子信号传送设备，使在处于同类型机械周围能够共享计算能力并提高运行效率",
+"name":"蜂群网络-T1",
+"speedMultiplier":1.25
+}

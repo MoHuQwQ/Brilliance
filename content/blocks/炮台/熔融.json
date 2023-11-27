@@ -1,0 +1,34 @@
+{
+    "name":"熔融",
+    "description": "向敌人释放高温等离子火焰柱。",
+    "type":"ContinuousLiquidTurret",
+    "size":3 ,
+    "health":350 ,
+
+    "ammoTypes": {
+    "ozone": {
+    "type": "ContinuousFlameBulletType",
+     "damage":60,
+    "knockback" :1,
+    "pierceCap": 2,
+    "buildingDamageMultiplier": 0.3,
+    },
+
+    "hydrogen": {
+    "type": "ContinuousFlameBulletType",
+     "damage":60,
+    "knockback" :1,
+    "pierceCap": 2,
+    "buildingDamageMultiplier": 0.3,
+    }
+
+    },
+
+    "requirements": [
+        { "item": "copper", "amount": 75}
+      
+    ],
+
+    "category": "turret",
+    "research": "arc",
+}

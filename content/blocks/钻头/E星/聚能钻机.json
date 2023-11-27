@@ -1,0 +1,27 @@
+{
+	"name": "聚能钻机",
+	"description": " 在等离子钻机的基础上，采用新的能量发射装置，使其输出的能量束能量密度增加。",
+	"type": "BeamDrill",
+	"size":2 ,
+	"health":350 ,
+	"tier": 5,
+	"range": 6,
+	"drillTime": 80,
+	"fogRadius": 3,
+	"itemCapacity": 20,
+
+	"consumes":{
+	"power": 0.3,
+	"liquid": {
+			"liquid": "water", "amount": 0.01,
+			"booster": false,
+		}
+	},
+		"requirements": [
+		{"item": "beryllium", "amount":100 }
+		{"item": "纳米铜", "amount":150 }
+	],
+
+	"category": "production",
+	"research":"plasma-bore"
+}

@@ -1,0 +1,34 @@
+{
+    "type": "GenericCrafter",
+    "name": "矿渣相变室",
+    "description": "将矿渣变成逆相流体。",
+    "health":560 ,
+    "itemCapacity": 0,
+    "outputLiquid": {"liquid": "逆相流体", "amount": 0.5},
+    "size":3,
+    "hasPower": true,
+    "hasLiquids": true,
+    "boostScale":0.05,
+    "craftTime": 60,
+    "liquidCapacity": 700,
+    "craftEffect":"fireballsmoke",
+    "updateEffect": "fireballsmoke",
+    "updateEffectChance": 0.1,
+    "consumes": {
+        "power": 15,
+        "liquid": {
+            "liquid": "slag", "amount": 0.8,
+       }
+    },
+    "requirements": [
+                { "item": "titanium", "amount": 75}
+                { "item": "thorium", "amount": 60}
+                { "item": "silicon", "amount": 150}
+                { "item": "graphite", "amount": 45}
+                { "item": "metaglass", "amount": 35}
+    ],
+    "category": "crafting",
+    "research": "separator",
+    "idleSound": "respawning",
+    "idleSoundVolume": 0.5
+}

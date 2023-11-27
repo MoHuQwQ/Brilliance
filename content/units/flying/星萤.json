@@ -1,0 +1,28 @@
+{
+	"type": "flying",
+	"name": "星萤",
+	"description": "常规的采集无人机，可以进行小容量的矿物采集工作",
+	"defaultController": "MinerAI",
+    "itemCapacity": 10,
+    "isEnemy": "false",
+    "defaultCommand": "mine",
+
+    "flying": true,
+    "drag": 0.06,
+    "accel": 0.12,
+    "speed": 3.0,
+    "health": 225,
+    "engineSize": 1.8,
+    "engineOffset": 5.7,
+    "range": 50,
+
+    "ammoType":{
+    "type":"PowerAmmoType",
+    },
+
+    "mineTier": 2,
+    "mineSpeed": 3,
+    "engineOffset": 0,
+    "research": "轻型单位构造工厂",
+
+}

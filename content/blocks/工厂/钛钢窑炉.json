@@ -1,0 +1,37 @@
+{
+	"type": "GenericCrafter",
+	"name": "钛钢窑炉",
+	"description": "得益于钛的优良性能，我们得以构建出更大的核心生产结构以同时熔炼更多的的原材料",
+    "category": "crafting",
+    "size": 2,
+    "health": 320,
+    "itemCapacity": 18,
+    "craftTime": 40,
+    "hasPower": "true",
+    "hasItems": "true",
+    "craftEffect": "smeltsmoke",
+    "requirements": [
+        { "item": "copper", "amount":100}
+        { "item": "lead", "amount": 60}
+        { "item": "titanium", "amount": 75}
+        { "item": "graphite", "amount": 60}
+       ],
+    "consumes": {
+        "power": 1.5,
+        "items": {
+		"items": [
+				{ "item": "lead", "amount": 2 }
+				{ "item": "sand", "amount": 2 }			
+			]
+		}
+    },
+    "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+    "DrawDefault",
+    "DrawFlame"
+        ]
+    },
+    "outputItem": {"item": "metaglass","amount":2 },
+    "research": "kiln",
+}

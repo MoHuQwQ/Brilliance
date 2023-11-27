@@ -1,0 +1,13 @@
+{
+	"name": "逆相流体",
+	"type": "Liquid",
+	"description": "我们发现了赛普罗内部深层岩浆存在一种低温流体，元素分析竟然发现内部成分与埃里克尔上面的矿物种类基本上一致！所以说只要获取到对面星球上面的蓝图，我们就可以创造出许多强大的物品！。",
+	"barColor": "92dd7e",
+	"color": "92dd7e",
+	"explosiveness": 1,
+	"flammability": 0,
+	"heatcapacity": 0.6,
+	"viscosity": 0.5,
+	"temperature": 1,
+	
+}

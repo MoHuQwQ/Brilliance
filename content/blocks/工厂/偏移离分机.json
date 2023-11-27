@@ -1,0 +1,57 @@
+{
+    "type": "Separator",
+    "name": "偏移离分机",
+    "description": "通过偏移离心力的方法将不同的矿物分离出来，同时直接燃烧掉低价值的矿物让输出的矿物种类减少，更加方便管理",
+    "hasPower": true,
+    "itemCapacity": 20,
+    "liquidCapacity": 24,
+    "health": 500,
+    "buildCostMultiplier": 0.56,
+    "requirements": [
+        { "item": "titanium", "amount":100 }
+        { "item": "thorium", "amount":150 }
+        { "item": "silicon", "amount":225 }
+        { "item": "plastanium", "amount":100 }
+        { "item": "封装铍", "amount":250 }
+        { "item": "高纯钨", "amount":250 }
+        
+        
+    ],
+    "results": [
+                { "item": "titanium", "amount": 4 }
+                { "item": "thorium", "amount": 8 }
+               
+        ],
+
+    "drawer":{
+        "type":"DrawMulti",
+        "drawers":[
+            {
+            "type":"DrawRegion",
+            "suffix":"-bottom"
+            }
+            {
+            "type": "DrawLiquidTile",
+            "drawLiquid": "slag"
+            },
+            {
+            "type":"DrawRegion",
+            "suffix":"-spinner",
+            "rotateSpeed": 3,
+            "spinSprite": true,
+            },
+            "DrawDefault"
+
+            ]
+    },
+
+    "craftTime": 15,
+    "size": 3,
+    "consumes": {
+        "power": 6,
+        "liquid": "slag/0.3"  //12+7.2=19.2 /60= 0.32
+    },
+
+    "category": "crafting",
+    "research": "disassembler"
+}

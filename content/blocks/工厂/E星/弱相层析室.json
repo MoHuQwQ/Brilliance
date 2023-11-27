@@ -1,0 +1,28 @@
+{
+	"type": "Separator",
+	"name": "弱相层析室",
+	"description": "将埃里克尔矿渣中特定的矿物成分提取出来。",
+	"size":2 ,
+	"health": 150 ,
+    "liquidCapacity": 160,
+
+    "consumes": {
+        "power": 3,
+        "liquid": {
+        "liquid": "slag", "amount": 1,
+       }
+    },
+    "requirements": [
+		{"item": "beryllium", "amount":10 }
+	],
+    "results": [
+        { "item": "纳米铜", "amount": 9 }
+        { "item": "晶体铅", "amount": 9 }
+        { "item": "silicon", "amount": 1 }
+               
+        ],
+
+    "craftTime": 2,
+	"category": "crafting",
+	"research":"虹吸泵"
+}

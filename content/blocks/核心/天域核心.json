@@ -1,0 +1,20 @@
+{
+	"type": "CoreBlock",
+	"name": "天域核心",
+	"description": "草！",
+    "details": "草！",
+    "unitType":"低语",
+    "size": 5,
+    "health": 40000,
+    "armor":40,
+    "itemCapacity": 500000,
+    "unitCapModifier": 50,
+	"researchCostMultiplier ": 0.9,
+	    "requirements": [
+        { "item": "copper", "amount": 10},
+       ],
+    "category": "effect",
+    "research": "天域轻型轨道建设仓",
+    "alwaysUnlocked": true
+
+}

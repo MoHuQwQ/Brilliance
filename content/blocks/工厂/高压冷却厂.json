@@ -1,0 +1,51 @@
+{
+	"type": "LiquidConverter",
+	"type": "AttributeCrafter",
+	"name": "高压冷却厂",
+	"description": "高效率的生成冷冻液",
+	"size": 3,
+	"health":260 ,
+	"liquidCapacity": 72,
+	"itemCapacity": 10,
+    "craftTime": 60,
+    "attribute": "water",
+    "boostScale": 0.1,
+
+    "hasPower" : true,
+    "hasItems" : true,
+    "hasLiquids" : true,
+    "rotate" : false,
+    "solid" : true,
+    "outputsLiquid" : true,
+    
+	"requirements": [
+		{"item": "copper", "amount":10 }
+	],
+	"consumes": {
+        "power": 4.0,
+        "liquid": {"liquid":"water","amount":0.6,},
+        "items": {
+	    "items": [
+	    { "item": "titanium", "amount": 3 }	]	}, 
+    },
+
+    "drawer":{
+		"type":"DrawMulti",
+		"drawers":[
+		{
+		"type":"DrawRegion",
+		"suffix":"-bottom"
+		},
+		{
+		   "type":"DrawLiquidTile",
+		"drawLiquid":"ozone"
+		},
+
+		"DrawDefault"
+	]},
+
+    "outputLiquid": {"liquid": "cryofluid", "amount": 0.6},
+
+	"category": "crafting",
+	"research": "cryofluid-mixer"
+}

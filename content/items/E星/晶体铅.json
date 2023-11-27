@@ -1,0 +1,8 @@
+{
+"type":"Item",
+"name":"晶体铅",
+"hardness":0,
+"description":"矿渣中晶体化的铅",
+"color":"768a9a",
+"research": "beryllium",
+}

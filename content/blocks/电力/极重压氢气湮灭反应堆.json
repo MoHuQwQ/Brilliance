@@ -1,0 +1,36 @@
+{
+	"type": "ImpactReactor",
+	"name": "极重压氢气湮灭反应堆",
+	"description": "一因 一需 一生 一灭",
+	"size":6 ,
+	"health":4096 ,
+	"liquidCapacity": 72,
+	"itemCapacity": 60,
+	"requirements": [
+
+		{"item": "titanium", "amount":10 }
+
+	],
+
+    "powerProduction": 8000,
+
+	"consumes": {
+        "power": 400.0,
+        "liquids": [
+
+        {"liquid": "cryofluid","amount":0.6}
+		{"liquid": "hydrogen","amount":0.6}
+		],
+
+        "items": {
+		"items": [
+				{ "item": "surge-alloy", "amount": 6 }			
+			]
+		}
+    },
+
+
+    "liquidConsumesDirections": [1,3],
+	"category": "power",
+	"research":"impact-reactor"
+}

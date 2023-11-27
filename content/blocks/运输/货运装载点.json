@@ -1,0 +1,26 @@
+{
+	"type": "UnitCargoLoader",
+	"name": "货运装载点",
+	"description": "相当于质量驱动器，这种通过物流机器人搬运物品的方式也可以承担起一部分的物品运输工作。",
+	"health": 400,
+	"size": 3,
+	"buildTime": 640,
+	"itemCapacity": 100,
+	"liquidCapacity": 60,
+	"polyColor": "D1EFFF",
+
+	"requirements": [
+        { "item": "titanium", "amount": 100},
+        { "item": "silicon", "amount": 80},
+        { "item": "thorium", "amount": 50},
+        { "item": "封装铍", "amount": 150},
+        { "item": "高纯钨", "amount": 150},
+    ],
+
+    "consumes": {
+        "power": 2,
+        "liquid": "ozone/0.5"
+    },
+	"category": "distribution",
+	"research": "launch-pad",
+}

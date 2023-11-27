@@ -1,0 +1,43 @@
+{
+	"type": "mech",
+	"name": "根绝-除灭",
+    "description": "我们在地下遗迹中发现了一处大型的单位组装工厂，并且成功获取的大量的蓝图数据. 之后我们成功组装出这台原型机...名为<根绝-除灭>",
+    "details": "你知道在做什么是吧。",
+	"maxVelocity": 0.68,
+    "speed": 0.8,
+    "drag": 0.4,
+    "mass": 5,
+    "hitSize": 36,
+    "rotatespeed": 10.0,
+    "health": 35000,
+    "armor": 28,
+    "mechStepParticles": true,
+    "weapons":[
+    	{
+    		"name": "末光快速磁轨炮",//你猜AWA~
+            "shootSound": "missile",
+            "mirror": false,
+            "showStatSprite": false,
+            "reload": 10,
+            "cooldownTime": 42,
+            "heatColor": "turretHeat",
+        "top": false,
+        "x": 21.5,
+        "y": 1,
+        "shootY": 11,
+        "recoil": 5,
+        "shake": 2,
+        "ejectEffect": "casing4",
+        "shootSound": "bang" ,
+        "bullet": {
+            "type": "ArtilleryBulletType",
+            "speed": 10,
+            "damage": 175, 
+
+        },
+
+    	}
+    	
+    ]
+
+}

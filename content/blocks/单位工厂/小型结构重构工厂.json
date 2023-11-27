@@ -1,0 +1,44 @@
+{
+	"type": "Reconstructor",
+	"name": "小型结构重构工厂",
+	"description": "将初始单位重构升级成新的单位。",
+	"size":3 ,
+	"health": 500 ,
+    "itemCapacity": 60,
+
+    "consumes": {
+
+        "power": 5,
+        "items": {  
+        "items": [
+
+        {"item":"silicon","amount": 30}
+        {"item":"graphite","amount": 30}
+        { "item": "titanium", "amount": 30}
+
+    ]
+    },
+
+    },
+
+    "upgrades":[
+
+        ["星萤","萤光"],
+        ["dagger","reign"],
+
+    ],
+
+    "constructTime":510,
+
+    "requirements": [
+
+                { "item": "copper", "amount": 250}
+                { "item": "lead", "amount": 150}
+                { "item": "titanium", "amount": 125}
+                { "item": "silicon", "amount": 100}
+    ],
+
+	"category": "units",
+    "buildVisibility":"shown",
+	"research":"ground-factory"
+}

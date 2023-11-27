@@ -1,0 +1,50 @@
+{
+	"type": "flying",
+	"name": "低语",
+	"description": "原型特殊飞机，使用了远古以及光辉科技。",
+	"defaultController": "BuilderAI",
+	"isEnemy": "false",
+
+    "abilities": [
+    {
+    "type":"ForceFieldAbility",
+    "radius": 48,
+    "regen": 6,
+    "max": 500,
+    "cooldown": 300,}
+    {
+        "type": "EnergyFieldAbility",
+        "damage": 30.0,
+        "reload": 60.0,
+        "range": 200,
+        "status": "electrified",
+        "statusDuration": 120,
+        "targetGround": true,
+        "targetAir": true,
+        "hitBuildings": true,
+        "hitUnits": true,
+        "healPercent": 7.5,
+        "maxTargets": 1,
+        "useAmmo": false,
+        "color": "8AFFFF",
+        "buildingDamageMultiplier": 4.00,
+    }
+    ],
+
+	"lowAltitude": true,
+    "flying": true,
+    "mineSpeed": 10.0,
+    "armor": "10",
+    "mineTier": 6,
+    "buildSpeed": 2.0,
+    "drag": 0.05,
+    "speed": 4.0,
+    "rotateSpeed": 20,
+    "accel": 0.05,
+    "itemCapacity": 75,
+    "health": 400,
+    "engineOffset": 25,
+    "engineSize": 7.8,
+    "hitSize": 16,
+    "alwaysUnlocked": true
+}

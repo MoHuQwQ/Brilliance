@@ -1,0 +1,15 @@
+{
+	"type": "Wall",
+	"name": "大型相织钢墙",
+	"description": "性能比原版墙体更好。",
+	"category": "defense",
+	"health": "6000",
+	"size": "2",
+	"flashHit": "ture",
+	"requirements": [
+		{ "item": "phase-fabric", "amount": 40 }
+		{ "item": "高纯钨", "amount": 20 }
+	],
+	"chanceDeflect": "25",
+	"research": "相织钢墙",
+}

@@ -1,0 +1,16 @@
+{
+	"type": "duct",
+	"name": "真空传送带",
+	"description": "在普通开放式传送带基础上，进行了机械真空密封处理",
+	"category": "distribution",
+	"health": "125",
+	"speed": "2",
+	"displayedSpeed": "19",
+	"itemCapacity": "2",
+	"requirements": [
+		{ "item": "beryllium", "amount": 1}
+        { "item": "纳米铜", "amount": 1}
+        { "item": "晶体铅", "amount": 1 }       
+    ],
+    "research": "duct",
+}

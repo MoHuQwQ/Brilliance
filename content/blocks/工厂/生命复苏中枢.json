@@ -1,0 +1,47 @@
+{
+    "type": "AttributeCrafter",
+    "name": "生命复苏中枢",
+    "description": "我们复原了大量了两个星球上面的远古工厂建筑遗迹，这个原型建筑曾经占据了整一个区块面积，如今缩小成标准工厂大小，但是效率仍然是极其的惊人。",
+    "category": "production",
+    "size": "3",
+    "health": "1",
+    "hasLiquids": "true",
+    "hasPower": "true",
+    "hasItems": "true",
+    "itemCapacity": 70,
+    "maxBoost": "2",
+
+    "drawRim": true,
+
+    "drawer":{
+        "type":"DrawMulti",
+        "drawers":[
+            "DrawDefault",
+            "DrawCultivator",
+            {
+                "type":"DrawRegion",
+                "suffix":"-top"
+            }
+            ]
+    },
+
+    "requirements": [
+        { "item": "copper", "amount": 280}
+        { "item": "lead", "amount": 280}
+        { "item": "titanium", "amount": 150}
+        { "item": "thorium", "amount": 110}
+        { "item": "silicon", "amount": 130}
+        { "item": "高纯钨", "amount": 100}
+       ],
+
+    "outputItem": {"item": "spore-pod","amount": 30 },
+
+    "consumes": {
+        "power": 10,
+        "liquid": "water/0.9"
+    },
+    
+     "attribute" : "spores",
+
+    "research": "cultivator",
+}

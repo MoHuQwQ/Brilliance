@@ -1,0 +1,38 @@
+{
+	"type": "flying",
+	"name": "萤光",
+	"description": "为适应塞普罗环境研发的新一代的无人机，同时使用了一些这个星球上面的远古科技",
+	"defaultController": "MinerAI",
+    "itemCapacity": 20,
+    "isEnemy": "false",
+    "defaultCommand": "mine",
+
+    "flying": true,
+    "drag": 0.06,
+    "accel": 0.12,
+    "speed": 3.15,
+    "health": 500,
+    "engineSize": 1.8,
+    "engineOffset": 5.7,
+    "range":130,
+
+    "ammoType":{
+    "type":"PowerAmmoType",
+    },
+
+    "abilities": [
+    {
+        "type": "StatusFieldAbility",
+        "effect": "蜂群网络-T1",
+        "duration": 360.0,
+        "reload": 360.0,
+        "range": 60.0,
+    }
+],
+
+    "mineTier": 3,
+    "mineSpeed": 4.0,
+    "engineOffset": 0,
+    "research": "星萤",
+
+}

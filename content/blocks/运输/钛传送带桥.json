@@ -1,0 +1,20 @@
+{
+	"type": "BufferedItemBridge",
+	"name": "钛传送带桥",
+	"description": "速度更快的传送带桥。",
+	"health": 120,
+	"itemCapacity": 20,
+	"range": 8,
+	"speed": 5,
+	"arrowSpacing": 6,
+	"bufferCapacity": 20,
+
+	"requirements": [
+                { "item": "copper", "amount": 3}
+                { "item": "lead", "amount": 3}
+                { "item": "titanium", "amount": 3}
+    ],
+
+	"category": "distribution",
+	"research": "titanium-conveyor",
+}

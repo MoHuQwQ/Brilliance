@@ -1,0 +1,30 @@
+{
+	"type": "MassDriver",
+	"name": "爆破式质量驱动器",
+	"description": "利用爆破物作为动力将物品投射出去",
+	"size":3 ,
+	"health":860 ,
+	"liquidCapacity": 60,
+	"itemCapacity": 300,
+	"reload:": 50.0,
+	"rotateSpeed" : 10,
+	"range": 2500,
+	"bulletSpeed" : 10.0,
+	"bulletLifetime" : 250,
+	"requirements": [
+		{"item": "lead", "amount":375 }
+		{"item": "titanium", "amount":375 }
+		{"item": "thorium", "amount":150 }
+		{"item": "silicon", "amount":235 }
+		{"item": "plastanium", "amount":210 }
+		{"item": "封装铍", "amount":1000 }
+		{"item": "高纯钨", "amount":750 }
+	],
+	"consumes": {
+        "power": 4.0,
+        "liquid": "cryofluid/0.5"
+    },
+
+	"category": "distribution",
+	"research":"超级发射平台"
+}

@@ -1,0 +1,17 @@
+{
+	"type": "ShieldWall",
+	"name": "神秘墙壁",
+	"description": "？？？。",
+	"category": "defense",
+	"health": "1",
+	"size": "2",
+	"requirements": [
+		{ "item": "metaglass", "amount": 2 }
+	],
+	"outputsPower": "false",
+	"hasPower": "true",
+	"consumesPower": "true",
+	"conductivePower": "ture",
+	"chanceDeflect": "100",
+	"wallHealthMultiplier": "10"
+}

@@ -1,0 +1,16 @@
+{
+    "type": "battery",
+    "name": "离子电池",
+    "description": "铍原子具有非常高的能量存储密度，以此制作出来的电池具有很高的电力容量" ,
+    "category": "power",
+    "health": 150,
+    "requirements": [
+        { "item": "copper", "amount": 10}
+        { "item": "lead", "amount":10 }
+        { "item": "封装铍", "amount":5 }        
+    ],
+    "consumes": {
+		"powerBuffered": 16000.00
+	},
+	"research": "battery-large",
+}

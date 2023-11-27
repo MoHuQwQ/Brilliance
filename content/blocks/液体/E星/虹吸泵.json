@@ -1,0 +1,16 @@
+{
+	"type": "Pump",
+	"name": "虹吸泵",
+	"description": "利用虹吸原理缓慢输出液体，总比没有好。",
+	"size":1 ,
+	"health":75 ,
+	"pumpAmount": 0.1,
+	"liquidCapacity": 12,
+
+	"requirements": [
+		{"item": "beryllium", "amount":10 }
+	],
+
+	"category": "liquid",
+	"research":"turbine-condenser"
+}

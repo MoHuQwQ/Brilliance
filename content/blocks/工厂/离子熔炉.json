@@ -1,0 +1,31 @@
+{
+	"type": "GenericCrafter",
+	"name": "离子熔炉",
+	"description": "使用等离子光束将废料快速熔成矿渣，好像有点不太对?",
+	"health": 360,
+	"size":2,
+	"hasPower": true,
+    "hasLiquids": true,
+    "hasItems": true,
+    "craftTime": 6,
+    "liquidCapacity": 240,
+    "itemCapacity": 40,
+    "craftEffect": "smeltsmoke",
+    "consumes": {
+        "power": 6,
+        "items": {
+		"items": [
+				{ "item": "scrap", "amount": 2 }				
+			]
+		}
+    },
+    "outputLiquid": {"liquid": "slag", "amount": 4},
+	"requirements": [
+                { "item": "titanium", "amount": 30}
+                { "item": "silicon", "amount": 25}
+                { "item": "plastanium", "amount": 55}
+                { "item": "metaglass", "amount": 45}
+    ],
+    "category": "crafting",
+    "research": "melter",
+}

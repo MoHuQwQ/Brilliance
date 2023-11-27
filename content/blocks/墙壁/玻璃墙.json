@@ -1,0 +1,15 @@
+{
+	"type": "Wall",
+	"name": "玻璃墙",
+	"description": "有时候 凑合一下也可以？",	
+	"health": "240",
+	"size": "1",
+	"buildCostMultiplier": "0.75",
+	"insulated": "flase",
+	"absorbLasers": "true",
+	"requirements": [
+		{ "item": "metaglass", "amount": 6 }
+	],
+	"research": "copper-wall",
+	"category": "defense",
+}

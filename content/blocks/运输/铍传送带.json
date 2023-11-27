@@ -1,0 +1,15 @@
+{
+	"type": "conveyor",
+	"name": "铍传送带",
+	"description": "常规线性运输科技的结晶，具有无动力单个物品运输的最高运输速度",
+	"category": "distribution",
+	"health": "75",
+	"speed": "0.2",
+	"displayedSpeed": "26.0",
+	"itemCapacity": "3",
+	"requirements": [
+        { "item": "titanium", "amount": 1}
+        { "item": "封装铍", "amount": 1 }       
+    ],
+    "research": "titanium-conveyor",
+}
