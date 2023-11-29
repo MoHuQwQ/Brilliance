@@ -30,12 +30,15 @@
         "ammoMultiplier": 4,
         "splashDamageRadius": 40,
         "splashDamage": 45.0,
+        "collides":true,
+        "collidesGround":true,
+        "hitSize":4,
 
         "fragBullets": 3,
         "fragBullet": {
         "type": "BasicBulletType",
         "speed": 3,
-        "damage": 16,
+        "damage": 45,
         "width": 10.00,
         "height": 12.00,
         "shrinkY": 1.00,
@@ -70,7 +73,7 @@
     { "item": "phase-fabric", "amount": 450},
     { "item": "surge-alloy", "amount": 350},
     { "item": "封装铍", "amount": 1200},
-    { "item": "晶体铅", "amount": 1200},
+    { "item": "高纯钨", "amount": 1200},
 	],
 
     "consumes" : {
