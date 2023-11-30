@@ -26,6 +26,11 @@
             "time": 600.0,
             "requirements": [ "silicon/20","lead/10" ]
         },
+        {
+            "unit": "初训",
+            "time": 600.0,
+            "requirements": [ "silicon/50","lead/50" ]
+        },
 
         ],
 
