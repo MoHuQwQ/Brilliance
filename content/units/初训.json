@@ -10,8 +10,20 @@
 	"itemCapacity": 0,//不会有人拿坦克单位搬东西吧.
 	"range": 160,
 
-	//treadRects = new Rect[]{new Rect(12 - 32f, 7 - 32f, 14, 51)};
+	
 	"researchCostMultiplier": 0,
+
+	"outlineColor": "2d2f39",
+
+	"treadRects": [
+    {
+        "type": "R,ect",
+        "x": -20,
+        "y": -25,
+        "width": 14,
+        "height": 51,
+    }
+    ], //treadRects = new Rect[]{new Rect(12 - 32f, 7 - 32f, 14, 51)};
 
 	"weapons": [
 		{"name":"初训-炮塔",
@@ -23,7 +35,7 @@
 		"rotateSpeed": 2.2,
 		"mirror": false,
 		"x": 0,
-		"y": -7.5,
+		"y": 0,
 		"heatColor": "A9D8FF",
 		"cooldownTime": 30,
 
