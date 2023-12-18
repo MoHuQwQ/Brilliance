@@ -1,0 +1,24 @@
+{
+	"type": "CoreBlock",
+	"name": "天域测试核心",
+	"description": "测试核心",
+    "unitType":"低语",
+    "size": 4,
+    "health": 5000,
+    "armor":25,
+    "itemCapacity": 10000,
+    "unitCapModifier": 20,
+	"researchCostMultiplier ": 0.9,
+	    "requirements": [
+        { "item": "copper", "amount": 6500},
+        { "item": "metaglass", "amount": 5000},
+        { "item": "titanium", "amount": 3500},
+        { "item": "silicon", "amount": 2000},
+        { "item": "封装铍", "amount": 1000},
+        { "item": "高纯钨", "amount": 1000},
+       ],
+    "category": "effect",
+    "research": "core-foundation",
+    "alwaysUnlocked": true
+
+}

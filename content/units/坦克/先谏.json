@@ -1,0 +1,71 @@
+{
+	"type": "tank",
+	"name": "先谏",
+	"description": "我们发现，常规的炮弹对于这个星球上的结构材料所造成的破坏效果不尽人意，而发射能量炮弹能看到显著的破坏效果。",
+	"hitSize": 18,
+	"treadPullOffset": 3,
+	"speed": 1.0,
+	"rotateSpeed": 3.5,
+	"health": 200,
+	"itemCapacity": 0,
+	"range": 160,
+
+	
+	"researchCostMultiplier": 0,
+
+	"outlineColor": "2d2f39",
+
+	"treadRects": [
+    {
+        "type": "R,ect",
+        "x": -31,
+        "y": -86,
+        "width": 19,
+        "height": 76,
+    }
+    ],
+
+	"weapons": [
+		{"name":"n-weapon",
+		"layerOffset": 0.0001,
+		"reload": 25,
+		"shootY": 4.5,
+		"recoil": 1,
+		"rotate": true,
+		"rotateSpeed": 2.2,
+		"mirror": false,
+		"x": 0,
+		"y": 0,
+		"heatColor": "A9D8FF",
+		"cooldownTime": 30,
+
+
+		"bullet": {
+			"type":"ArtilleryBulletType",
+			"speed": 3,
+			"damage": 10,
+			"buildingDamageMultiplier": 10,
+			"sprite": "missile-large",
+			"smokeEffect": "shootBigSmoke",
+			"shootEffect": "shootBigColor",
+			"width": 5,
+			"height": 7,
+			"lifetime": 40,
+			"hitSize": 4,
+
+
+			"hitColor": "A9D8FF",
+			"backColor": "feb380",
+			"trailColor": "A9D8FF",
+			"frontColor": "A9D8FF",
+			"trailWidth": 1.7,
+			"trailLength": 5,
+			"despawnEffect": "hitBulletColor",
+			"hitEffect": "hitBulletColor",
+		},
+	},
+	],
+
+	"research": "轻型单位构造工厂",
+
+}

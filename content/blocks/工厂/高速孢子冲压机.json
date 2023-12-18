@@ -1,0 +1,53 @@
+{
+	"type": "GenericCrafter",
+	"name": "高速孢子冲压机",
+	"description": "使用了更高速度高强度压缩结构，能够生产出更多的石油",
+	"health": 960,
+	"size":3,
+	"hasPower": true,
+    "hasLiquids": true,
+    "hasItems": true,
+    "craftTime": 30,
+    "liquidCapacity": 108,
+    "itemCapacity": 18,
+
+    "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+    {
+        "type": "DrawRegion",
+            "suffix": "-bottom"
+    },
+    {
+        "type": "DrawPistons",
+            "sinMag": 1
+    },
+            "DrawDefault",
+    {
+        "type": "DrawLiquidRegion",
+            "drawLiquid": "oil"
+    },
+    {
+        "type": "DrawRegion",
+            "suffix": "-top"
+    }
+        ]
+    },
+
+    "consumes": {
+        "power": 2.1,
+        "items": {
+		"items": [
+				{ "item": "spore-pod", "amount": 3 }				
+			]
+		}
+    },
+    "outputLiquid": {"liquid": "oil", "amount": 0.9},
+	"requirements": [
+                { "item": "titanium", "amount": 100}
+                { "item": "silicon", "amount": 60}
+                { "item": "plastanium", "amount": 45}
+    ],
+    "category": "crafting",
+    "research": "spore-press",
+}

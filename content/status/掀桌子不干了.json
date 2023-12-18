@@ -1,0 +1,11 @@
+{
+"type":"StatusEffect",
+"description": "路由器一排供弹药炮台我认了，石油地孢子压石油塑钢我认了，逻辑星辉合金我也认了，甚至驱动四小硅我也认了。但是你TM爆钻带一个涡轮发电机还河边建十几台抽水机供水我操NMB！！！！！",
+"name":"掀桌子不干了",
+"speedMultiplier":0,
+"healthMultiplier":0.01,
+"damageMultiplier":100,
+"reloadMultiplier":10,
+"damage":250,
+"permanent":true,
+}

@@ -21,6 +21,10 @@
          	"alpha": 0.7,
             "glowIntensity": 0.3,
             "glowScale": 6, },
+            {
+		      "type":"DrawLiquidTile",
+		      "drawLiquid":""
+		      },
          ]
 	},
 
@@ -28,7 +32,7 @@
                 { "item": "graphite", "amount": 65}
                 { "item": "titanium", "amount": 120}
                 { "item": "silicon", "amount": 80}
-                { "item": "thorium", "amount": 120}
+                { "item": "plastanium", "amount": 120}
                 { "item": "metaglass", "amount": 120}
     ],
     "outputLiquids":[

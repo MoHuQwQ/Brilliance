@@ -38,7 +38,7 @@
 		},
 		{
 		   "type":"DrawLiquidTile",
-		"drawLiquid":"ozone"
+		"drawLiquid":"cryofluid"
 		},
 
 		"DrawDefault"
