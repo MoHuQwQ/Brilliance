@@ -1,24 +1,24 @@
 const libbbb = require("libbbb");
-const free = new JavaAdapter(Planet, {
+const BrilliancePlanet = new JavaAdapter(Planet, {
     load() {
-        this.meshLoader = prov(() => new HexMesh(free, 2));
+        this.meshLoader = prov(() => new HexMesh(BrilliancePlanet, 2));
         this.super$load();
     }
-}, "free", Planets.sun, 1);
+}, "BrilliancePlanet", Planets.sun, 1);
 const sS = require("sectorSize");
-sS.planetGrid(free, 1.0);
-free.generator = new SerpuloPlanetGenerator();
-free.atmosphereColor = Color.valueOf("87CEEB");
-free.atmosphereRadIn = 0.21;
-free.atmosphereRadOut = 50;
-free.localizedName = "投影星球";;
-free.visible = true;
-free.bloom = false;
-free.accessible = true;
-free.alwaysUnlocked = true;
-free.startSector = 1;
-free.orbitRadius = 41;
-const maps = new SectorPreset("降落地区", free, 1);
+sS.planetGrid(BrilliancePlanet, 1.0);
+BrilliancePlanet.generator = new SerpuloPlanetGenerator();
+BrilliancePlanet.atmosphereColor = Color.valueOf("87CEEB");
+BrilliancePlanet.atmosphereRadIn = 0.21;
+BrilliancePlanet.atmosphereRadOut = 50;
+BrilliancePlanet.localizedName = "投影星球";;
+BrilliancePlanet.visible = true;
+BrilliancePlanet.bloom = false;
+BrilliancePlanet.accessible = true;
+BrilliancePlanet.alwaysUnlocked = true;
+BrilliancePlanet.startSector = 1;
+BrilliancePlanet.orbitRadius = 41;
+const maps = new SectorPreset("降落地区", BrilliancePlanet, 1);
 maps.alwaysUnlocked = true;
 maps.captureWave = 1;
 maps.difficulty = 1;

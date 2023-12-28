@@ -1,0 +1,40 @@
+{
+	"type": "flying",
+	"name": "星明",
+	"description": "经过数以万计的结构修改，我们成功了重造了所有的系统，使其能够极安全稳定高效地在这个星球上运行",
+	"defaultController": "",
+    "itemCapacity": 45,
+    "isEnemy": "false",
+    "defaultCommand": "rebuild",
+
+    "flying": true,
+    "drag": 0.06,
+    "accel": 0.12,
+    "speed": 3.0,
+    "health": 400,
+    "engineSize": 1.8,
+    "engineOffset": 5.7,
+    "range": 50,
+    "armor": 3,
+    "buildSpeed": 3.00,
+
+    "ammoType":{
+    "type":"PowerAmmoType",
+    },
+
+    "abilities": [
+    {
+        "type": "StatusFieldAbility",
+        "effect": "蜂群网络-T2",
+        "duration": 360.0,
+        "reload": 360.0,
+        "range": 60.0,
+    }
+],
+
+    "mineTier": 4,
+    "mineSpeed": 4.50,
+    "engineOffset": 0,
+    "research": "轻型单位构造工厂",
+
+}
