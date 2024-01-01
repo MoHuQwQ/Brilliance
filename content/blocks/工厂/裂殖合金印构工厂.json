@@ -36,5 +36,5 @@
                 { "item": "高纯钨", "amount": 1000}
     ],
     "category": "crafting",
-    "research": "surge-smelter",
+    "research": "Brilliance-TechTree",
 }

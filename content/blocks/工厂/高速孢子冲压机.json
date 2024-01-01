@@ -22,7 +22,7 @@
         "type": "DrawPistons",
             "sinMag": 1
     },
-            "DrawDefault",
+        "DrawDefault",
     {
         "type": "DrawLiquidRegion",
             "drawLiquid": "oil"

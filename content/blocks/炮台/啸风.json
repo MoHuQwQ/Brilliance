@@ -85,7 +85,7 @@
 
 	"category": "turret",
     "research": {
-    "parent": "cyclone",
+    "parent": "Brilliance-TechTree",
     "objectives": [
             {
                 "type": "SectorComplete",

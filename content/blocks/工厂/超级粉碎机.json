@@ -21,11 +21,12 @@
     "drawer":{
     "type":"DrawMulti",
         "drawers":[
-        "DrawDefault",
+       
     {"type":"DrawRegion",
         "suffix":"-rotator",
         "spinSprite":true,
         "rotateSpeed":12},
+         "DrawDefault",
             ]
     },
     "craftEffect": "pulverize",

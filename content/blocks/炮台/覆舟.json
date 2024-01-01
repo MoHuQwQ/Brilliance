@@ -116,7 +116,7 @@
     },
 
     "research": {
-    "parent": "ripple",
+    "parent": "Brilliance-TechTree",
     "objectives": [
             {
                 "type": "SectorComplete",

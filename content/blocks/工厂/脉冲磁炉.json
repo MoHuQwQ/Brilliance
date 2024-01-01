@@ -33,5 +33,5 @@
       "type": "DrawSmelter"
     },
     "outputItem": {"item": "silicon","amount":10 },
-    "research": "silicon-crucible"
+    "research": "Brilliance-TechTree"
 }

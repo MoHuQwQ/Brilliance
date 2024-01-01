@@ -2,8 +2,8 @@
 
 	"type": "CoreBlock",
 	"name": "天域核心",
-	"description": "草！",
-    "details": "草！",
+	"description": "这个这是物品未完成的空间树，你可以看到作者目前正在开发的物品",
+    "details": "！",
     "unitType":"低语",
     "size": 5,
     "health": 40000,
