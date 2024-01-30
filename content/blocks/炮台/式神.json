@@ -1,35 +1,94 @@
 {
 	"name": "式神",
-	"description": " 将极其密集的弱导向弹药发射出去，使用不同的弹药来应对不同的特点的敌人。",
+	"description": " 强化的分裂炮塔，采用了新的装弹机，使其能够发射更多种类的子弹",
 	"type": "ItemTurret",
-	"size":2 ,
-	"health":350 ,
+	"size":3 ,
+	"health":1150 ,
 	"maxAmmo": 30,
 	"targetGround": false,
+	"targetAir":true,
 
-	"spread": 4.00,
-    "shots": 2,
+	"spread": 4.00,   
     "alternate": true,
     "reloadTime": 20.0,
     "restitution": 0.03,
-    "range": 100,
+    "range": 320,
     "shootCone": 15.00,
     "inaccuracy": 2.00,
     "rotateSpeed": 10.00,
+    "inaccurate":10,
+    "shoot": {
+        "shots": 2,
+    },
 
 	"ammoTypes": {
-	"copper": {
-	"type": "FlakBulletType",
-    "speed": 4.00,
-    "damage": 6,
-    "splashDamageRadius": 40.00,
-    "splashDamage": 37.50,
-    "collidesGround": false,
-    "explodeRange": 20.00, 
+	"lead": {
+		"type":"FlakBulletType",
+        "speed": 6,
+        "damage": 9,
+        "ammoMultiplier":4,
+        "splashDamage":3,
+        "reloadMultiplier":1.1,
 	},
+
+	"metaglass": {
+		"type":"FlakBulletType",
+        "speed": 10,
+        "damage": 3,
+        "ammoMultiplier":8,
+        "reloadMultiplier":0.5,
+        "fragBullet": {
+        "type": "FlakBulletType",
+        "speed": 3,
+        "damage": 2,
+        "splashDamage":3,
+        "fragBullets":8,
+    },
+	},
+
+    "silicon": {
+    	"type":"MissileBulletType",
+    	"speed": 5,
+        "damage": 25,
+        "ammoMultiplier":4,
+        "homingPower":5,
+        "homingRange":80,
+        "lifetime":600,
+    },
+
+    "pyratite": {
+    	"type":"ArtilleryBulletType",
+    	"speed": 4,
+        "damage": 50,
+        "reloadMultiplier":0.4,
+        "status":"burning",
+        "statusDuration":480,
+        "collides":true,
+        "collidesAir":true,
+        "incendChance":1,
+    },
+
+    "blast-compound":{
+    	"type":"FlakBulletType",
+    	"speed": 5,
+        "damage": 85,
+        "reloadMultiplier":0.2,
+        "status":"burning",
+        "statusDuration":480,
+        "fragBullet": {
+        "type": "FlakBulletType",
+        "status":"blasted",
+        "fragBullets":1,
+        "incendChance":1,
+        "splashDamage":25,
+        "splashDamageRedius":100,}
+    },
+
 	},
 		"requirements": [
-		{ "item": "titanium", "amount": 120}
+		{ "item": "lead", "amount": 125}
+        { "item": "silicon", "amount": 75}
+        { "item": "titanium", "amount": 150}
 	],
 
 	"category": "turret",

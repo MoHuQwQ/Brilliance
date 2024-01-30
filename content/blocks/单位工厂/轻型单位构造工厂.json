@@ -32,6 +32,12 @@
             "requirements": [ "silicon/50","lead/50" ]
         },
 
+        {
+            "unit": "调息",
+            "time": 600.0,
+            "requirements": [ "silicon/35","lead/35","titanium/35" ]
+        },
+
         ],
 
 	"category": "units",

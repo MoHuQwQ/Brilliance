@@ -1,0 +1,31 @@
+{
+	"type": "legs",
+	"name": "调息",
+	"description": "实验性修复单位，能够缓慢的回复单位生命值.",
+	"hitSize": 12,
+	"treadPullOffset": 3,
+	"speed": 1.0,
+	"rotateSpeed": 3.5,
+	"health": 125,
+	"itemCapacity": 0,
+	"range": 160,
+	"researchCostMultiplier": 0,
+
+	"weapons":[
+		{"name":"T1修复光束",
+		"x":0,
+		"y":-2,
+	    "rotate": true,
+	    "mirror": false,
+	    "beamWidth": 0.2,
+	    "repairSpeed": 0.3,
+        "type":"RepairBeamWeapon",
+        "bullet": {
+				"maxRange": 100,
+			},
+	}//JB破范围 20
+	],
+
+	"research": "轻型单位构造工厂",
+
+}
