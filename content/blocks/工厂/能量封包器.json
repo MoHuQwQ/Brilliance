@@ -1,0 +1,28 @@
+{
+	"type": "GenericCrafter",
+	"name": "能量封包器",
+	"description": "利用维度技术将大量电子封闭成水晶，可用于发电以及其他的用途。",
+	"health": 360,
+	"size":3,
+	"hasPower": true,
+    "hasLiquids": true,
+    "hasItems": true,
+    "craftTime": 180,
+    "liquidCapacity": 18,
+    "itemCapacity": 10,
+    //"craftEffect": "smeltsmoke",
+    "consumes": {
+        "power": 12.5,
+        "liquid": {"liquid":"water","amount":0.1,"booster":false},
+    },
+
+    "outputItem": {"item": "封装能量水晶","amount":1 },
+
+	"requirements": [
+                { "item": "titanium", "amount": 125}
+                { "item": "silicon", "amount": 75}
+                { "item": "plastanium", "amount": 75}
+    ],
+    "category": "crafting",
+    "research": "melter",
+}

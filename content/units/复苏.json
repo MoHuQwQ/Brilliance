@@ -1,0 +1,58 @@
+{
+	"type": "legs",
+	"name": "复苏",
+	"description": "标准化的修复单位，能够回复单位生命值以及能拦截轻微的火力攻击.",
+	"hitSize": 12,
+	"treadPullOffset": 3,
+	"speed": 1.0,
+	"rotateSpeed": 3.5,
+	"health": 350,
+	"itemCapacity": 0,
+	"range": 160,
+	"researchCostMultiplier": 0,
+
+	"legCount": 4,
+    "legLength": 14,
+    "lockLegBase": true,
+    "legContinuousMove": true,
+    "legExtension": -3,
+    "legBaseOffset": 5,
+    "legMaxLength": 1.1,
+    "legMinLength": 0.2,
+    "legLengthScl": 0.95,
+    "legForwardScl": 0.7,
+    "legMoveSpace": 1,
+
+	"weapons":[
+		{"name":"T2修复光束",
+		"x":-3,
+		"y":-2,
+	    "rotate": true,
+	    "mirror": false,
+	    "beamWidth": 0.3,
+	    "repairSpeed": 0.5,
+        "type":"RepairBeamWeapon",
+        "bullet": {
+				"maxRange": 200,
+			},
+	},
+
+	{"name":"标准化拦截激光",
+		"x":3,
+		"y":-1,
+	    "rotate": true,
+	    "mirror": false,
+	    "reload": 15,
+	    "targetInterval": 2,
+	    "targetSwitchInterval": 0,
+        "type":"PointDefenseWeapon",
+        "bullet": {
+				"maxRange": 200,
+				"damage": 10,
+			},
+	}
+	],
+
+	"research": "调息",
+
+}

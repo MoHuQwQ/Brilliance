@@ -8,7 +8,7 @@
 	"rotateSpeed": 3.5,
 	"health": 125,
 	"itemCapacity": 0,
-	"range": 160,
+	"range": 160,//NMB 2024/2/1
 	"researchCostMultiplier": 0,
 
 	"weapons":[
@@ -23,7 +23,7 @@
         "bullet": {
 				"maxRange": 100,
 			},
-	}//JB破范围 20
+	}//JB破范围 20 2024/1/30
 	],
 
 	"research": "轻型单位构造工厂",

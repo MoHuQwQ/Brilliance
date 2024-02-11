@@ -4,7 +4,7 @@
     "description": "利用玻璃的特殊的能量传送特性，可以在有相对厚度的障碍物的情况下，近乎没有能量损耗的情况下，传输大量电力。" ,
     "category": "power",
     "health": 100,
-    "range" : 15,
+    "range" : 20,
     "fogRadius" : 2,
     "consumesPower" : true,
     "outputsPower" : true,
@@ -17,7 +17,7 @@
     ],
 
     "consumes": {
-        "powerBuffered": 100
+        "powerBuffered": 250
     },
 
 	"research": "power-node",

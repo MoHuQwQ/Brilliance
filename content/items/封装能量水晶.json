@@ -1,0 +1,12 @@
+{
+"type":"Item",
+"name":"封装能量水晶",
+"hardness":0,
+"charge": 0,
+"explosiveness":1,
+"flammability":3,
+"radioactivity":5.555556,
+"cost":10000,
+"description":"经过维度技术封闭大量电子所形成的单元，能够在发电机中释放大量的能量来提供发电",
+"color":"6633cc"
+}
