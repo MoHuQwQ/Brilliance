@@ -1,0 +1,52 @@
+{
+	"type": "NuclearReactor",
+	"name": "能量释放器",
+	"description": "将能量水晶中的能量释放出来，提供蒸汽发电的方法转化为电能供应电力网络，但是这种方法能量流失比较严重.",
+	"health": 1000,
+	"size":3,
+	"hasPower": true,
+    "hasLiquid": true,
+    "hasLiquids": true,
+    "hasItems": true,
+    "rebuildable": false,
+    "liquidCapacity": 32,
+    "itemCapacity": 50,
+
+    "itemDuration": 120,
+    "powerProduction": 25,
+    "heating": 0.005,
+
+    "coolantPower":0.1,
+
+    "explosionRadius":16,
+    "explosionDamage":99999,
+
+    "flashThreshold":1.00,
+
+    "coolColor":"ffffff00",
+    "hotColor":"ff9575a3",
+
+    "fuelItem": "封装能量水晶",
+
+    "consumes": {
+        "items": {
+        "items": [
+                { "item": "封装能量水晶", "amount": 1 }
+            ]
+        },
+        "liquid": {
+            "liquid": "water",
+            "amount": 0.2,
+            "booster":false,
+        },
+
+    },
+
+	"requirements": [
+                { "item": "titanium", "amount": 125}
+                { "item": "silicon", "amount": 75}
+                { "item": "plastanium", "amount": 75}
+    ],
+    "category": "power",
+    "research": "能量封包器",
+}

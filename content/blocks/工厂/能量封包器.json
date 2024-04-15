@@ -7,13 +7,23 @@
 	"hasPower": true,
     "hasLiquids": true,
     "hasItems": true,
-    "craftTime": 180,
-    "liquidCapacity": 18,
+    "craftTime": 240,
+    "liquidCapacity": 24,
     "itemCapacity": 10,
     //"craftEffect": "smeltsmoke",
+
+    "craftEffect":[{
+        "type":"ExplosionEffect",
+        "waveColor":"F7E97E",//圆环颜色
+        "smokeColor":"D1EFFF",//圆形粒子颜色色
+        "sparkColor":"00FFFF",//线形粒子颜色
+        "waveLife":240,
+        "waveStroke":1,
+        "waveRad":96,
+    }],
     "consumes": {
         "power": 12.5,
-        "liquid": {"liquid":"water","amount":0.1,"booster":false},
+        "liquid": {"liquid":"water","amount":0.4,"booster":false,"update":true,},
     },
 
     "outputItem": {"item": "封装能量水晶","amount":1 },

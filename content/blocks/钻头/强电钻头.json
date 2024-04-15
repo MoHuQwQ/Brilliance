@@ -1,19 +1,19 @@
 {
 	"name": "强电钻头",
-	"description": "我们通过改良埃里克尔上面的钻头蓝图，使其的工作效率得到显著的提升。",
+	"description": "启动缓慢但是挖掘速度极高的钻头。",
 	"type": "Drill",
 	"size":4 ,
 	"health":1024 ,
 	"tier": 5,
-	"drillTime":50,
+	"drillTime":40,
 	"itemCapacity": 50,
-	"warmupSpeed": "0.0005",
-	"rotateSpeed": "5",
+	"warmupSpeed": "0.0001",
+	"rotateSpeed": "7.5",
 	"hasPower": true,
     "hasLiquids": true,
     "drawRim": true,
 	"consumes":{
-		"power": 9,
+		"power": 8.0,
 		 "liquid": {
 			"liquid": "water", "amount": 0.1,
 			"booster":true,
@@ -28,16 +28,17 @@
 		{"item": "silicon", "amount":75 }
 		{"item": "titanium", "amount":80 }
 		{"item": "thorium", "amount":100}
-		{"item": "封装铍", "amount":90 }
 		{"item": "高纯钨", "amount":35 }
+		{"item": "封装铍", "amount":90 }
+		{"item": "surge-alloy", "amount":50 }
 	],
 	"category": "production",
 	"research": {
-    "parent": "blast-drill",
+    "parent": "合金钻头",
     "objectives": [
             {
-                "type": "SectorComplete",
-                "preset": "impact0078"
+                "type": "OnSector",
+                "preset": "desolateRift"
             }
         ]
 }

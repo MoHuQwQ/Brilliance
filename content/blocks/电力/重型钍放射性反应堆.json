@@ -1,0 +1,58 @@
+{
+	"type": "NuclearReactor",
+	"name": "重型钍放射性反应堆",
+	"description": "大型钍反应堆，能够使用更大的钍放射发电核心。同时改进结构能够提升一定的安全性能(没多少罢了)。",
+	"health": 2000,
+	"size":4,
+	"hasPower": true,
+    "hasLiquid": true,
+    "hasLiquids": true,
+    "hasItems": true,
+    "rebuildable": false,
+    "liquidCapacity": 120,
+    "itemCapacity": 24,
+    "buildCostMultiplier": 0.6,
+
+    "itemDuration": 600,
+    "powerProduction": 75,
+    "heating": 0.005,
+
+    "coolantPower":0.1,
+
+    "explosionRadius":10,
+    "explosionDamage":5000,
+
+    "flashThreshold":1.00,
+
+    "coolColor":"ffffff00",
+    "hotColor":"ff9575a3",
+
+    "fuelItem": "thorium",
+
+    "consumes": {
+        "items": {
+        "items": [
+                { "item": "thorium", "amount": 1 }
+            ]
+        },
+        "liquid": {
+            "liquid": "cryofluid",
+            "amount": 0.1,
+            "booster":false,
+        },
+
+    },
+
+	"requirements": [
+                { "item": "metaglass", "amount": 300}
+                { "item": "graphite", "amount": 125}
+                { "item": "titanium", "amount": 275}
+                { "item": "thorium", "amount": 350}
+                { "item": "silicon", "amount": 450}
+                { "item": "plastanium", "amount": 175}
+                { "item": "surge-alloy", "amount": 75}
+
+    ],
+    "category": "power",
+    "research": "thorium-reactor",
+}

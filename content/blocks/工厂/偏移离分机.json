@@ -48,7 +48,7 @@
     "craftTime": 15,
     "size": 3,
     "consumes": {
-        "power": 6,
+        "power": 5.0,
         "liquid": "slag/0.3"  //12+7.2=19.2 /60= 0.32
     },
 

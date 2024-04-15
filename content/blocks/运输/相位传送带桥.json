@@ -1,0 +1,24 @@
+{
+	"type": "ItemBridge",
+	"name": "相位传送带桥",
+	"description": "大容量且能够高速度运输物品的传送带桥，需要电力",
+	"category": "distribution",
+	"range": 20,
+	"arrowPeriod": 0.9,
+	"arrowTimeScl": 2.75,
+	"itemCapacity": 20,
+	"transportTime": 1,
+	"hasPower": true,
+	"pulse": true,
+
+	"consumes": {
+        "power": 0.6,
+    },
+	"requirements": [
+        { "item": "titanium", "amount": 25}
+        { "item": "silicon", "amount": 15} 
+        { "item": "phase-fabric", "amount": 10} 
+        { "item": "surge-alloy", "amount": 8}      
+    ],
+    "research": "phase-conveyor",
+}

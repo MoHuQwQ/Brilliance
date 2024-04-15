@@ -14,5 +14,17 @@
     //"consumes": {
         //"power": 0.6
     //},一个坑，到后面学会JVAV直接写新方块类型让它只能有电力才能工作-_—#
-    "research": "unloader",
+
+    "research": {
+    "parent": "unloader",
+    //"planet": "serpulo",
+    "objectives": [
+            {
+                "type": "OnSector",
+                "preset": "tarFields"
+            },
+
+        ]
+}
+  
 }

@@ -6,10 +6,10 @@
 	"size": 3,
 	"health":260 ,
 	"liquidCapacity": 72,
-	"itemCapacity": 10,
+	"itemCapacity": 12,
     "craftTime": 60,
     "attribute": "water",
-    "boostScale": 0.1,
+    "boostScale": 0.278,
 
     "hasPower" : true,
     "hasItems" : true,
@@ -19,10 +19,12 @@
     "outputsLiquid" : true,
     
 	"requirements": [
-		{"item": "copper", "amount":10 }
+		{"item": "titanium", "amount":100 }
+		{"item": "silicon", "amount":80 }
+		{"item": "plastanium", "amount":65 }
 	],
 	"consumes": {
-        "power": 4.0,
+        "power": 3.0,
         "liquid": {"liquid":"water","amount":0.6,},
         "items": {
 	    "items": [

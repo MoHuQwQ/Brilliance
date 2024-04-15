@@ -12,7 +12,7 @@
     "itemCapacity": 40,
     "craftEffect": "smeltsmoke",
     "consumes": {
-        "power": 6,
+        "power": 4,
         "items": {
 		"items": [
 				{ "item": "scrap", "amount": 2 }				

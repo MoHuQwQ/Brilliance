@@ -8,6 +8,7 @@
 	"pumpAmount": 0.3,
 	"rotateSpeed": 4.2,
 	"attribute": "water",
+	"baseEfficiency": 1.25,
 
 	"requirements": [
 		{"item": "titanium", "amount":50 }

@@ -1,0 +1,25 @@
+{
+	"type": "StackConveyor",
+	"name": "合金传送带",
+	"description": "高速打包物品传送带，使用电力驱动。",
+	"category": "distribution",
+	"health": 100,
+	"speed": 0.1,
+	"displayedSpeed": 26.0,
+	"itemCapacity": 20,
+	"“outputRouter": false,
+	"hasPower": true,
+	"consumesPower": true,
+	"conductivePower": true,
+	"underBullets": true,
+	"baseEfficiency": 0.25,
+	"consumes": {
+        "power": 0.05,
+    },
+	"requirements": [
+        { "item": "surge-alloy", "amount": 1}
+        { "item": "thorium", "amount": 1} 
+        { "item": "phase-fabric", "amount": 1}    
+    ],
+    "research": "plastanium-conveyor",
+}

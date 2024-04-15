@@ -1,7 +1,6 @@
 {
-
 	"type": "CoreBlock",
-	"name": "天域核心",
+	"name": "Brilliance-TechTree",
 	"description": "这个这是物品未完成的空间树，你可以看到作者目前正在开发的物品",
     "details": "！",
     "unitType":"低语",
@@ -10,10 +9,7 @@
     "armor":40,
     "itemCapacity": 500000,
     "unitCapModifier": 50,
-	"researchCostMultiplier ": 0.9,
-	    "requirements": [
-        { "item": "copper", "amount": 10},
-       ],
+	"researchCostMultiplier ": 0,
     "category": "effect",
 
     "alwaysUnlocked": true,

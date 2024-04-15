@@ -10,9 +10,16 @@
     "hasLiquids": true,
     "hasItems": true,
     "craftTime": 120,
+    "ambientSound": "techloop",
+    "ambientSoundVolume": 3,
+    "buildCostMultiplier": 0.7,
 
 	"requirements": [
-		{"item": "titanium", "amount":1 }
+		{"item": "graphite", "amount":250 }
+		{"item": "silicon", "amount":200 }
+		{"item": "titanium", "amount":300 }
+		{"item": "plastanium", "amount":175 }
+		{"item": "thorium", "amount":135 }
 
 	],
 
@@ -25,13 +32,26 @@
                 { "item": "pyratite", "amount": 3 }				
 			]
 		},
-        "liquid": "cryofluid/0.3"
+        "liquid": "cryofluid/0.1"
+    },
+
+    "drawer":{
+    	"type":"DrawMulti",
+    	"drawers":[
+    		{
+    	"type":"DrawRegion",
+		"suffix":"-bottom"
+	},
+	    {"type":"DrawWeave"}
+	    {"type":"DrawDefault"}
+    	]
     },
 
 	"outputItem": {"item": "phase-fabric", "amount": 4},
 
     //"powerProduction": 1,
+    //ztmsb 2024/3/26
 
 	"category": "crafting",
-	"research":"Brilliance-TechTree"
+	"research":"phase-weaver"
 }

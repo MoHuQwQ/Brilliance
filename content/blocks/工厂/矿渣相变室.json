@@ -15,7 +15,7 @@
     "updateEffect": "fireballsmoke",
     "updateEffectChance": 0.1,
     "consumes": {
-        "power": 15,
+        "power": 6,
         "liquid": {
             "liquid": "slag", "amount": 0.8,
        }

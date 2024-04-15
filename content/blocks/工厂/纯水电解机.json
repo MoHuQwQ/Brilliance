@@ -11,21 +11,23 @@
 	"regionRotated1": 3,
 
 	"drawe":{
-		 "type":"DrawRegion",
-         "suffix":"-bottom",
+		 "type":"DrawMulti",
          "drawers":[
+            {
+           "type": "DrawLiquidTile",
+            "drawLiquid": "water",
+            },
+
          	{"type": "DrawBubbles",
          	 "flameColor": "7693e3"},
+         	 
          	{"type": "DrawGlowRegion",
             "flameColor": "c4bdf3",
          	"alpha": 0.7,
             "glowIntensity": 0.3,
             "glowScale": 6, },
-            {
-		      "type":"DrawLiquidTile",
-		      "drawLiquid":""
-		      },
-         ]
+
+            ]
 	},
 
 	"requirements": [
@@ -37,12 +39,12 @@
     ],
     "outputLiquids":[
 
-        {"liquid": "ozone","amount":0.33}
-		{"liquid": "hydrogen","amount":1}
+        {"liquid": "ozone","amount":0.495}
+		{"liquid": "hydrogen","amount":1.5}
 		],
 
 	"consumes": {
-		"power":8,
+		"power":5,
 		"liquid": {"liquid":"water","amount":1,"booster":false},
 		"items": {"item": "scrap", "amount": 2 }				
 	},
