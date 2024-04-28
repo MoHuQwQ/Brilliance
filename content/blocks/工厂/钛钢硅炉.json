@@ -11,16 +11,16 @@
     "hasPower": "true",
     "hasItems": "true",
     "requirements": [
-        { "item": "copper", "amount": 50}
-        { "item": "lead", "amount": 35}
-        { "item": "titanium", "amount": 35}
+        { "item": "copper", "amount": 50},
+        { "item": "lead", "amount": 35},
+        { "item": "titanium", "amount": 35},
         { "item": "metaglass", "amount": 75}
        ],
     "consumes": {
         "power": 1.5,
         "items": {
 		"items": [
-				{ "item": "coal", "amount": 2 }
+				{ "item": "coal", "amount": 2 },
 				{ "item": "sand", "amount": 4 }			
 			]
 		}
@@ -33,5 +33,5 @@
         ]
     },
     "outputItem": {"item": "silicon","amount":4 },
-    "research": "silicon-smelter",
+    "research": "silicon-smelter"
 }

@@ -11,9 +11,9 @@
 
     "requirements": [
 
-        { "item": "copper", "amount": 60}
-        { "item": "lead", "amount": 45}
-        { "item": "silicon", "amount": 20}
+        { "item": "copper", "amount": 60},
+        { "item": "lead", "amount": 45},
+        { "item": "silicon", "amount": 20},
         { "item": "titanium", "amount": 30}
 
        ],
@@ -26,7 +26,7 @@
         "suffix":"-rotator",
         "spinSprite":true,
         "rotateSpeed":12},
-         "DrawDefault",
+         "DrawDefault"
             ]
     },
     "craftEffect": "pulverize",
@@ -43,5 +43,5 @@
     "outputItem": {"item": "sand","amount":6 },
 
     "research": "pulverizer",
-    "category": "crafting",
+    "category": "crafting"
 }

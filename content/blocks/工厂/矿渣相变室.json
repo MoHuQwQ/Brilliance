@@ -17,14 +17,14 @@
     "consumes": {
         "power": 6,
         "liquid": {
-            "liquid": "slag", "amount": 0.8,
+            "liquid": "slag", "amount": 0.8
        }
     },
     "requirements": [
-                { "item": "titanium", "amount": 75}
-                { "item": "thorium", "amount": 60}
-                { "item": "silicon", "amount": 150}
-                { "item": "graphite", "amount": 45}
+                { "item": "titanium", "amount": 75},
+                { "item": "thorium", "amount": 60},
+                { "item": "silicon", "amount": 150},
+                { "item": "graphite", "amount": 45},
                 { "item": "metaglass", "amount": 35}
     ],
     "category": "crafting",

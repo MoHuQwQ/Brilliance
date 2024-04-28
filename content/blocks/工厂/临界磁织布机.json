@@ -1,7 +1,7 @@
 {
 	"type": "GenericCrafter",
 	"name": "临界磁织布机",
-	"description": "在临界高温的情况下利用磁力将材料快速编织成相织布",//额外生产的热量可以通过内置的温差发电机进行发电。
+	"description": "在临界高温的情况下利用磁力将材料快速编织成相织布",
 	"size":3 ,
 	"health":500,
 	"liquidCapacity": 36,
@@ -15,10 +15,10 @@
     "buildCostMultiplier": 0.7,
 
 	"requirements": [
-		{"item": "graphite", "amount":250 }
-		{"item": "silicon", "amount":200 }
-		{"item": "titanium", "amount":300 }
-		{"item": "plastanium", "amount":175 }
+		{"item": "graphite", "amount":250 },
+		{"item": "silicon", "amount":200 },
+		{"item": "titanium", "amount":300 },
+		{"item": "plastanium", "amount":175 },
 		{"item": "thorium", "amount":135 }
 
 	],
@@ -27,8 +27,8 @@
         "power": 10,
         "items": {
 		"items": [
-				{ "item": "thorium", "amount": 8 }
-                { "item": "sand", "amount": 20 }
+				{ "item": "thorium", "amount": 8 },
+                { "item": "sand", "amount": 20 },
                 { "item": "pyratite", "amount": 3 }				
 			]
 		},
@@ -42,15 +42,12 @@
     	"type":"DrawRegion",
 		"suffix":"-bottom"
 	},
-	    {"type":"DrawWeave"}
+	    {"type":"DrawWeave"},
 	    {"type":"DrawDefault"}
     	]
     },
 
 	"outputItem": {"item": "phase-fabric", "amount": 4},
-
-    //"powerProduction": 1,
-    //ztmsb 2024/3/26
 
 	"category": "crafting",
 	"research":"phase-weaver"

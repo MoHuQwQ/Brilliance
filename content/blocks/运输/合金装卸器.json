@@ -3,7 +3,6 @@
 	"name": "合金装卸器",
 	"description": "能够从相邻的建筑输入输出任何物品(如未选择物品)的功能方块，比基础的装卸器具有更高的速度。",
 	"category": "effect",
-	"hasPower": true,
 	"health": 100,
 	"speed": 1,
 	"requirements": [
@@ -11,13 +10,9 @@
         { "item": "封装铍", "amount": 20 } 
         { "item": "高纯钨", "amount": 20 }       
     ],
-    //"consumes": {
-        //"power": 0.6
-    //},一个坑，到后面学会JVAV直接写新方块类型让它只能有电力才能工作-_—#
 
     "research": {
-    "parent": "unloader",
-    //"planet": "serpulo",
+    "parent": "单方向装卸器",
     "objectives": [
             {
                 "type": "OnSector",

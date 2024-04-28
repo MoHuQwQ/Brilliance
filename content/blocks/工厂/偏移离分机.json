@@ -8,17 +8,17 @@
     "health": 500,
     "buildCostMultiplier": 0.56,
     "requirements": [
-        { "item": "titanium", "amount":100 }
-        { "item": "thorium", "amount":150 }
-        { "item": "silicon", "amount":225 }
-        { "item": "plastanium", "amount":100 }
-        { "item": "封装铍", "amount":250 }
+        { "item": "titanium", "amount":100 },
+        { "item": "thorium", "amount":150 },
+        { "item": "silicon", "amount":225 },
+        { "item": "plastanium", "amount":100 },
+        { "item": "封装铍", "amount":250 },
         { "item": "高纯钨", "amount":250 }
         
         
     ],
     "results": [
-                { "item": "titanium", "amount": 4 }
+                { "item": "titanium", "amount": 4 },
                 { "item": "thorium", "amount": 8 }
                
         ],
@@ -29,7 +29,7 @@
             {
             "type":"DrawRegion",
             "suffix":"-bottom"
-            }
+            },
             {
             "type": "DrawLiquidTile",
             "drawLiquid": "slag"
@@ -38,7 +38,7 @@
             "type":"DrawRegion",
             "suffix":"-spinner",
             "rotateSpeed": 3,
-            "spinSprite": true,
+            "spinSprite": true
             },
             "DrawDefault"
 
@@ -49,7 +49,7 @@
     "size": 3,
     "consumes": {
         "power": 5.0,
-        "liquid": "slag/0.3"  //12+7.2=19.2 /60= 0.32
+        "liquid": "slag/0.3"
     },
 
     "category": "crafting",

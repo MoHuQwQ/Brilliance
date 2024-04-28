@@ -10,15 +10,14 @@
     "craftTime": 240,
     "liquidCapacity": 240,
     "itemCapacity": 32,
-    "liquidCapacity": 36,
     "craftEffect": "pulverize",
     "consumes": {
         "power": 80,
         "items": {
 		"items": [
-				{ "item": "spore-pod", "amount": 32 }
-                { "item": "surge-alloy", "amount": 16 }
-                { "item": "silicon", "amount": 8 }
+				{ "item": "spore-pod", "amount": 32 },
+                { "item": "surge-alloy", "amount": 16 },
+                { "item": "silicon", "amount": 8 },
                 { "item": "phase-fabric", "amount": 8 }				
 			]
 		},
@@ -28,13 +27,13 @@
     "outputItem": {"item": "裂殖合金","amount":1 },
 
 	"requirements": [
-                { "item": "silicon", "amount": 300}
-                { "item": "thorium", "amount": 250}
-                { "item": "titanium", "amount":500}
-                { "item": "surge-alloy", "amount": 150}
-                { "item": "封装铍", "amount": 1000}
+                { "item": "silicon", "amount": 300},
+                { "item": "thorium", "amount": 250},
+                { "item": "titanium", "amount":500},
+                { "item": "surge-alloy", "amount": 150},
+                { "item": "封装铍", "amount": 1000},
                 { "item": "高纯钨", "amount": 1000}
     ],
     "category": "crafting",
-    "research": "Brilliance-TechTree",
+    "research": "Brilliance-TechTree"
 }

@@ -19,16 +19,16 @@
     "outputsLiquid" : true,
     
 	"requirements": [
-		{"item": "titanium", "amount":100 }
-		{"item": "silicon", "amount":80 }
+		{"item": "titanium", "amount":100 },
+		{"item": "silicon", "amount":80 },
 		{"item": "plastanium", "amount":65 }
 	],
 	"consumes": {
         "power": 3.0,
-        "liquid": {"liquid":"water","amount":0.6,},
+        "liquid": {"liquid":"water","amount":0.6 },
         "items": {
 	    "items": [
-	    { "item": "titanium", "amount": 3 }	]	}, 
+	    { "item": "titanium", "amount": 3 }	]	}
     },
 
     "drawer":{

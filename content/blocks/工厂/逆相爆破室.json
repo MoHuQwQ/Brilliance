@@ -4,18 +4,17 @@
     "description": "我们发现逆相流体通过爆破流体法可以将它分离出封装铍和高纯钨颗粒，而且这个方法极其高效。",
     "itemCapacity": 50,
     "health": 330,
-    "category": "crafting",
     "requirements": [
-        { "item": "copper", "amount": 35}
-        { "item": "lead", "amount":25 }
-        { "item": "titanium", "amount":30 }
-        { "item": "thorium", "amount":55 }
+        { "item": "copper", "amount": 35},
+        { "item": "lead", "amount":25 },
+        { "item": "titanium", "amount":30 },
+        { "item": "thorium", "amount":55 },
         { "item": "metaglass", "amount":75 }
         
         
     ],
     "results": [
-                { "item": "封装铍", "amount": 5 }
+                { "item": "封装铍", "amount": 5 },
                 { "item": "高纯钨", "amount": 3 }
                
         ],

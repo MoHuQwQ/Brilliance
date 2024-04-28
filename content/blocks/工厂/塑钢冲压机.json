@@ -1,0 +1,29 @@
+{
+	"type": "GenericCrafter",
+	"name": "塑钢冲压机",
+	"description": "大型塑钢压缩机，能够同时生产更多的塑钢",
+    "category": "crafting",
+    "size": 3,
+    "health": 500,
+    "itemCapacity": 18,
+    "liquidCapacity": 120,
+    "craftTime": 60,
+    "hasPower": true,
+    "hasItems": true,
+    "hasLiquids" : true,
+    "requirements": [
+        { "item": "titanium", "amount": 150},
+
+       ],
+    "consumes": {
+        "power": 5.5,
+        "liquid": {"liquid":"oil","amount":0.75 },
+        "items": {
+        "items": [
+        { "item": "titanium", "amount": 10 } ]   }
+    },
+
+    "outputItem": {"item": "plastanium","amount":6 },
+
+    "research": "plastanium-compressor"
+}

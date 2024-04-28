@@ -44,10 +44,10 @@
     },
     "outputLiquid": {"liquid": "oil", "amount": 0.9},
 	"requirements": [
-                { "item": "titanium", "amount": 100}
-                { "item": "silicon", "amount": 60}
+                { "item": "titanium", "amount": 100},
+                { "item": "silicon", "amount": 60},
                 { "item": "plastanium", "amount": 45}
     ],
     "category": "crafting",
-    "research": "spore-press",
+    "research": "spore-press"
 }

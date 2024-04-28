@@ -6,16 +6,18 @@
 	"health":1024 ,
 	"tier": 5,
 	"drillTime":40,
-	"itemCapacity": 50,
-	"warmupSpeed": "0.0001",
-	"rotateSpeed": "7.5",
+	"itemCapacity": 100,
+	"liquidCapacity": 36,
+	"warmupSpeed": 0.0001,
+	"rotateSpeed": 7.5,
+	"liquidBoostIntensity": 2.0,
 	"hasPower": true,
     "hasLiquids": true,
     "drawRim": true,
 	"consumes":{
 		"power": 8.0,
 		 "liquid": {
-			"liquid": "water", "amount": 0.1,
+			"liquid": "water", "amount": 0.3,
 			"booster":true,
 			"optional": true
 		}

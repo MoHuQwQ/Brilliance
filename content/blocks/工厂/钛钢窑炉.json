@@ -11,16 +11,16 @@
     "hasItems": "true",
     "craftEffect": "smeltsmoke",
     "requirements": [
-        { "item": "copper", "amount":100}
-        { "item": "lead", "amount": 60}
-        { "item": "titanium", "amount": 75}
+        { "item": "copper", "amount":100},
+        { "item": "lead", "amount": 60},
+        { "item": "titanium", "amount": 75},
         { "item": "graphite", "amount": 60}
        ],
     "consumes": {
         "power": 1.5,
         "items": {
 		"items": [
-				{ "item": "lead", "amount": 2 }
+				{ "item": "lead", "amount": 2 },
 				{ "item": "sand", "amount": 2 }			
 			]
 		}
@@ -33,5 +33,5 @@
         ]
     },
     "outputItem": {"item": "metaglass","amount":2 },
-    "research": "kiln",
+    "research": "kiln"
 }

@@ -21,11 +21,11 @@
     },
     "outputLiquid": {"liquid": "slag", "amount": 4},
 	"requirements": [
-                { "item": "titanium", "amount": 30}
-                { "item": "silicon", "amount": 25}
-                { "item": "plastanium", "amount": 55}
+                { "item": "titanium", "amount": 30},
+                { "item": "silicon", "amount": 25},
+                { "item": "plastanium", "amount": 55},
                 { "item": "metaglass", "amount": 45}
     ],
     "category": "crafting",
-    "research": "melter",
+    "research": "melter"
 }

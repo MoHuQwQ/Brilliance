@@ -15,7 +15,7 @@
          "drawers":[
             {
            "type": "DrawLiquidTile",
-            "drawLiquid": "water",
+            "drawLiquid": "water"
             },
 
          	{"type": "DrawBubbles",
@@ -25,21 +25,21 @@
             "flameColor": "c4bdf3",
          	"alpha": 0.7,
             "glowIntensity": 0.3,
-            "glowScale": 6, },
+            "glowScale": 6 }
 
             ]
 	},
 
 	"requirements": [
-                { "item": "graphite", "amount": 65}
-                { "item": "titanium", "amount": 120}
-                { "item": "silicon", "amount": 80}
-                { "item": "plastanium", "amount": 120}
+                { "item": "graphite", "amount": 65},
+                { "item": "titanium", "amount": 120},
+                { "item": "silicon", "amount": 80},
+                { "item": "plastanium", "amount": 120},
                 { "item": "metaglass", "amount": 120}
     ],
     "outputLiquids":[
 
-        {"liquid": "ozone","amount":0.495}
+        {"liquid": "ozone","amount":0.495},
 		{"liquid": "hydrogen","amount":1.5}
 		],
 
@@ -53,5 +53,5 @@
     "ambientSound": "electricHum",
     "ambientSoundVolume": 0.08,
 	"category": "crafting",
-	"research": "spore-press",
+	"research": "spore-press"
 	}

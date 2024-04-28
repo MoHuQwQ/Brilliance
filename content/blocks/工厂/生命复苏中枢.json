@@ -26,11 +26,11 @@
     },
 
     "requirements": [
-        { "item": "copper", "amount": 280}
-        { "item": "lead", "amount": 280}
-        { "item": "titanium", "amount": 150}
-        { "item": "thorium", "amount": 110}
-        { "item": "silicon", "amount": 130}
+        { "item": "copper", "amount": 280},
+        { "item": "lead", "amount": 280},
+        { "item": "titanium", "amount": 150},
+        { "item": "thorium", "amount": 110},
+        { "item": "silicon", "amount": 130},
         { "item": "高纯钨", "amount": 100}
        ],
 
@@ -43,5 +43,5 @@
     
      "attribute" : "spores",
 
-    "research": "cultivator",
+    "research": "cultivator"
 }

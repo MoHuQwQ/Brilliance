@@ -10,20 +10,19 @@
     "craftTime": 240,
     "liquidCapacity": 24,
     "itemCapacity": 10,
-    //"craftEffect": "smeltsmoke",
 
     "craftEffect":[{
         "type":"ExplosionEffect",
-        "waveColor":"F7E97E",//圆环颜色
-        "smokeColor":"D1EFFF",//圆形粒子颜色色
-        "sparkColor":"00FFFF",//线形粒子颜色
+        "waveColor":"F7E97E",
+        "smokeColor":"D1EFFF",
+        "sparkColor":"00FFFF",
         "waveLife":240,
         "waveStroke":1,
         "waveRad":96,
     }],
     "consumes": {
         "power": 12.5,
-        "liquid": {"liquid":"water","amount":0.4,"booster":false,"update":true,},
+        "liquid": {"liquid":"water","amount":0.4,"booster":false,"update":true,}
     },
 
     "outputItem": {"item": "封装能量水晶","amount":1 },
@@ -34,5 +33,5 @@
                 { "item": "plastanium", "amount": 75}
     ],
     "category": "crafting",
-    "research": "melter",
+    "research": "melter"
 }

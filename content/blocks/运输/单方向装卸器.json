@@ -1,0 +1,15 @@
+{
+	"type": "DirectionalUnloader",
+	"name": "单方向装卸器",
+	"description": "能够从后侧建筑卸载物品移至前方的装卸器。同时不会使物品向两边输出以及回流。",
+	"category": "effect",
+	"allowCoreUnload": true,
+	"health": 100,
+	"speed": 2.5,
+	"requirements": [
+		{ "item": "titanium", "amount": 30 },
+        { "item": "封装铍", "amount": 15 },
+        { "item": "高纯钨", "amount": 15 }       
+    ],
+     "research": "unloader",
+}
