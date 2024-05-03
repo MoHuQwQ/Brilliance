@@ -12,9 +12,6 @@
         { "item": "silicon", "amount":55 }
         { "item": "封装铍", "amount":60 }       
     ],
-    "heating": "0.01",
-    "explosionRadius": "64",
-    "explosionDamage": "99999",
     "consumes": {
 		"powerBuffered": 250000.00
 	},

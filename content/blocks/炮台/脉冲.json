@@ -9,8 +9,6 @@
 	"shootSound" : "laser",
     "buildCostMultiplier": 0.7,
     "liquidCapacity": 36,
-    "hasLiquid": true,
-    "boostScale": 2.0,
     "hasItems": true,
     "maxAmmo": 100,
 

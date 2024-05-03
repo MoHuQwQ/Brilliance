@@ -11,8 +11,6 @@
     "itemCapacity": 70,
     "maxBoost": "2",
 
-    "drawRim": true,
-
     "drawer":{
         "type":"DrawMulti",
         "drawers":[

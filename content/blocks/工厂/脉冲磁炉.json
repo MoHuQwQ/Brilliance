@@ -29,7 +29,6 @@
 		}
     },
     "drawer": {
-      "flameColor": "D1EFFF",
       "type": "DrawSmelter"
     },
     "outputItem": {"item": "silicon","amount":10 },

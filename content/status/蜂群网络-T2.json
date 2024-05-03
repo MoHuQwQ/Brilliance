@@ -1,5 +1,4 @@
 {
-"type":"StatusEffect",
 "description": "在基础量子蜂群网络上，增加了共享计算模块的数量，并且辅助使用了近地轨道卫星地形扫描能力。",
 "name":"蜂群网络-T2",
 "speedMultiplier":1.50,

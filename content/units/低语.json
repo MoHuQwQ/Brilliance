@@ -27,7 +27,6 @@
         "maxTargets": 2,
         "useAmmo": false,
         "color": "8AFFFF",
-        "buildingDamageMultiplier": 4.00,
     }
     ],
 

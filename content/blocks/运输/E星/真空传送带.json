@@ -5,7 +5,6 @@
 	"category": "distribution",
 	"health": "125",
 	"speed": "2",
-	"displayedSpeed": "19",
 	"itemCapacity": "2",
 	"requirements": [
 		{ "item": "beryllium", "amount": 1}

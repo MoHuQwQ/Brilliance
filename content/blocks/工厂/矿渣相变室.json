@@ -8,7 +8,6 @@
     "size":3,
     "hasPower": true,
     "hasLiquids": true,
-    "boostScale":0.05,
     "craftTime": 60,
     "liquidCapacity": 700,
     "craftEffect":"fireballsmoke",
@@ -29,6 +28,4 @@
     ],
     "category": "crafting",
     "research": "separator",
-    "idleSound": "respawning",
-    "idleSoundVolume": 0.5
 }

@@ -55,7 +55,6 @@
         "splashDamage": 37,
         "splashDamageRadius": 38,
         "lightning": 1,
-        "MlightningLength": 7,
         "shootEffect": "shootBig",
         "collidesGround": true,
         "explodeRange": 20,

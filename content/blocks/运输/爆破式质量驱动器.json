@@ -6,7 +6,6 @@
 	"health":860 ,
 	"liquidCapacity": 60,
 	"itemCapacity": 300,
-	"reload:": 50.0,
 	"rotateSpeed" : 10,
 	"range": 2500,
 	"bulletSpeed" : 10.0,

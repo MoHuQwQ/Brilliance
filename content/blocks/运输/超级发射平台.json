@@ -24,7 +24,6 @@
         "liquid": "cryofluid/1"
     },
     "category" : "effect",
-	"research": "launch-pad",
-	 "researchCostMultiplier": 0.1,
-	 "scaledHealt": 80
+    "research": "launch-pad",
+    "researchCostMultiplier": 0.1
 }

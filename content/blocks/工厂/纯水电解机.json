@@ -10,26 +10,6 @@
 	"liquidCapacity": 50,
 	"regionRotated1": 3,
 
-	"drawe":{
-		 "type":"DrawMulti",
-         "drawers":[
-            {
-           "type": "DrawLiquidTile",
-            "drawLiquid": "water"
-            },
-
-         	{"type": "DrawBubbles",
-         	 "flameColor": "7693e3"},
-         	 
-         	{"type": "DrawGlowRegion",
-            "flameColor": "c4bdf3",
-         	"alpha": 0.7,
-            "glowIntensity": 0.3,
-            "glowScale": 6 }
-
-            ]
-	},
-
 	"requirements": [
                 { "item": "graphite", "amount": 65},
                 { "item": "titanium", "amount": 120},

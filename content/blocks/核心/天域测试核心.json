@@ -8,7 +8,6 @@
     "armor":25,
     "itemCapacity": 10000,
     "unitCapModifier": 20,
-	"researchCostMultiplier ": 0.9,
 	    "requirements": [
         { "item": "copper", "amount": 6500},
         { "item": "metaglass", "amount": 5000},
