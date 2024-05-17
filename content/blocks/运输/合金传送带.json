@@ -6,7 +6,7 @@
 	"health": 100,
 	"speed": 0.1,
 	"itemCapacity": 20,
-	"outputRouter": false,
+	"outputRouter": true,
 	"hasPower": true,
 	"consumesPower": true,
 	"conductivePower": true,

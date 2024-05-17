@@ -15,6 +15,22 @@
         { "item": "titanium", "amount": 150},
 
        ],
+
+    "drawer":{
+        "type":"DrawMulti",
+        "drawers":[
+        {
+        "type":"DrawRegion",
+        "suffix":"-bottom"
+        },
+        {
+           "type":"DrawLiquidTile",
+        "drawLiquid":"oil"
+        },
+
+        "DrawDefault"
+    ]},
+    
     "consumes": {
         "power": 5.5,
         "liquid": {"liquid":"oil","amount":0.75 },
@@ -24,6 +40,9 @@
     },
 
     "outputItem": {"item": "plastanium","amount":6 },
+
+    "craftEffect": "formsmoke",
+    "updateEffect": "plasticburn",
 
     "research": "plastanium-compressor"
 }

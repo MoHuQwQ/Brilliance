@@ -2,10 +2,10 @@
 	"type": "flying",
 	"name": "星明",
 	"description": "经过数以万计的结构修改，我们成功了重造了所有的系统，使其能够极安全稳定高效地在这个星球上运行",
-	"defaultController": "",
+	"defaultController": "MinerAI",
     "itemCapacity": 45,
     "isEnemy": "false",
-    "defaultCommand": "rebuild",
+    "defaultCommand": "mine",
 
     "flying": true,
     "drag": 0.06,
@@ -33,8 +33,8 @@
 ],
 
     "mineTier": 4,
-    "mineSpeed": 4.50,
+    "mineSpeed": 5.00,
     "engineOffset": 0,
-    "research": "轻型单位构造工厂",
+    "research": "萤光",
 
 }

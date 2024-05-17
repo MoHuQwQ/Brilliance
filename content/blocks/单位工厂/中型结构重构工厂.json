@@ -1,0 +1,40 @@
+{
+	"type": "Reconstructor",
+	"name": "中型结构重构工厂",
+	"description": "将重构的小型单重新构造为中型单位。",
+	"size":5 ,
+	"health": 500 ,
+    "itemCapacity": 60,
+
+    "consumes": {
+
+        "power": 10,
+        "items": {  
+        "items": [
+
+        {"item":"silicon","amount": 180}
+        {"item":"titanium","amount": 120}
+        { "item": "metaglass", "amount": 50}
+
+    ]
+    },
+
+    },
+
+    "upgrades":[
+
+        ["萤光","星明"],
+
+    ],
+
+    "constructTime":900,
+
+    "requirements": [
+
+                { "item": "copper", "amount": 250}
+    ],
+
+	"category": "units",
+    "buildVisibility":"shown",
+	"research":"小型结构重构工厂"
+}
