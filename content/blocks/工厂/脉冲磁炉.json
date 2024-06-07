@@ -4,33 +4,37 @@
 	"description": "先进小型模块化工厂技术研究成果，具备较高的材料转化能力。",
     "category": "crafting",
     "size": 3,
-    "health": 500,
-    "itemCapacity": 60,
+    "health": 650,
+    "itemCapacity": 30,
     "craftTime": 60,
     "hasPower": true,
     "hasItems": true,
     "boostScale": 0.3,
     "requirements": [
-        { "item": "titanium", "amount": 150},
-        { "item": "thorium", "amount": 100},
-        { "item": "silicon", "amount": 120},
+        { "item": "titanium", "amount": 175},
+        { "item": "thorium", "amount": 50},
+        { "item": "silicon", "amount": 100},
         { "item": "plastanium", "amount": 70},
-        { "item": "封装铍", "amount": 200},
-        { "item": "高纯钨", "amount": 200}
+        { "item": "surge-alloy", "amount": 45},
+        { "item": "封装铍", "amount": 125},
+        { "item": "高纯钨", "amount": 125}
        ],
     "consumes": {
-        "power": 5.5,
+        "power": 6.5,
         "items": {
 		"items": [
 				{ "item": "coal", "amount": 6 },
-				{ "item": "sand", "amount": 8 }	,
-                { "item": "blast-compound", "amount": 2 }
+				{ "item": "pyratite", "amount": 3 }	,
 			]
 		}
     },
-    "drawer": {
-      "type": "DrawSmelter"
-    },
-    "outputItem": {"item": "silicon","amount":10 },
-    "research": "Brilliance-TechTree"
+    "drawer":{
+        "type":"DrawMulti",
+        "drawers":[
+        "DrawRegion",
+        "DrawArcSmelt",
+        "DrawDefault",
+    ]},
+    "outputItem": {"item": "silicon","amount":16 },
+    "research": "silicon-crucible"
 }

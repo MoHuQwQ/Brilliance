@@ -5,11 +5,11 @@
 	"size":3 ,
 	"health":500,
 	"liquidCapacity": 36,
-	"itemCapacity": 40,
+	"itemCapacity": 32,
 	"hasPower": true,
     "hasLiquids": true,
     "hasItems": true,
-    "craftTime": 120,
+    "craftTime": 90,
     "ambientSound": "techloop",
     "ambientSoundVolume": 3,
     "buildCostMultiplier": 0.7,
@@ -28,7 +28,7 @@
         "items": {
 		"items": [
 				{ "item": "thorium", "amount": 8 },
-                { "item": "sand", "amount": 20 },
+                { "item": "sand", "amount": 16 },
                 { "item": "pyratite", "amount": 3 }				
 			]
 		},

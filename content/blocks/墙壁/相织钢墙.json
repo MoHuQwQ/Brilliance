@@ -1,15 +1,15 @@
 {
 	"type": "Wall",
 	"name": "相织钢墙",
-	"description": "性能比原版墙体更好。",
+	"description": "在钨为主要墙体基础上，融合一定数量的相织布，能够大大提高其的生命值同时要具有一定的炮弹反弹能力。",
 	"category": "defense",
-	"health": "1500",
+	"health": "1750",
 	"size": "1",
 	"flashHit": "ture",
 	"requirements": [
 		{ "item": "phase-fabric", "amount": 10 }
 		{ "item": "高纯钨", "amount": 5 }
 	],
-	"chanceDeflect": "25",
+	"chanceDeflect": "35",
 	"research": "surge-wall",
 }
