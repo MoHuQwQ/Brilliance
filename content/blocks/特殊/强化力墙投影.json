@@ -1,0 +1,31 @@
+{
+	"type": "ForceProjector",
+	"name": "强化力墙投影",
+	"description": "力墙投影的升级，能够投影更大的力墙，同时过热冷却时间有所减少。",
+	"health": 100,
+	"size":4,
+	"hasPower": true,
+    "hasLiquids": true,
+    "hasItems": true,
+    "liquidCapacity": 10,
+    "itemCapacity": 10,
+
+    "radius":150,
+    "shieldHealth": 1750,
+    "cooldownNormal": 1.75,
+    "cooldownLiquid": 1.5,
+    "cooldownBrokenBase": 2,
+
+    "absorbEffect": {
+        "type": "absorb",
+    },
+
+    "consumes": {
+        "power": 5,
+    },
+	"requirements": [
+                { "item": "titanium", "amount": 500},
+    ],
+    "category": "effect",
+    "research": "force-projector"
+}

@@ -6,7 +6,7 @@
     "size": "2",
     "health": "200",
     "itemCapacity": 30,
-    "craftTime": 60,
+    "craftTime": 30,
     "hasLiquids": "true",
     "hasPower": "true",
     "hasItems": "true",
@@ -21,7 +21,7 @@
         "items": {
 		"items": [
 				{ "item": "coal", "amount": 2 },
-				{ "item": "sand", "amount": 4 }			
+				{ "item": "sand", "amount": 3 }			
 			]
 		}
     },
@@ -32,6 +32,6 @@
     "DrawFlame"
         ]
     },
-    "outputItem": {"item": "silicon","amount":4 },
+    "outputItem": {"item": "silicon","amount":3 },
     "research": "silicon-smelter"
 }

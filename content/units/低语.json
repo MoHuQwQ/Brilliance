@@ -24,7 +24,8 @@
         "hitBuildings": true,
         "hitUnits": true,
         "healPercent": 7.5,
-        "maxTargets": 2,
+        "sameTypeHealMult": 2.0,
+        "maxTargets": 3,
         "useAmmo": false,
         "color": "8AFFFF",
     }

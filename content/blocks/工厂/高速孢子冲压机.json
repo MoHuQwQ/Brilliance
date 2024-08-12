@@ -8,7 +8,7 @@
     "hasLiquids": true,
     "hasItems": true,
     "craftTime": 30,
-    "liquidCapacity": 108,
+    "liquidCapacity": 150,
     "itemCapacity": 18,
 
     "drawer": {
@@ -42,7 +42,7 @@
 			]
 		}
     },
-    "outputLiquid": {"liquid": "oil", "amount": 0.9},
+    "outputLiquid": {"liquid": "oil", "amount": 1.25},
 	"requirements": [
                 { "item": "titanium", "amount": 100},
                 { "item": "silicon", "amount": 60},

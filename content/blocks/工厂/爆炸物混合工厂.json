@@ -1,0 +1,34 @@
+{
+	"type": "GenericCrafter",
+	"name": "爆炸物混合工厂",
+	"description": "利用硫化物、石油以及氢气高速生产炸混合物",
+    "category": "crafting",
+    "size": 3,
+    "health": 520,
+    "itemCapacity": 12,
+    "liquidCapacity": 48,
+    "craftTime": 60,
+    "hasPower": "true",
+    "hasItems": "true",
+    //"craftEffect": "smeltsmoke",//
+    "requirements": [
+        { "item": "copper", "amount":100},
+       ],
+    "consumes": {
+        "power": 2,
+        "liquids":
+        [
+        {"liquid": "oil","amount":0.3},
+        {"liquid": "hydrogen","amount":0.4}
+        ],
+
+        "items": {
+		"items": [
+				{ "item": "pyratite", "amount": 4 },		
+			]
+		}
+    },
+
+    "outputItem": {"item": "blast-compound","amount":4 },
+    "research": "blast-mixer"
+}

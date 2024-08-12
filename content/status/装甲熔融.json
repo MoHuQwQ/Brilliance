@@ -1,0 +1,19 @@
+{
+"description": "冷却液救一下啊！！！！！！",
+"name":"装甲熔融",
+"healthMultiplier": 0.8,
+"speedMultiplier": 0.75,
+"damage": 1,
+"effectChance": 0.1,
+"affinities":[ 
+	"burning",
+	"melting",
+	"tarred",
+	"blasted",
+],
+"transitionDamage": 18,
+"opposites":[
+	"wet",
+	"freezing",
+]
+}

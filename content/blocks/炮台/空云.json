@@ -1,0 +1,56 @@
+{
+	"name": "空云",
+	"description": " 小型磁轨炮发射器.发射高速弹块来伤害敌方装甲。 ",
+	"type": "ItemTurret",
+	"size":2 ,
+	"health":1150 ,
+	"maxAmmo": 30,
+	"targetGround": false,
+	"targetAir":true,
+    "targetGround":true,
+
+    "reload": 180.00,
+    "brange": 24000,
+    "range": 250,
+    "shootCone": 2,
+    "inaccuracy": 0.00,
+    "rotateSpeed": 10.00,
+    "ammoPerShot": 4,
+    "shoot": {
+        "firstShotDelay": 30
+    },
+
+    "shootSound": "railgun",
+
+	"ammoTypes": {
+	"graphite": {
+		"type":"PointBulletType",
+        "hitEffect": "instHit",
+        "smokeEffect": "smokeCloud",
+
+        "trailEffect":{ 
+        "type": "steam",
+    },
+        "despawnEffect": "instBomb",
+        "damage": 125,
+        "trailSpacing": 20,
+        "hitShake": 6,
+
+        	},
+
+
+	},
+
+    "consumes": {
+        "power": 1.3,
+    },
+		"requirements": [
+		{ "item": "copper", "amount": 240}
+        { "item": "lead", "amount": 240}
+        { "item": "graphite", "amount": 100}
+	],
+        "researchCostMultiplier": 0.1,
+
+	"category": "turret",
+    "research": "arc",
+}

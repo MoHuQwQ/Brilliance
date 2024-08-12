@@ -24,8 +24,8 @@
 		{"item": "plastanium", "amount":65 }
 	],
 	"consumes": {
-        "power": 3.0,
-        "liquid": {"liquid":"water","amount":0.6 },
+        "power": 2.5,
+        "liquid": {"liquid":"water","amount":0.3 },
         "items": {
 	    "items": [
 	    { "item": "titanium", "amount": 3 }	]	}
@@ -46,7 +46,7 @@
 		"DrawDefault"
 	]},
 
-    "outputLiquid": {"liquid": "cryofluid", "amount": 0.6},
+    "outputLiquid": {"liquid": "cryofluid", "amount": 0.8},
 
 	"category": "crafting",
 	"research": "cryofluid-mixer"

@@ -1,0 +1,70 @@
+{
+	"name": "棱光",
+	"description": "先进激光发射器，采用巨浪合金激发所产生的大量电子束作为发射源。",
+	"type": "PowerTurret",
+	"size":4,
+	"health":1000 ,
+	"reload": 200.00,
+    "range": 500,
+	"shootSound" : "laserblast",
+    "buildCostMultiplier": 0.7,
+    "liquidCapacity": 96,
+    "hasItems": true,
+    "maxAmmo": 100,
+
+    "shoot": {
+        "type": "ShootPattern",
+        "firstShotDelay": 180
+    },
+
+	"shootType": {
+
+        "chargeEffect": {
+            "type": "MultiEffect",
+            "effects": [
+                {
+                    "type": "WaveEffect",
+                    "lifetime": 180,
+                    "sizeFrom": 180,
+                    "sizeTo": 0,
+                    "strokeFrom": 0,
+                    "strokeTo": 6,
+                    "colorFrom": "E8D174",
+                    "colorTo": "FCF387"
+                },
+                {
+                    "type": "ParticleEffect",
+                },
+            ],
+        },
+    
+    "type": "LaserBulletType",
+    "damage": 4000,
+    "colors": ["8CA9E8", "b7d6f9", "ffffffff"],
+    "hitSize": 4,
+    "lifetime": 60.00,
+    "drawSize": 400.00,
+    "collidesAir": true,
+    "length": 750,
+    "width": 60,
+    "ammoMultiplier": 1.00,
+    "status" : "blasted",
+    },
+
+	"requirements": [
+        { "item": "titanium", "amount": 1200},
+        { "item": "metaglass", "amount": 900},
+        { "item": "silicon", "amount": 700},
+        { "item": "plastanium", "amount": 300},
+        { "item": "thorium", "amount": 500},
+        { "item": "surge-alloy", "amount": 750},
+        
+    ],
+
+    "consumes" : {
+        "power": 30,
+        "liquid": {"liquid":"cryofluid","amount":0.75 },
+        },
+
+	"category": "turret",
+}

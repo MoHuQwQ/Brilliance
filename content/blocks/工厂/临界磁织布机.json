@@ -9,9 +9,9 @@
 	"hasPower": true,
     "hasLiquids": true,
     "hasItems": true,
-    "craftTime": 90,
+    "craftTime": 60,
     "ambientSound": "techloop",
-    "ambientSoundVolume": 3,
+    "ambientSoundVolume": 1,
     "buildCostMultiplier": 0.7,
 
 	"requirements": [

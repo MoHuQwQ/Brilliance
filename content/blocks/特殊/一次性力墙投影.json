@@ -1,0 +1,32 @@
+{
+	"type": "DirectionalForceProjector",
+	"name": "一次性力墙投影",
+	"description": "屑猫未完成的建筑，盾容无法回复以及过热重新启动，必须重新加入地图才能恢复力墙",
+	"health": 100,
+	"size":3,
+	"hasPower": true,
+    "hasLiquids": true,
+    "hasItems": true,
+    "liquidCapacity": 10,
+    "itemCapacity": 10,
+
+    "width": 75,
+    "length": 100,
+    "shieldHealth": 5000,
+    "cooldownNormal": 1.75,
+    "cooldownLiquid": 1.5,
+    "cooldownBrokenBase": 1,
+
+    "absorbEffect": {
+        "type": "absorb",
+    },
+
+    "consumes": {
+        "power": 5,
+    },
+	"requirements": [
+                { "item": "titanium", "amount": 500},
+    ],
+    "category": "effect",
+    "research": "force-projector"
+}

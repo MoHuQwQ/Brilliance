@@ -1,10 +1,10 @@
 {
 	"name": "脉冲",
-	"description": " 我们发现蓝瑟炮的激光的发射方式使用了电离尖端气体的方式来释放定向激光，这种方式不仅能量消耗巨大，而且穿透效率很低。改进发射方式采用了可回收玻璃电容，虽然发射次能量不高，但是能量集中高，发射间隔较短。",
+	"description": "蓝瑟炮的同构研发产物，降低了性能的同时相对于蓝瑟电力消耗更少。",
 	"type": "PowerTurret",
 	"size":2 ,
-	"health":350 ,
-	"reload": 40,
+	"health":1000 ,
+	"reload": 30,
     "range": 125,
 	"shootSound" : "laser",
     "buildCostMultiplier": 0.7,
@@ -14,7 +14,7 @@
 
 	"shootType": {
     "type": "LaserBulletType",
-    "damage": 28,
+    "damage": 26,
     "colors": ["a9d8ff66", "a9d8ffff", "ffffffff"],
     "hitSize": 4,
     "lifetime": 16.00,
@@ -22,21 +22,22 @@
     "collidesAir": true,
     "length": 173.00,
     "ammoMultiplier": 1.00,
+    "pierceCap": 6,
     "status" : "blasted"
     },
 
 	"requirements": [
-        { "item": "copper", "amount": 75}
-        { "item": "lead", "amount": 75}
-        { "item": "silicon", "amount": 45}
-        { "item": "metaglass", "amount": 100}
+        { "item": "copper", "amount": 45}
+        { "item": "lead", "amount": 45}
+        { "item": "silicon", "amount": 20}
+        { "item": "metaglass", "amount": 30}
       
     ],
 
     "consumes" : {
-        "power": 2.0,
+        "power": 1.5,
         "coolant": {
-        "amount": 0.2,
+        "amount": 0.15,
         "optional": true,
         },
     },

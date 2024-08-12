@@ -1,0 +1,31 @@
+{
+	"type": "GenericCrafter",
+	"name": "水压墨机",
+	"description": "石墨压缩机的改进型号，消耗电力以及少量水来提高生产效率。",
+    "category": "crafting",
+    "size": 2,
+    "health": 260,
+    "itemCapacity": 10,
+    "liquidCapacity": 10,
+    "craftTime": 60,
+    "hasPower": "true",
+    "hasItems": "true",
+    "craftEffect": "pulverizeMedium",
+    "requirements": [
+        { "item": "copper", "amount":100},
+        { "item": "lead", "amount": 50},
+        { "item": "graphite", "amount": 35}
+       ],
+    "consumes": {
+        "power": 0.8,
+        "items": {
+		"items": [
+				{ "item": "coal", "amount": 3 },		
+			]
+		},
+         "liquid": "water/0.05"
+    },
+   
+    "outputItem": {"item": "graphite","amount":2, },
+    "research": "graphite-press"
+}
