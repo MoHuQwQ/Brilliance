@@ -1,0 +1,37 @@
+{
+	"type": "GenericCrafter",
+	"name": "废料融合机",
+	"description": "将铜·铅·沙熔和成废料",
+    "category": "crafting",
+    "size": 2,
+    "health": 320,
+    "itemCapacity": 10,
+    "craftTime": 30,
+    "hasPower": "true",
+    "hasItems": "true",
+    "craftEffect": "smeltsmoke",
+    "requirements": [
+        { "item": "copper", "amount":50},
+        { "item": "lead", "amount": 70},
+        { "item": "graphite", "amount": 55}
+       ],
+    "consumes": {
+        "power": 1,
+        "items": {
+		"items": [
+				{ "item": "copper", "amount": 1 },
+				{ "item": "lead", "amount": 1 },
+                { "item": "sand", "amount": 1 },			
+			]
+		}
+    },
+    "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+    "DrawDefault",
+    "DrawFlame"
+        ]
+    },
+    "outputItem": {"item": "scrap","amount":2 },
+    "research": "melter"
+}

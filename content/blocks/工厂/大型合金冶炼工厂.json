@@ -1,0 +1,38 @@
+{
+	"type": "GenericCrafter",
+	"name": "大型合金冶炼工厂",
+	"description": "以极高速度生产巨浪合金",
+    "details": "对远古基础材料逆向研究的失败产物",
+	"health": 1650,
+	"size":4,
+	"hasPower": true,
+    "hasLiquids": true,
+    "hasItems": true,
+    "craftTime": 30,
+    "liquidCapacity": 60,
+    "itemCapacity": 40,
+    "craftEffect": "smeltsmoke",
+    "consumes": {
+        "power": 8,
+        "items": {
+		"items": [
+				{ "item": "titanium", "amount": 4 }
+                { "item": "silicon", "amount": 4 }
+                { "item": "thorium", "amount": 4 }
+                { "item": "graphite", "amount": 4 }				
+			]
+		},
+        "liquid": "cryofluid/0.2"
+    },
+    "outputItem": {"item": "surge-alloy","amount":3 },
+	"requirements": [
+                { "item": "titanium", "amount": 150},
+                { "item": "silicon", "amount": 120},
+                { "item": "plastanium", "amount": 70},
+                { "item": "metaglass", "amount": 100}
+                { "item": "thorium", "amount": 80}
+                { "item": "surge-alloy", "amount": 50}
+    ],
+    "category": "crafting",
+    "research": "surge-smelter"
+}

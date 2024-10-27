@@ -5,7 +5,7 @@
 	"size":5,
 	"health":1024 ,
 	"tier": 6,
-	"drillTime":100,
+	"drillTime":50,
 	"shake": 2,
 	"itemCapacity": 100,
 	"liquidCapacity": 36,
@@ -13,7 +13,7 @@
     "hasLiquids": true,
     "drawRim": true,
     "liquidBoostIntensity": 1.75,
-    "hardnessDrillMultiplier": 50,
+    "hardnessDrillMultiplier": 25,
     "buildCostMultiplier": 0.70,
 
     "drillEffect":["mineImpact","drillSteam","dynamicSpikes","mineImpactWave"],
@@ -24,7 +24,7 @@
 			"liquids":[ "water/0.2",]
 		},//SB 2024/3/6
 		//"liquid": {
-			//"liquid": "water", "amount": 0.2,
+			//"liquid": "cryofluid", "amount": 0.2,
 			//"optional": true,
 			//"booster":true,
 		//},

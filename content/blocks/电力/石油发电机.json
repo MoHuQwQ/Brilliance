@@ -1,0 +1,37 @@
+{
+	"type": "ImpactReactor",
+	"name": "石油发电机",
+	"description": "消耗石油进行发电，需要水进行冷却",
+	"size":3 ,
+	"health":1200 ,
+	"liquidCapacity": 18,
+	"warmupSpeed": 0.005,
+	"hasItems" : false,
+	"ambientSound": "lasercharge2",
+	"ambientSoundVolume": 0.05,
+
+	"requirements": [
+
+		{"item": "lead", "amount":125 }
+		{"item": "metaglass", "amount":100 }
+		{"item": "graphite", "amount":100 }
+		{"item": "silicon", "amount":55 }
+		{"item": "titanium", "amount":75 }
+
+	],
+
+    "powerProduction": 9,
+
+	"consumes": {
+        "power": 1.0,
+        "liquids": [
+
+        {"liquid": "oil","amount":0.1}
+		{"liquid": "water","amount":0.2}
+		],
+
+    },
+
+	"category": "power",
+	"research":"联合火力发电机"
+}

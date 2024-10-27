@@ -1,0 +1,47 @@
+{
+    "type": "AttributeCrafter",
+    "name": "进阶孢子培养机",
+    "description": "优化生产结构的孢子培养设备，采用网格结构作为培养基底。使其能更高效率生产孢子。",
+    "category": "production",
+    "size": "3",
+    "health": "1",
+    "hasLiquids": "true",
+    "hasPower": "true",
+    "hasItems": "true",
+    "craftTime": 60,
+    "itemCapacity": 12,
+    "liquidCapacity": 96,
+    "maxBoost": 1.5,
+
+    "drawer":{
+        "type":"DrawMulti",
+        "drawers":[
+            "DrawDefault",
+            "DrawCultivator",
+            {
+                "type":"DrawRegion",
+                "suffix":"-top"
+            }
+            ]
+    },
+
+    "requirements": [
+        { "item": "copper", "amount": 100},
+        { "item": "lead", "amount": 100},
+        { "item": "titanium", "amount": 55},
+        { "item": "silicon", "amount": 70},
+        { "item": "plastanium", "amount": 45},
+
+       ],
+
+    "outputItem": {"item": "spore-pod","amount": 4 },
+
+    "consumes": {
+        "power": 2.4,
+        "liquid": "water/0.8"
+    },
+    
+     "attribute" : "spores",
+
+    "research": "cultivator"
+}

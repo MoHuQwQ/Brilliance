@@ -1,7 +1,7 @@
 {
 	"type": "legs",
 	"name": "复苏",
-	"description": "标准化的修复单位，能够回复单位生命值以及能拦截轻微的火力攻击.",
+	"description": "标准化的修复单位。搭载了能够回复单位生命值以及能够火力拦截装备.",
 	"hitSize": 12,
 	"treadPullOffset": 3,
 	"speed": 1.0,

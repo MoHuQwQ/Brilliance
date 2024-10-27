@@ -1,0 +1,31 @@
+{
+	"name": "沙挖掘机",
+	"description": "高速挖掘沙。",
+    "details": "废料：我不是沙啊???我到底是不是沙啊!!!",
+	"type": "Drill",
+	"size":3 ,
+	"health":180 ,
+	"tier": 0,
+	"drillTime":180 ,
+	"liquidBoostIntensity": 2.0,
+	"consumes":{
+		"power": 0.8,
+		 "liquid": {
+			"liquid": "water", "amount": 0.08,
+			"booster":true,
+			"optional": true
+		}
+	},
+
+	"blockedItem": "scrap",
+
+	"requirements": [
+		{"item": "copper", "amount":25 }
+		{"item": "lead", "amount":20 }
+		{"item": "graphite", "amount":35 }
+		{"item": "silicon", "amount":25}
+	],
+	"category": "production",
+	"research":"pneumatic-drill"
+
+}

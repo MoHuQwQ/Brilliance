@@ -1,17 +1,24 @@
 {
 	"type": "ShieldWall",
-	"name": "神秘墙壁",
-	"description": "？？？。",
+	"name": "粒子盾墙",
+	"description": "提供力墙防御并且反弹敌方子弹",
 	"category": "defense",
-	"health": "1",
+	"health": "1600",
 	"size": "2",
 	"requirements": [
-		{ "item": "metaglass", "amount": 2 }
+		{ "item": "titanium", "amount": 10 }
+		{ "item": "phase-fabric", "amount": 30 }
+		{ "item": "surge-alloy", "amount": 15 }
+		{ "item": "plastanium", "amount": 15 }
 	],
-	"outputsPower": "false",
-	"hasPower": "true",
-	"consumesPower": "true",
-	"conductivePower": "ture",
-	"chanceDeflect": "100",
-	"wallHealthMultiplier": "10"
+	"outputsPower": false,
+	"hasPower": true,
+	"consumesPower": true,
+	"conductivePower": true,
+	"chanceDeflect": "75",
+	"shieldHealth": 1000,
+	"regenSpeed": 4,
+	"glowColor": "D1EFFF",
+	"glowMag": 1.2,
+	"glowScl": 16,
 }

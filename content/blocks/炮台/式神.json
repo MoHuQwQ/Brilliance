@@ -53,6 +53,8 @@
         "ammoMultiplier":4,
         "homingPower":5,
         "homingRange":80,
+        "splashDamage":20,
+        "splashDamageRedius":16,
         "lifetime":600,
     },
 
@@ -92,4 +94,5 @@
 	],
 
 	"category": "turret",
+    "research": "scatter",
 }

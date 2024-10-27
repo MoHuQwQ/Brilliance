@@ -21,7 +21,7 @@
     },
     "requirements": [
                 { "item": "titanium", "amount": 75},
-                { "item": "thorium", "amount": 60},
+                { "item": "plastanium", "amount": 60},
                 { "item": "silicon", "amount": 150},
                 { "item": "graphite", "amount": 45},
                 { "item": "metaglass", "amount": 35}

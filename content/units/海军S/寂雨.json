@@ -1,0 +1,19 @@
+{
+	"type": "naval",
+	"name": "寂雨",
+	"description": "远程攻击单位，搭配一门高弹速范围破坏能量炮。",
+
+    "weapons": [
+        {"name":"plasma-missile-mount",
+
+        "bullet":{
+
+            "type":"FlakBulletType",
+        },
+
+
+
+    }
+    ],
+
+}

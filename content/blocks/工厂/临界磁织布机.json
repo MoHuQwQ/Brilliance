@@ -9,7 +9,7 @@
 	"hasPower": true,
     "hasLiquids": true,
     "hasItems": true,
-    "craftTime": 60,
+    "craftTime": 45,
     "ambientSound": "techloop",
     "ambientSoundVolume": 1,
     "buildCostMultiplier": 0.7,
@@ -27,9 +27,8 @@
         "power": 10,
         "items": {
 		"items": [
-				{ "item": "thorium", "amount": 8 },
-                { "item": "sand", "amount": 16 },
-                { "item": "pyratite", "amount": 3 }				
+				{ "item": "thorium", "amount": 6 },
+                { "item": "pyratite", "amount": 4 }				
 			]
 		},
         "liquid": "cryofluid/0.1"

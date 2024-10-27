@@ -9,12 +9,13 @@
     "hasItems": true,
     "liquidCapacity": 10,
     "itemCapacity": 10,
+    "update": true,
 
     "width": 75,
     "length": 100,
     "shieldHealth": 5000,
-    "cooldownNormal": 1.75,
-    "cooldownLiquid": 1.5,
+    "cooldownNormal": 3,
+    "cooldownLiquid": 0.35,
     "cooldownBrokenBase": 1,
 
     "absorbEffect": {

@@ -1,0 +1,29 @@
+{
+	"type": "GenericCrafter",
+	"name": "重型石油分沉机",
+	"description": "大型煤炭离心机，内部安装输出功率更高的离心核心，能够以更低消耗输出更多的产物",
+    "category": "crafting",
+    "size": 3,
+    "health": 320,
+    "itemCapacity": 20,
+    "liquidCapacity": 24,
+    "craftTime": 30,
+    "hasPower": "true",
+    "hasItems": "true",
+    "hasiquid": "true",
+    "craftEffect": "coalSmeltsmoke",
+    "requirements": [
+        { "item": "copper", "amount":80},
+        { "item": "graphite", "amount":25},
+        { "item": "titanium", "amount": 50}
+        { "item": "plastanium", "amount": 45}
+        { "item": "thorium", "amount": 25}
+       ],
+    "consumes": {
+        "power": 1.8,
+         "liquid": "oil/0.2"
+    },
+   
+    "outputItem": {"item": "coal","amount":3, },
+    "research": "coal-centrifuge"
+}

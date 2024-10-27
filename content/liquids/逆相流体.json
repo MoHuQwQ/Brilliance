@@ -8,5 +8,7 @@
 	"flammability": 0,
 	"viscosity": 0.5,
 	"temperature": 1,
+
+	"research": "slag"
 	
 }

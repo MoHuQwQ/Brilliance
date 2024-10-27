@@ -1,7 +1,7 @@
 {
 	"type": "flying",
 	"name": "星明",
-	"description": "经过数以万计的结构修改，我们成功了重造了所有的系统，使其能够极安全稳定高效地在这个星球上运行",
+	"description": "先进挖掘无人机，能够开采钍。同时内置蜂群无线设备能够提升单位工作效率。",
 	"defaultController": "MinerAI",
     "itemCapacity": 45,
     "isEnemy": "false",

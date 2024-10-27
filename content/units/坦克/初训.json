@@ -7,7 +7,7 @@
 	"speed": 1.0,
 	"rotateSpeed": 3.5,
 	"health": 200,
-	"itemCapacity": 0,//不会有人拿坦克单位搬东西吧.
+	"itemCapacity": 0,
 	"range": 160,
 
 	
@@ -43,8 +43,8 @@
 		"bullet": {
 			"type":"BasicBulletType",
 			"speed": 3,
-			"damage": 10,
-			"buildingDamageMultiplier": 10,
+			"damage": 15,
+			"buildingDamageMultiplier": 5.0,
 			"sprite": "missile-large",
 			"smokeEffect": "shootBigSmoke",
 			"shootEffect": "shootBigColor",

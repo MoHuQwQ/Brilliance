@@ -8,7 +8,7 @@
         { "item": "copper", "amount": 35},
         { "item": "lead", "amount":25 },
         { "item": "titanium", "amount":30 },
-        { "item": "thorium", "amount":55 },
+        { "item": "plastanium", "amount":55 },
         { "item": "metaglass", "amount":75 }
         
         

@@ -21,7 +21,7 @@
 	],
 	"consumes": {
         "power": 4.0,
-        "liquid": "cryofluid/0.5"
+        "liquid": "cryofluid/0.15"
     },
 
 	"category": "distribution",

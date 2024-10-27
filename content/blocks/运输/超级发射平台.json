@@ -5,8 +5,8 @@
 	"size": 4,
 	"health": 820,
 	"hasPower": true,
-	"itemCapacity": 500,
-	"launchTime": 600,
+	"itemCapacity": 300,
+	"launchTime": 300,
 	"liquidCapacity": 60,
 	"buildCostMultiplier": 2.5,//awa
 	"requirements": [
@@ -21,7 +21,7 @@
       ],
 "consumes": {
         "power": 60,
-        "liquid": "cryofluid/1"
+        "liquid": "cryofluid/0.2"
     },
     "category" : "effect",
     "research": "launch-pad",

@@ -1,0 +1,29 @@
+{
+	"type": "HeatConductor",
+	"name": "热量传输管道",
+	"description": "定向运输大量热量",
+	"health": 100,
+	"size": 1,
+	"regionRotated1": 1,
+	"group": "heat",
+	"rotateDraw": true,
+	"requirements": [
+		{ "item": "晶化碳玻合金", "amount": 3 },
+        { "item": "封装铍", "amount": 2 },
+        { "item": "高纯钨", "amount": 2 }       
+    ],
+
+    "drawer":{
+        "type":"DrawMulti",
+        "drawers":[
+        "DrawDefault",
+        "DrawHeatOutput",
+        {
+		"type":"DrawHeatInput",
+		"suffix":"-heat"
+		},
+
+    ]},
+
+     "research": "unloader",
+}
