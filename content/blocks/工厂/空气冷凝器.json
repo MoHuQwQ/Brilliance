@@ -1,0 +1,36 @@
+{
+	"type": "LiquidConverter",
+	"type": "AttributeCrafter",
+	"name": "空气冷凝器",
+	"description": "从空气中获取水",
+	"size": 2,
+	"health":340 ,
+	"liquidCapacity": 72,
+	"itemCapacity": 12,
+    "craftTime": 60,
+    "attribute": "water",
+    "boostScale": 0.278,
+
+    "hasPower" : true,
+    "hasItems" : true,
+    "hasLiquids" : true,
+    "rotate" : false,
+    "solid" : true,
+    "outputsLiquid" : true,
+    
+	"requirements": [
+		{"item": "copper", "amount":50 },
+		{"item": "lead", "amount":50 },
+		{"item": "graphite", "amount":35 }
+	],
+	"consumes": {
+        "power": 0.3,
+    },
+
+    "outputLiquid": {"liquid": "water", "amount": 0.08},
+
+    "researchCostMultiplier": 0.2,
+
+	"category": "crafting",
+	"research": "graphite-press"
+}
