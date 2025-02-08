@@ -1,0 +1,42 @@
+{
+	"type": "LiquidConverter",
+	"type": "AttributeCrafter",
+	"name": "合金液化器",
+	"description": "将超临界巨浪合金熔入冷冻液中，产出能够显著提升机械运行效率甚至过载的超载激素流体",
+	"size": 4,
+	"health":1800 ,
+	"liquidCapacity": 45,
+	"itemCapacity": 10,
+    "craftTime": 60,
+
+    "hasPower" : true,
+    "hasItems" : true,
+    "hasLiquids" : true,
+    "rotate" : false,
+    "solid" : true,
+    "outputsLiquid" : true,
+    
+	"requirements": [
+		{"item": "titanium", "amount":400 },
+		{"item": "graphite", "amount":225 },
+		{"item": "silicon", "amount":275 },
+		{"item": "plastanium", "amount":245 },
+		{"item": "surge-alloy", "amount":100 },
+	],
+	"consumes": {
+        "power": 26,
+        "liquid": {
+            "liquid": "cryofluid", "amount": 0.5,
+       },
+        "items": {
+		"items": [
+				{ "item": "surge-alloy", "amount": 2 },
+			]
+		}
+    },
+
+    "outputLiquid": {"liquid": "超载激素", "amount": 0.25},
+
+	"category": "crafting",
+	"research": "高压冷却厂"
+}

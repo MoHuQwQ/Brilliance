@@ -17,7 +17,7 @@
     "rotateSpeed": 10.00,
     "ammoPerShot": 4,
     "shoot": {
-        "firstShotDelay": 30
+        "firstShotDelay": 0
     },
 
     "shootSound": "railgun",
@@ -35,6 +35,7 @@
         "damage": 125,
         "trailSpacing": 20,
         "hitShake": 6,
+        "speed":1000,
 
         	},
 

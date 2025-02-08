@@ -7,27 +7,12 @@
 
     "abilities": [
     {
-    "type":"ForceFieldAbility",
-    "radius": 48,
-    "regen": 6,
-    "max": 500,
-    "cooldown": 300,}
-    {
-        "type": "EnergyFieldAbility",
-        "damage": 30.0,
-        "reload": 60.0,
-        "range": 200,
-        "status": "electrified",
-        "statusDuration": 120,
-        "targetGround": true,
-        "targetAir": true,
-        "hitBuildings": true,
-        "hitUnits": true,
-        "healPercent": 7.5,
-        "sameTypeHealMult": 2.0,
-        "maxTargets": 3,
-        "useAmmo": false,
-        "color": "8AFFFF",
+        "type": "StatusFieldAbility",
+        "effect": "起舞",
+        "duration": 360.0,
+        "reload": 360.0,
+        "range": 120.0,
+        "color": "D1EFFF",
     }
     ],
 
@@ -42,9 +27,22 @@
     "rotateSpeed": 20,
     "accel": 0.05,
     "itemCapacity": 75,
-    "health": 400,
+    "health": 850,
     "engineOffset": 25,
     "engineSize": 7.8,
     "hitSize": 16,
-    "alwaysUnlocked": true
+    "alwaysUnlocked": true,
+    "armor": 10,
+
+
+    "parts": [
+        {
+            "type": "HaloPart",
+            "sides": 4,
+            "shapes": 6,
+            "layer": 110,
+            "hollow": true,
+            "color": "D1EFFF",
+        }
+    ],
 }

@@ -1,0 +1,98 @@
+{
+	"type": "flying",
+	"name": "墓土",
+	"description": "特化空中攻击型单位，搭载高伤害武器。",
+     "details": "来自过去的礼物",
+     "health": 30000,
+     "speed": 1.0,
+     "armor": 20,
+     "hitSize": 64,
+     "flying": true,
+
+     "weapons":[
+         {
+            "name": "墓土-高能光束",
+            "mirror": false,
+            "top": false,
+            "reload": 240,
+            "recoil": 0,
+            "parentizeEffects": true,
+            "continuous": true, 
+            "x": 0,
+            "y": 0,
+            "chargeSound": "lasercharge2",
+            "shootSound": "beam",
+            "cooldownTime": 180,
+            "bullet":{
+                "type": "ContinuousLaserBulletType",
+                "buildingDamageMultiplier": 1.75,
+                "damage": 38,
+                "length": 300,
+                "hitEffect": "hitMeltHeal",
+                "drawSize": 600,
+                "lifetime": 180,
+                "shake": 1,
+                "despawnEffect": "smokeCloud",
+                "chargeEffect": "greenLaserChargeSmall",
+                "incendChance": 0.1,
+                "incendSpread": 5,
+                "incendAmount": 1,
+                "healPercent": 5,
+                "collidesTeam": true,
+                "colors": ["a9d8ff66", "a9d8ffff", "ffffffff","a9d8ff66"],
+            },
+         },
+
+         {
+            "name": "墓土-虚速轨道炮",
+            "mirror": true,
+            "top": false,
+            "reload": 120,
+            "cooldownTime": 90,
+            "x": 50,
+            "y": 0,
+            "rotateSpeed": 1.4,
+            "rotate": true,
+            "shootSound": "railgun",
+            "bullet":{
+                "type": "RailBulletType",
+                "damage": 420,
+                "pierceCap": 3,
+                "length": 360,
+                "shootEffect": "railShoot",
+                "pierceEffect": "railHit",
+                "pointEffect": "railTrail",
+                "hitEffect": "massiveExplosion",
+                "smokeEffect": "shootBig2",
+
+            },
+         },
+
+        {"name":"标准化拦截激光",
+        "rotate": true,
+        "mirror": true,
+        "x": 65,
+        "y": 20,
+        "reload": 10,
+        "targetInterval": 1,
+        "targetSwitchInterval": 0,
+        "type":"PointDefenseWeapon",
+        "bullet": {
+                "maxRange": 150,
+                "damage": 25,
+            },
+    }
+     ],
+
+     "abilities": [
+    {
+        "type": "UnitSpawnAbility",
+        "unit": "飘灵",
+        "spawnTime": 960,
+        "spawnY": -25,
+    }
+],
+
+
+     "alwaysUnlocked": true,
+}

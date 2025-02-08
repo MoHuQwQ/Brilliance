@@ -1,0 +1,35 @@
+{
+	"type": "flying",
+	"name": "飘灵",
+	"description": "墓土的子修复单位，搭载的强大的修复系统以及单位增幅核心",
+	"defaultController": "DefenderAI",
+
+    "flying": true,
+
+    "weapons":[
+        {"name":"修复光束",
+        "x":-3,
+        "y":-2,
+        "rotate": true,
+        "mirror": false,
+        "beamWidth": 0.3,
+        "repairSpeed": 0.5,
+        "type":"RepairBeamWeapon",
+        "bullet": {
+                "maxRange": 150,
+            },
+    },
+
+    ],
+
+    "abilities": [
+    {
+        "type": "StatusFieldAbility",
+        "effect": "蜂群网络-T3",
+        "duration": 600.0,
+        "reload": 360.0,
+        "range": 120.0,
+    }
+],
+
+}

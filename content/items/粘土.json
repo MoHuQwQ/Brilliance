@@ -1,0 +1,8 @@
+{
+"name":"粘土",
+"buildable": false,
+"hardness":0,
+"description":"沙粉与水混合的产物，需要进行冶炼成为陶瓷才能使用。",
+"color":"595E72",
+"research": "graphite"
+}

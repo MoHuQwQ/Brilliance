@@ -1,0 +1,40 @@
+{
+	"type": "tank",
+	"name": "天狼星",
+	"description": "大型陆地突破单位，搭载一门输出能量总量约140门死星主炮的巨型脉冲能量炮。",
+     "details": "讽刺的是，主炮输出能量绝大部分都用于空间约束能量，实际上能够用于攻击的差不多约4门死星主炮攻击总能量。",
+     "health": 48000,
+     "armor": 32,
+     "hitSize": 64,
+     "speed": 0.66,
+
+     "weapons":[
+         {
+            "name": "天狼星-巨型脉冲能量炮",
+            "mirror": false,
+            "top": false,
+            "reload": 120,
+            "cooldownTime": 90,
+            "x": 0,
+            "y": 0,
+            "rotateSpeed": 1.4,
+            "rotate": false,
+            "shootSound": "railgun",
+            "bullet":{
+                "type": "LaserBulletType",
+                "buildingDamageMultiplier": 3.0,
+                "damage": 2750,
+                "pierceCap": 3,
+                "length": 800,
+                "shootEffect": "railShoot",
+                "pierceEffect": "railHit",
+                "pointEffect": "railTrail",
+                "hitEffect": "massiveExplosion",
+                "smokeEffect": "shootBig2",
+
+            },
+         },
+     ],
+
+     "alwaysUnlocked": true,
+}

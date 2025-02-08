@@ -1,0 +1,48 @@
+{
+	"name": "归尘",
+	"description": "双联装高速炮台，向敌人发射<幽灵-改>特种穿甲弹。",
+	"type": "ItemTurret",
+	"size":4 ,
+	"health": 3450,
+	"reload": 7,
+    "range": 300,
+	"shootSound" : "shootBig",
+    "liquidCapacity": 72,
+    "hasItems": true,
+    "maxAmmo": 100,
+    "targetGround": true,
+    "targetAir":true,
+
+    "shoot": {
+        "type": "ShootAlternate",
+        "shots": 4,
+        "barrels": 2,
+        "spread": 10
+    },
+    "xRand": 2,
+
+    "ammoTypes":{
+        "lead": {
+        "type":"BasicBulletType",
+        "speed": 8,
+        "damage": 80,
+        "hitSize": 8,
+        "width": 16,
+        "height": 25,
+        "shootEffect": "shootBig",
+        "pierceBuilding": true,
+        "knockback": 2,
+    },
+    },
+
+	"requirements": [
+        { "item": "copper", "amount": 45}
+        { "item": "lead", "amount": 45}
+        { "item": "silicon", "amount": 20}
+        { "item": "metaglass", "amount": 30}
+      
+    ],
+
+	"category": "turret",
+    "research": "spectre",
+}

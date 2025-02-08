@@ -1,0 +1,12 @@
+{
+	"type": "tank",
+	"name": "平戮",
+	"description": " 大型移动攻击平台。",
+     "details": "来自深渊的冥魂。",
+     "health": 36000,
+     "armor": 28,
+     "hitSize": 64,
+     "speed": 0.66,
+
+     "alwaysUnlocked": true,
+}

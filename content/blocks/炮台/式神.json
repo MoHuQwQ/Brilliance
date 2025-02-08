@@ -12,7 +12,7 @@
     "alternate": true,
     "reloadTime": 20.0,
     "restitution": 0.03,
-    "range": 320,
+    "range": 360,
     "shootCone": 15.00,
     "inaccuracy": 2.00,
     "rotateSpeed": 10.00,
@@ -24,45 +24,45 @@
 	"ammoTypes": {
 	"lead": {
 		"type":"FlakBulletType",
-        "speed": 6,
-        "damage": 9,
+        "speed": 8,
+        "damage": 15,
         "ammoMultiplier":4,
         "splashDamage":3,
-        "reloadMultiplier":1.1,
+        "reloadMultiplier":1.3,
 	},
 
 	"metaglass": {
 		"type":"FlakBulletType",
         "speed": 10,
-        "damage": 3,
-        "ammoMultiplier":8,
+        "damage": 6,
+        "ammoMultiplier":6,
         "reloadMultiplier":0.5,
         "fragBullet": {
         "type": "FlakBulletType",
-        "speed": 3,
+        "speed": 10,
         "damage": 2,
-        "splashDamage":3,
-        "fragBullets":8,
+        "splashDamage":5,
+        "fragBullets":10,
     },
 	},
 
     "silicon": {
     	"type":"MissileBulletType",
     	"speed": 5,
-        "damage": 25,
+        "damage": 45,
         "ammoMultiplier":4,
         "homingPower":5,
         "homingRange":80,
-        "splashDamage":20,
+        "splashDamage":40,
         "splashDamageRedius":16,
-        "lifetime":600,
+        "lifetime":120,
     },
 
     "pyratite": {
     	"type":"ArtilleryBulletType",
-    	"speed": 4,
-        "damage": 50,
-        "reloadMultiplier":0.4,
+    	"speed": 8,
+        "damage": 65,
+        "reloadMultiplier":0.6,
         "status":"burning",
         "statusDuration":480,
         "collides":true,
@@ -72,8 +72,8 @@
 
     "blast-compound":{
     	"type":"FlakBulletType",
-    	"speed": 5,
-        "damage": 85,
+    	"speed": 9,
+        "damage": 145,
         "reloadMultiplier":0.2,
         "status":"burning",
         "statusDuration":480,
@@ -82,7 +82,7 @@
         "status":"blasted",
         "fragBullets":1,
         "incendChance":1,
-        "splashDamage":25,
+        "splashDamage":40,
         "splashDamageRedius":100,}
     },
 

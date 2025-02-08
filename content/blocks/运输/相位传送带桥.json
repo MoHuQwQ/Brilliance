@@ -6,7 +6,7 @@
 	"range": 20,
 	"arrowPeriod": 0.9,
 	"arrowTimeScl": 2.75,
-	"itemCapacity": 20,
+	"itemCapacity": 30,
 	"transportTime": 1,
 	"hasPower": true,
 	"pulse": true,

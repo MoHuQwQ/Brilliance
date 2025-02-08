@@ -39,7 +39,7 @@
 		"suffix":"-bottom"
 		},
 		{
-		   "type":"DrawLiquidTile",
+		 "type":"DrawLiquidTile",
 		"drawLiquid":"cryofluid"
 		},
 

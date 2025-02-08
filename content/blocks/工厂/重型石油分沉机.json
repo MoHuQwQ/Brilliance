@@ -12,6 +12,15 @@
     "hasItems": "true",
     "hasiquid": "true",
     "craftEffect": "coalSmeltsmoke",
+     "drawer":{
+        "type":"DrawMulti",
+        "drawers":[
+        {
+         "type":"DrawLiquidTile",
+        "drawLiquid":"oil"
+        },
+        "DrawDefault"
+    ]},
     "requirements": [
         { "item": "copper", "amount":80},
         { "item": "graphite", "amount":25},
@@ -21,9 +30,9 @@
        ],
     "consumes": {
         "power": 1.8,
-         "liquid": "oil/0.2"
+         "liquid": "oil/0.25"
     },
    
-    "outputItem": {"item": "coal","amount":3, },
+    "outputItem": {"item": "coal","amount":4, },
     "research": "coal-centrifuge"
 }

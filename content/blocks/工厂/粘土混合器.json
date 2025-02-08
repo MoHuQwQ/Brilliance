@@ -1,0 +1,28 @@
+{
+	"type": "GenericCrafter",
+	"name": "粘土混合器",
+	"description": "将沙与水混合成粘土。",
+    "category": "crafting",
+    "size": 2,
+    "health": 200,
+    "itemCapacity": 10,
+    "liquidCapacity": 10,
+    "craftTime": 120,
+    "hasPower": "true",
+    "hasItems": "true",
+    "requirements": [
+        { "item": "copper", "amount":50},
+        { "item": "lead", "amount": 45},
+        { "item": "graphite", "amount": 20}
+       ],
+    "consumes": {
+        "items": {
+		"items": [
+				{ "item": "sand", "amount": 1 },		
+			]
+		},
+         "liquid": "water/0.02"
+    },
+    "outputItem": {"item": "粘土","amount":1, },
+    "research": "graphite-press"
+}

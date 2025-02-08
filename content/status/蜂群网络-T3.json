@@ -1,0 +1,10 @@
+{
+"description": "我们是我；我是我们；一既是群；群即是一",
+"name":"蜂群网络-T3",
+"speedMultiplier":1.75,
+"healthMultiplier": 1.5,
+"reloadMultiplier": 1.65,
+"damageMultiplier": 1.75,
+"damage": -0.34,
+"permanent": true,
+}

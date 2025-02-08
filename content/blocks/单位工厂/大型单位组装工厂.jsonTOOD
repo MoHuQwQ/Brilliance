@@ -1,0 +1,29 @@
+{
+	"type": "UnitAssembler",
+	"name": "大型单位组装工厂",
+	"description": "将普通单位进行纳米重装，输出相应的特种单位",
+	"size": 5,
+	"health": 4080 ,
+    "itemCapacity": 1000,
+    "areaSize": 13,
+    "regionSuffix": "-dark",
+
+    "consumes": {
+
+        "power": 1,
+
+       },
+
+    "requirements": [
+
+                { "item": "titanium", "amount": 75}
+
+    ],
+
+    "plans":[
+
+        ],
+
+	"category": "units",
+	"research":"大型单位构造工厂"
+}

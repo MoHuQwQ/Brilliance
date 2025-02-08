@@ -1,0 +1,26 @@
+{
+	"type": "Pump",
+	"name": "合金泵",
+	"description": "获取大量液体",
+	"size":4,
+	"health":1560 ,
+	"liquidCapacity": 150,
+	"pumpAmount": 0.5,
+
+	"requirements": [
+		{"item": "titanium", "amount":45 }
+		{"item": "silicon", "amount":55 }
+		{"item": "plastanium", "amount":30 }
+		{"item": "thorium", "amount":60 }
+		{"item": "surge-alloy", "amount":30 }
+		{"item": "封装铍", "amount":120 }
+		{"item": "高纯钨", "amount":120 }
+	],
+
+	"consumes": {
+        "power": 2.6,
+    },
+
+	"category": "liquid",
+	"research":"impulse-pump"
+}

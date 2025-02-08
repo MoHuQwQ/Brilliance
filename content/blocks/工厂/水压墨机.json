@@ -25,7 +25,7 @@
 		},
          "liquid": "water/0.05"
     },
-   
+   "researchCostMultiplier": 0.2,
     "outputItem": {"item": "graphite","amount":2, },
-    "research": "graphite-press"
+    "research": "空气冷凝器"
 }
