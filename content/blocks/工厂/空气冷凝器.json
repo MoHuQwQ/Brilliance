@@ -27,6 +27,29 @@
         "power": 0.3,
     },
 
+    "drawer":{
+    "type":"DrawMulti",
+        "drawers":[
+        {
+		"type":"DrawRegion",
+		"suffix":"-bottom"
+		},
+       
+    {
+    	"type":"DrawRegion",
+        "suffix":"-rotator",
+        "spinSprite":true,
+        "rotateSpeed":12
+    },
+    {
+		 "type":"DrawLiquidTile",
+		"drawLiquid":"water",
+		"suffix":"-bottom"
+		},
+         "DrawDefault"
+            ]
+    },
+
     "outputLiquid": {"liquid": "water", "amount": 0.08},
 
     "researchCostMultiplier": 0.2,
