@@ -4,7 +4,7 @@
 	"description": "将普通单位进行纳米重装，输出相应的特种单位",
 	"size": 5,
 	"health": 4080 ,
-    "itemCapacity": 1000,
+    "liquidCapacity": 1000,
     "areaSize": 13,
     "regionSuffix": "-dark",
 
@@ -21,8 +21,18 @@
     ],
 
     "plans":[
+        {
+            "unit": "墓土",
+            "time": 600,
+            "requirements": [
+                "brilliance-相织钢墙/1",
+
+            ]
+        }
 
         ],
+
+    //"droneType": "oct",
 
 	"category": "units",
 	"research":"大型单位构造工厂"

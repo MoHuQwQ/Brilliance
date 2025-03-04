@@ -11,6 +11,19 @@
     "shootSound": "none",
     "loopSoundVolume": 1,
 
+    "drawer": {
+        "type": "DrawTurret",
+        "parts": [
+            {
+                "type": "RegionPart",
+                "mirror": true,
+                "suffix": "-nozzle",
+                "progress":"warmup",
+                "moveX": 8
+            }
+        ]
+    },
+
     "ammoTypes": {
     "ozone": {
     "type": "ContinuousFlameBulletType",

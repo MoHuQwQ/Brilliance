@@ -6,18 +6,18 @@
     "size": 2,
     "health": 320,
     "itemCapacity": 18,
-    "craftTime": 30,
+    "craftTime": 20,
     "hasPower": "true",
     "hasItems": "true",
     "craftEffect": "smeltsmoke",
     "requirements": [
-        { "item": "copper", "amount":100},
+        { "item": "copper", "amount":65},
         { "item": "lead", "amount": 60},
-        { "item": "titanium", "amount": 75},
+        { "item": "titanium", "amount": 40},
         { "item": "graphite", "amount": 60}
        ],
     "consumes": {
-        "power": 1.25,
+        "power": 1.1,
         "items": {
 		"items": [
 				{ "item": "lead", "amount": 2 },
@@ -32,6 +32,6 @@
     "DrawFlame"
         ]
     },
-    "outputItem": {"item": "metaglass","amount":3 },
+    "outputItem": {"item": "metaglass","amount":2 },
     "research": "水压墨机"
 }

@@ -7,17 +7,17 @@
     "health": "200",
     "itemCapacity": 30,
     "craftTime": 30,
-    "hasLiquids": "true",
-    "hasPower": "true",
-    "hasItems": "true",
+    "hasLiquids": false,
+    "hasPower": true,
+    "hasItems": true,
     "requirements": [
-        { "item": "copper", "amount": 50},
+        { "item": "copper", "amount": 45},
         { "item": "lead", "amount": 35},
-        { "item": "titanium", "amount": 35},
-        { "item": "metaglass", "amount": 75}
+        { "item": "titanium", "amount": 30},
+        { "item": "metaglass", "amount": 59}
        ],
     "consumes": {
-        "power": 1.5,
+        "power": 1,
         "items": {
 		"items": [
 				{ "item": "coal", "amount": 2 },
@@ -32,6 +32,6 @@
     "DrawFlame"
         ]
     },
-    "outputItem": {"item": "silicon","amount":3 },
+    "outputItem": {"item": "silicon","amount":2 },
     "research": "silicon-smelter"
 }

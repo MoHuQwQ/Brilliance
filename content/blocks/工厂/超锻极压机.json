@@ -1,0 +1,34 @@
+{
+	"type": "GenericCrafter",
+	"name": "超锻极压机",
+	"description": "先进碳元素转化机，以极高效率压缩生产石墨，需要冷冻液进行冷却。",
+    "category": "crafting",
+    "size": 4,
+    "health": 1870,
+    "itemCapacity": 64,
+    "liquidCapacity": 64,
+    "craftTime": 60,
+    "hasPower": "true",
+    "hasItems": "true",
+    "craftEffect": "pulverizeMedium",
+    "requirements": [
+        { "item": "titanium", "amount":250},
+        { "item": "graphite", "amount":125},
+        { "item": "silicon", "amount":100},
+        { "item": "plastanium", "amount":150},
+        { "item": "surge-alloy", "amount":50},
+       ],
+    "consumes": {
+        "power": 4,
+        "items": {
+		"items": [
+				{ "item": "coal", "amount": 9 },
+                { "item": "graphite", "amount": 1 },		
+			]
+		},
+         "liquid": "cryofluid/0.1"
+    },
+   "researchCostMultiplier": 0.35,
+    "outputItem": {"item": "graphite","amount":25, },
+    "research": "multi-press"
+}

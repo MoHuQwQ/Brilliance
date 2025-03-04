@@ -5,13 +5,14 @@
 	"size":4 ,
 	"health": 3450,
 	"reload": 7,
-    "range": 300,
+    "range": 360,
 	"shootSound" : "shootBig",
-    "liquidCapacity": 72,
+    "liquidCapacity": 144,
     "hasItems": true,
     "maxAmmo": 100,
     "targetGround": true,
     "targetAir":true,
+    "coolantMultiplier": 0.35,
 
     "shoot": {
         "type": "ShootAlternate",
@@ -22,17 +23,47 @@
     "xRand": 2,
 
     "ammoTypes":{
-        "lead": {
+        "graphite": {
         "type":"BasicBulletType",
         "speed": 8,
+        "damage": 55,
+        "hitSize": 8,
+        "width": 16,
+        "height": 25,
+        "shootEffect": "shootBig",
+        "pierceBuilding": true,
+        "ammoMultiplier": 3,
+        "reloadMultiplier": 1.1,
+        "pierceCap": 2,
+        "knockback": 2,
+    },
+        "titanium":{
+        "type":"BasicBulletType",
+        "speed": 10,
         "damage": 80,
         "hitSize": 8,
         "width": 16,
         "height": 25,
         "shootEffect": "shootBig",
         "pierceBuilding": true,
-        "knockback": 2,
-    },
+        "ammoMultiplier": 3,
+        "pierceCap": 2,
+        "knockback": 3,
+        },
+        "thorium": {
+        "type":"BasicBulletType",
+        "speed": 8,
+        "damage": 175,
+        "hitSize": 8,
+        "width": 16,
+        "height": 25,
+        "shootEffect": "shootBig",
+        "pierceBuilding": true,
+        "ammoMultiplier": 1,
+        "reloadMultiplier": 0.85,
+        "pierceCap": 2,
+        "knockback": 4,
+        },
     },
 
 	"requirements": [
@@ -42,6 +73,14 @@
         { "item": "metaglass", "amount": 30}
       
     ],
+
+
+    "consumes" : {
+        "coolant": {
+        "amount": 1.2,
+        "optional": true,
+        },
+    },
 
 	"category": "turret",
     "research": "spectre",
