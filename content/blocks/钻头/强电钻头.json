@@ -36,7 +36,7 @@
 	],
 	"category": "production",
 	"research": {
-    "parent": "合金钻头",
+    "parent": "弱电钻头",
     "objectives": [
             {
                 "type": "OnSector",

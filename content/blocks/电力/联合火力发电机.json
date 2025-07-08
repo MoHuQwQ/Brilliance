@@ -10,11 +10,12 @@
     "ambientSoundVolume": 0.07,
 
 	"requirements": [
-        { "item": "copper", "amount": 55}
-        { "item": "lead", "amount": 65}
-        { "item": "metaglass", "amount": 100}
-        { "item": "silicon", "amount": 30}
-        { "item": "titanium", "amount": 55}
+        { "item": "copper", "amount": 50}
+        { "item": "lead", "amount": 50}
+        { "item": "metaglass", "amount": 75}
+        { "item": "陶瓷", "amount": 40}
+        { "item": "silicon", "amount": 25}
+        { "item": "titanium", "amount": 40}
     ],
 
     "consumes": {
@@ -30,7 +31,7 @@
         ]
     },
 
-    "powerProduction": 4.5,
+    "powerProduction": 5,
     "ambientSoundVolume" : 0.06,
     "ambientSound": "smelter",
 

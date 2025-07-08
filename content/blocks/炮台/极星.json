@@ -1,0 +1,46 @@
+{
+	"name": "极星",
+	"description": "电力驱动炮台，发射高速子弹",
+	"type": "ItemTurret",
+	"size":2 ,
+	"health":1000 ,
+	"reload": 30,
+    "range": 125,
+	"shootSound" : "laser",
+    "buildCostMultiplier": 0.7,
+    "liquidCapacity": 36,
+    "hasItems": true,
+    "maxAmmo": 100,
+
+    "shoot": {
+        "type": "ShootAlternate",
+        "shots": 6,
+    },
+    "recoils": 2,
+    "alternate": true,
+
+	"ammoTypes":{
+        "graphite": {
+        "type":"BasicBulletType",
+        "speed": 8,
+        "damage": 55,
+    },
+    },
+
+	"requirements": [
+        { "item": "copper", "amount": 45}
+
+      
+    ],
+
+    "consumes" : {
+        "power": 0.6,
+        "coolant": {
+        "amount": 0.15,
+        "optional": true,
+        },
+    },
+
+	"category": "turret",
+    "research": "arc",
+}

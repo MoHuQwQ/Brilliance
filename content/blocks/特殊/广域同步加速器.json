@@ -1,0 +1,38 @@
+{
+	"type": "OverdriveProjector",
+	"name": "广域同步加速器",
+	"description": "大范围加速各种建筑",
+	"health": 3210,
+	"size":4,
+	"hasPower": true,
+    "hasLiquids": true,
+    "hasItems": true,
+    "liquidCapacity": 120,
+    "itemCapacity": 100,
+    "useTime": 240,
+    "speedBoost": 2.25,
+    "range": 1000,
+    "hasBoost": false,
+
+    "consumes": {
+        "power": 280,
+        "liquid": {
+            "liquid": "cryofluid", "amount": 1.8,
+       },
+        "items": {
+        "items": [
+                { "item": "phase-fabric", "amount": 35 },
+                { "item": "surge-alloy", "amount": 45 },           
+            ]
+        }
+    },
+	"requirements": [
+                { "item": "titanium", "amount": 3500},
+                { "item": "plastanium", "amount": 2750},
+                { "item": "silicon", "amount": 1750},
+                { "item": "metaglass", "amount": 2500},
+                { "item": "surge-alloy", "amount": 1500},
+    ],
+    "category": "effect",
+    "research": "overdrive-dome"
+}

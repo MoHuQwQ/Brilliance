@@ -1,0 +1,16 @@
+{
+	"type": "Wall",
+	"name": "陶瓷装甲墙",
+	"description": "高性能防御墙体，能够提供良好的炮弹防御能力。",
+	"category": "defense",
+	"health": 2500,
+	"size": 2,
+	"armor": 5,
+	"flashHit": "ture",
+	"requirements": [
+		{ "item": "silicon", "amount": 4 }
+		{ "item": "陶瓷", "amount": 20 }
+	],
+	"chanceDeflect": "5",
+	"research": "玻璃墙",
+}

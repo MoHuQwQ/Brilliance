@@ -21,13 +21,45 @@
     ],
 
     "plans":[
+
+         {
+            "unit": "scepter",
+            "time": 3600,
+            "requirements": [
+                "brilliance-硅墙/40","titanium-wall-large/30","plastanium-wall-large/30",
+
+            ],
+            "moduleTier": 2,
+        }
+
         {
             "unit": "墓土",
             "time": 600,
             "requirements": [
                 "brilliance-相织钢墙/1",
 
-            ]
+            ],
+            "tier": 1,
+        }
+
+         {
+            "unit": "墓土",
+            "time": 600,
+            "requirements": [
+                "brilliance-相织钢墙/1",
+
+            ],
+            "tier": 1,
+        }
+
+         {
+            "unit": "墓土",
+            "time": 600,
+            "requirements": [
+                "brilliance-相织钢墙/1",
+
+            ],
+            "tier": 1,
         }
 
         ],

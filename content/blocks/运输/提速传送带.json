@@ -11,5 +11,5 @@
         { "item": "copper", "amount": 2}
         { "item": "lead", "amount": 2 }       
     ],
-    "research": "conveyor",
+    "research": "原生科技-建筑",
 }

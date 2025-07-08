@@ -1,7 +1,7 @@
 {
 	"type": "tank",
-	"name": "初训",
-	"description": "初步研发的攻城单位，搭配了能有效破坏建筑物的'侵彻弹-AC' .",
+	"name": "青溟",
+	"description": "攻城单位，装备范围攻击炮台",
 	"hitSize": 12,
 	"treadPullOffset": 3,
 	"speed": 1.0,
@@ -26,7 +26,7 @@
     ], //treadRects = new Rect[]{new Rect(12 - 32f, 7 - 32f, 14, 51)};
 
 	"weapons": [
-		{"name":"初训-炮塔",
+		{"name":"青溟-炮塔",
 		"layerOffset": 0.0001,
 		"reload": 40,
 		"shootY": 4.5,
@@ -66,6 +66,6 @@
 	},
 	],
 
-	"research": "轻型单位构造工厂",
+	//"research": "轻型单位构造工厂",
 
 }

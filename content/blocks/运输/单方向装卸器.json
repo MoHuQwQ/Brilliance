@@ -4,6 +4,7 @@
 	"description": "能够从后侧建筑卸载物品移至前方的装卸器。同时不会使物品向两边输出以及回流。",
 	"category": "effect",
 	"allowCoreUnload": true,
+	"regionRotated1": 1,
 	"health": 100,
 	"speed": 2.5,
 	"requirements": [

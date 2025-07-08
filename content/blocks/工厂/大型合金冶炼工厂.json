@@ -8,23 +8,23 @@
 	"hasPower": true,
     "hasLiquids": true,
     "hasItems": true,
-    "craftTime": 30,
+    "craftTime": 60,
     "liquidCapacity": 60,
-    "itemCapacity": 40,
+    "itemCapacity": 30,
     "craftEffect": "smeltsmoke",
     "consumes": {
-        "power": 8,
+        "power": 7.5,
         "items": {
 		"items": [
-				{ "item": "titanium", "amount": 4 }
-                { "item": "silicon", "amount": 4 }
-                { "item": "thorium", "amount": 4 }
+				{ "item": "titanium", "amount": 5 }
+                { "item": "silicon", "amount": 6 }
+                { "item": "thorium", "amount": 3 }
                 { "item": "graphite", "amount": 4 }				
 			]
 		},
         "liquid": "cryofluid/0.2"
     },
-    "outputItem": {"item": "surge-alloy","amount":3 },
+    "outputItem": {"item": "surge-alloy","amount": 4 },
 	"requirements": [
                 { "item": "titanium", "amount": 150},
                 { "item": "silicon", "amount": 120},

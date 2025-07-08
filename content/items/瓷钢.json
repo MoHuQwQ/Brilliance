@@ -1,0 +1,9 @@
+{
+"name":"瓷钢",
+"buildable": false,
+"hardness":0,
+"description":"用与高强度墙体建造",
+"details":"是瓷钢不是硅钢啊！！！",
+"color":"595E72",
+"research": "陶瓷"
+}

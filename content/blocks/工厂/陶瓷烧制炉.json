@@ -1,0 +1,35 @@
+{
+	"type": "GenericCrafter",
+	"name": "陶瓷烧制炉",
+	"description": "将粘土破碎-压坯-塑状-烧结，生产出陶瓷",
+    "category": "crafting",
+    "size": 2,
+    "health": 320,
+    "itemCapacity": 18,
+    "craftTime": 240,
+    "hasPower": "true",
+    "hasItems": "true",
+    "craftEffect": "smeltsmoke",
+    "requirements": [
+        { "item": "copper", "amount":50},
+        { "item": "lead", "amount": 50},
+        { "item": "graphite", "amount": 30}
+       ],
+    "consumes": {
+        "power": 0.4,
+        "items": {
+		"items": [
+				{ "item": "粘土", "amount": 2 },		
+			]
+		}
+    },
+    "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+    "DrawDefault",
+    "DrawFlame"
+        ]
+    },
+    "outputItem": {"item": "陶瓷","amount":4 },
+    "research": "粘土混合器"
+}

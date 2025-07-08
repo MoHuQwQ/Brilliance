@@ -1,0 +1,8 @@
+{
+"name":"陶瓷",
+"buildable": false,
+"hardness":0,
+"description":"用与电力设备建筑",
+"color":"595E72",
+"research": "粘土"
+}

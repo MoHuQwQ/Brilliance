@@ -1,0 +1,38 @@
+{
+	"type": "OverdriveProjector",
+	"name": "超载加速器",
+	"description": "将超速穹顶的绝大部分加速能量压缩在极小范围内，使其能够以极其惊人的加速效率提升建筑生产速度",
+	"health": 3210,
+	"size":4,
+	"hasPower": true,
+    "hasLiquids": true,
+    "hasItems": true,
+    "liquidCapacity": 120,
+    "itemCapacity": 100,
+    "useTime": 240,
+    "speedBoost": 2,
+    "speedBoostPhase": 4,
+    "phaseRangeBoost": -160,
+    "range": 200,
+    "hasBoost": true,
+
+    "consumes": {
+        "power": 100,
+        "liquid": {
+            "liquid": "cryofluid", "amount": 1,
+       },
+        "items": {
+            "items": [
+                "phase-fabric/10",
+                "surge-alloy/10",
+            ],
+            "booster": true,
+            "optional": true
+        }
+    },
+	"requirements": [
+                { "item": "titanium", "amount": 1000},
+    ],
+    "category": "effect",
+    "research": "overdrive-dome"
+}

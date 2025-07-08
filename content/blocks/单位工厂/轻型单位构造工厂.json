@@ -1,45 +1,46 @@
 {
 	"type": "UnitFactory",
 	"name": "轻型单位构造工厂",
-	"description": "我们不清楚设备能否在这个星球上稳定的工作，就目前而看并没有出现差错。",
+	"description": "快速前线部署单位组装厂，以额外的消耗来快速生产单位",
 	"size":3 ,
-	"health": 150 ,
+	"health": 300 ,
     "itemCapacity": 40,
 
     "consumes": {
 
-        "power": 1.75,
+        "power": 1.8,
 
        },
 
     "requirements": [
 
-                { "item": "copper", "amount": 75}
-                { "item": "lead", "amount": 75}
-                { "item": "titanium", "amount": 75}
-                { "item": "silicon", "amount": 50}
+                { "item": "copper", "amount": 120}
+                { "item": "lead", "amount": 100}
+                { "item": "titanium", "amount": 80}
+                { "item": "silicon", "amount": 70}
     ],
 
     "plans":[
         {
             "unit": "星萤",
             "time": 600.0,
-            "requirements": [ "silicon/20","lead/10" ]
-        },
-        {
-            "unit": "初训",
-            "time": 600.0,
-            "requirements": [ "silicon/50","lead/50" ]
+            "requirements": [ "silicon/20","lead/10","陶瓷/10" ]
         },
 
         {
             "unit": "调息",
             "time": 600.0,
-            "requirements": [ "silicon/35","lead/35","titanium/35" ]
+            "requirements": [ "silicon/30","lead/25","titanium/30" ]
+        },
+
+        {
+            "unit": "mono",
+            "time": 1200.0,
+            "requirements": [ "silicon/40","lead/20","陶瓷/8" ]
         },
 
         ],
 
 	"category": "units",
-	"research":"ground-factory"
+	"research":"原生科技-单位"
 }
