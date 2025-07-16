@@ -1,0 +1,102 @@
+{
+	"type": "tank",
+	"name": "揭幕",
+	"description": "攻城单位，装备范围攻击炮台",
+	"hitSize": 12,
+	"treadPullOffset": 3,
+	"armor": 6,
+	"speed": 1.0,
+	"rotateSpeed": 3.5,
+	"health": 450,
+	"itemCapacity": 0,
+	"range": 160,
+	"omniMovement": false,
+	"rotateMoveFirst": true,
+
+	
+	"researchCostMultiplier": 0,
+
+	"outlineColor": "2d2f39",
+
+	"treadRects": [
+    {
+        "type": "R,ect",
+        "x": -31,
+        "y": -38,
+        "width": 19,
+        "height": 76,
+    }
+    ], //treadRects = new Rect[]{new Rect(17 - 96f/2f, 10 - 96f/2f, 19, 76)};
+    "treadPullOffset": 5,
+
+	"weapons": [
+		{"name":"揭幕-weapon",
+		"layerOffset": 0.0001,
+		"reload": 40,
+		"shootY": 4.5,
+		"recoil": 1,
+		"rotate": true,
+		"rotateSpeed": 4.0,
+		"mirror": false,
+		"x": 0,
+		"y": 0,
+		"heatColor": "A9D8FF",
+		"cooldownTime": 30,
+
+
+		"bullet": {
+			"type":"BasicBulletType",
+			"speed": 3,
+			"damage": 25,
+			"buildingDamageMultiplier": 4.0,
+			"sprite": "missile-large",
+			"smokeEffect": "shootTitan",
+			"shootEffect": "shootSmokeTitan",
+			"frontColor":"white",
+			"trailWidth": 2,
+			"trailLength": 6,
+			"splashDamageRadius": 10,
+			"splashDamage": 15,
+
+			"fragOnHit": false,
+			"fragOnHit": false,
+            "fragRandomSpread": 0,
+            "fragSpread": 10,
+            "fragBullets": 3,
+            "fragVelocityMin": 1,
+            "despawnSound": "dullExplosion",
+			"width": 5,
+			"height": 7,
+			"lifetime": 40,
+			"hitSize": 4,
+
+
+			"hitColor": "A9D8FF",
+			"backColor": "feb380",
+			"trailColor": "A9D8FF",
+			"frontColor": "A9D8FF",
+			"trailWidth": 1.7,
+			"trailLength": 5,
+			"despawnEffect": "hitBulletColor",
+			"hitEffect": "hitBulletColor",
+
+			"fragBullet": {
+				"type":"BasicBulletType",
+				"sprite": "missile-large",
+				"speed": 4,
+			    "damage": 15,
+			    "width": 4,
+			    "height": 8,
+			    "lifetime": 15,
+			    "hitSize": 4,
+			    "trailWidth": 2.8,
+			    "trailLength": 6,
+			    "buildingDamageMultiplier": 3.0,
+			},
+		},
+	},
+	],
+
+	"research": "轻型单位构造工厂",
+
+}

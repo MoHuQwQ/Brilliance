@@ -34,6 +34,12 @@
         },
 
         {
+            "unit": "揭幕",
+            "time": 750,
+            "requirements": [ "silicon/50","lead/40","titanium/20" ]
+        },
+
+        {
             "unit": "mono",
             "time": 1200.0,
             "requirements": [ "silicon/40","lead/20","陶瓷/8" ]
