@@ -22,5 +22,9 @@
 **R U N ！！！**
 
 ---
+**实际上，你并不需要通过下载发布的包来游玩模组。你可以点击右上角的下载zip包来安装到游戏中**
+
+**You don't need to wait for me to release a new mod package. You can click the CODE button in the upper right corner to download the zip package and install it in the game**
+
 这个MOD的创意工坊链接：https://steamcommunity.com/sharedfiles/filedetails/?id=3074058337
 # 如果你有好建议，欢迎进入QQ群： 575994735
