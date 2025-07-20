@@ -24,5 +24,5 @@
          "liquid": "water/0.02"
     },
     "outputItem": {"item": "粘土","amount":1, },
-    "research": "graphite-press"
+    "research": "原生科技-建筑"
 }

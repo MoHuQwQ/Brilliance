@@ -1,0 +1,20 @@
+{
+    "type": "battery",
+    "name": "储能单元MK1",
+    "description": "小型能量储存块" ,
+    "category": "power",
+    "health": 4500,
+    "size": 5,
+    "requirements": [
+        { "item": "titanium", "amount": 300}
+        { "item": "silicon", "amount": 100} 
+        { "item": "plastanium", "amount": 200} 
+        { "item": "surge-alloy", "amount": 100} 
+        { "item": "封装铍", "amount": 300} 
+        { "item": "陶瓷", "amount": 125}    
+    ],
+    "consumes": {
+		"powerBuffered": 1000000.00
+	},
+	"research": "离子电池组",
+}

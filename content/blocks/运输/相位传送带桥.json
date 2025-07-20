@@ -20,5 +20,5 @@
         { "item": "phase-fabric", "amount": 10} 
         { "item": "surge-alloy", "amount": 8}      
     ],
-    "research": "phase-conveyor",
+    "research": "钛传送带桥",
 }

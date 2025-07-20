@@ -20,5 +20,5 @@
         { "item": "thorium", "amount": 1} 
         { "item": "phase-fabric", "amount": 1}    
     ],
-    "research": "plastanium-conveyor",
+    "research": "铍传送带",
 }

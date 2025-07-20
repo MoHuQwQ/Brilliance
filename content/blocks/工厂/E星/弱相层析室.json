@@ -7,7 +7,7 @@
     "liquidCapacity": 160,
 
     "consumes": {
-        "power": 3,
+        "power": 1,
         "liquid": {
         "liquid": "slag", "amount": 1,
        }
@@ -22,7 +22,7 @@
                
         ],
 
-    "craftTime": 2,
+    "craftTime": 4,
 	"category": "crafting",
 	"research":"虹吸泵"
 }
