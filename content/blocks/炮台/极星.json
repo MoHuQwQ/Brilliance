@@ -4,9 +4,9 @@
 	"type": "ItemTurret",
 	"size":2 ,
 	"health":1000 ,
-	"reload": 30,
-    "range": 125,
-	"shootSound" : "laser",
+	"reload": 15,
+    "range": 150,
+	//"shootSound" : "laser",
     "buildCostMultiplier": 0.7,
     "liquidCapacity": 36,
     "hasItems": true,
@@ -14,21 +14,32 @@
 
     "shoot": {
         "type": "ShootAlternate",
-        "shots": 6,
+        "barrels": 2,
+        "spread": 4
     },
     "recoils": 2,
     "alternate": true,
 
 	"ammoTypes":{
-        "graphite": {
+        "copper": {
         "type":"BasicBulletType",
-        "speed": 8,
-        "damage": 55,
+        "speed": 4,
+        "damage": 28,
+        "width": 7,
+        "height": 9,
+        "lifetime": 38,
+        "ammoMultiplier": 2
+    },
+    "graphite": {
+        "type":"BasicBulletType",
+        "speed": 4.5,
+        "damage": 35,
     },
     },
 
 	"requirements": [
         { "item": "copper", "amount": 45}
+        { "item": "graphite", "amount": 45}
 
       
     ],
@@ -42,5 +53,5 @@
     },
 
 	"category": "turret",
-    "research": "arc",
+    "research": "原生科技-炮台",
 }

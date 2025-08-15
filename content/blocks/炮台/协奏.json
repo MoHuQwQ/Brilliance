@@ -1,6 +1,6 @@
 {
 	"name": "协奏",
-	"description": " 1",
+	"description": " 发射高伤炮弹",
 	"type": "ItemTurret",
 	"size":2 ,
 	"health":1150 ,
@@ -53,5 +53,5 @@
         "researchCostMultiplier": 0.1,
 
 	"category": "turret",
-    //"research": "arc",
+    "research": "极星",
 }

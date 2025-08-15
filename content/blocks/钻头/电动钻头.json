@@ -1,0 +1,28 @@
+{
+	"name": "电动钻头",
+	"description": "消耗电力来挖掘矿物，速度比气动钻头快。",
+	"type": "Drill",
+	"size":2 ,
+	"health":180 ,
+	"tier": 3,
+	"drillTime":300 ,
+	"liquidBoostIntensity": 2.0,
+	"consumes":{
+		"power": 0.5,
+		 "liquid": {
+			"liquid": "water", "amount": 0.1,
+			"booster":true,
+			"optional": true
+		}
+	},
+
+
+	"requirements": [
+		{"item": "copper", "amount":36 }
+		{"item": "graphite", "amount":20 }
+		{"item": "silicon", "amount":10}
+	],
+	"category": "production",
+	"research":"沙挖掘机"
+
+}
