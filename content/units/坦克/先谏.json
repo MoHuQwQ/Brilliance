@@ -21,7 +21,7 @@
         "x": -31,
         "y": -86,
         "width": 19,
-        "height": 76,
+        "height": 76
     }
     ],
 
@@ -61,11 +61,11 @@
 			"trailWidth": 1.7,
 			"trailLength": 5,
 			"despawnEffect": "hitBulletColor",
-			"hitEffect": "hitBulletColor",
-		},
-	},
+			"hitEffect": "hitBulletColor"
+		}
+	}
 	],
 
-	"research": "青溟",
+	"research": "青溟"
 
 }

@@ -17,7 +17,7 @@
 	"shootSound" : "shootSnap",
 
     "shoot": {
-        "shots": 2,
+        "shots": 2
     },
 
     "xRand": 2,
@@ -43,7 +43,7 @@
         "height": 12.00,
         "shrinkY": 1.00,
         "lifetime": 15.00
-    },
+    }
     },
 
     "surge-alloy":{
@@ -59,7 +59,7 @@
         "collidesGround": true,
         "explodeRange": 20,
         "lightningLength": 6.5,
-        "buildingDamageMultiplier": 0.3,
+        "buildingDamageMultiplier": 0.3
 
     }
     },
@@ -71,14 +71,14 @@
     { "item": "phase-fabric", "amount": 150},
     { "item": "surge-alloy", "amount": 250},
     { "item": "封装铍", "amount": 450},
-    { "item": "高纯钨", "amount": 450},
+    { "item": "高纯钨", "amount": 450}
 	],
 
     "consumes" : {
         "coolant": {
         "amount": 0.3,
-        "optional": true,
-        },
+        "optional": true
+        }
     },
 
 	"category": "turret",

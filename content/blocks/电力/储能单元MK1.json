@@ -16,5 +16,5 @@
     "consumes": {
 		"powerBuffered": 1000000.00
 	},
-	"research": "离子电池组",
+	"research": "离子电池组"
 }

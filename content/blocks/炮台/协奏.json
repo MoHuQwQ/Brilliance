@@ -29,21 +29,21 @@
         "smokeEffect": "smokeCloud",
 
         "trailEffect":{ 
-        "type": "steam",
+        "type": "steam"
     },
         "despawnEffect": "instBomb",
         "damage": 125,
         "trailSpacing": 20,
         "hitShake": 6,
-        "speed":1000,
+        "speed":1000
 
-        	},
+        	}
 
 
 	},
 
     "consumes": {
-        "power": 0.5,
+        "power": 0.5
     },
 		"requirements": [
 		{ "item": "copper", "amount": 240}
@@ -53,5 +53,5 @@
         "researchCostMultiplier": 0.1,
 
 	"category": "turret",
-    "research": "极星",
+    "research": "极星"
 }

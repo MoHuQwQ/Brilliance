@@ -15,6 +15,6 @@
     "alwaysUnlocked": true,
 	"research": {
 		"root": true,
-		"name": "Brilliance-TechTree",
-	},
+		"name": "Brilliance-TechTree"
+	}
 }

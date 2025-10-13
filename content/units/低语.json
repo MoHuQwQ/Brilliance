@@ -12,7 +12,7 @@
         "duration": 360.0,
         "reload": 360.0,
         "range": 120.0,
-        "color": "D1EFFF",
+        "color": "D1EFFF"
     }
     ],
 
@@ -42,7 +42,7 @@
             "shapes": 6,
             "layer": 110,
             "hollow": true,
-            "color": "D1EFFF",
+            "color": "D1EFFF"
         }
-    ],
+    ]
 }

@@ -12,18 +12,18 @@
         "items": {  
         "items": [
 
-        {"item":"silicon","amount": 180}
-        {"item":"titanium","amount": 120}
+        {"item":"silicon","amount": 180},
+        {"item":"titanium","amount": 120},
         { "item": "metaglass", "amount": 50}
 
     ]
-    },
+    }
 
     },
 
     "upgrades":[
 
-        ["萤光","星明"],
+        ["萤光","星明"]
 
     ],
 

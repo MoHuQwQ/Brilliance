@@ -18,7 +18,7 @@
 	],
 
 	"consumes": {
-        "power": 2.6,
+        "power": 2.6
     },
 
 	"category": "liquid",

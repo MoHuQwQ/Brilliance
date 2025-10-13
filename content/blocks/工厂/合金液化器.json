@@ -21,16 +21,16 @@
 		{"item": "graphite", "amount":225 },
 		{"item": "silicon", "amount":275 },
 		{"item": "plastanium", "amount":245 },
-		{"item": "surge-alloy", "amount":100 },
+		{"item": "surge-alloy", "amount":100 }
 	],
 	"consumes": {
         "power": 26,
         "liquid": {
-            "liquid": "cryofluid", "amount": 0.5,
+            "liquid": "cryofluid", "amount": 0.5
        },
         "items": {
 		"items": [
-				{ "item": "surge-alloy", "amount": 2 },
+				{ "item": "surge-alloy", "amount": 2 }
 			]
 		}
     },

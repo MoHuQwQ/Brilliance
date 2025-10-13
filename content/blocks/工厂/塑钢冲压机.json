@@ -15,7 +15,7 @@
         { "item": "titanium", "amount": 140},
         { "item": "silicon", "amount": 120},
         { "item": "plastanium", "amount": 100},
-        { "item": "graphite", "amount": 200},
+        { "item": "graphite", "amount": 200}
 
        ],
 

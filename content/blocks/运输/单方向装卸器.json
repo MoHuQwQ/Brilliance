@@ -12,5 +12,5 @@
         { "item": "封装铍", "amount": 15 },
         { "item": "高纯钨", "amount": 15 }       
     ],
-     "research": "unloader",
+     "research": "unloader"
 }

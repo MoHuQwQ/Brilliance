@@ -13,12 +13,12 @@
 	"underBullets": true,
 	"baseEfficiency": 0.25,
 	"consumes": {
-        "power": 0.05,
-    },
+        "power": 0.05
+    }
 	"requirements": [
         { "item": "surge-alloy", "amount": 1}
         { "item": "thorium", "amount": 1} 
         { "item": "phase-fabric", "amount": 1}    
     ],
-    "research": "铍传送带",
+    "research": "铍传送带"
 }
