@@ -6,14 +6,14 @@
     "health": 1350,
     "size": 3,
     "requirements": [
-        { "item": "copper", "amount": 115}
-        { "item": "lead", "amount":80 }
-        { "item": "titanium", "amount":65 }
-        { "item": "silicon", "amount":55 }
+        { "item": "copper", "amount": 115},
+        { "item": "lead", "amount":80 },
+        { "item": "titanium", "amount":65 },
+        { "item": "silicon", "amount":55 },
         { "item": "封装铍", "amount":60 }       
     ],
     "consumes": {
 		"powerBuffered": 250000.00
 	},
-	"research": "离子电池",
+	"research": "离子电池"
 }

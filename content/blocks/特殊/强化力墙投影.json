@@ -17,14 +17,14 @@
     "cooldownBrokenBase": 2,
 
     "absorbEffect": {
-        "type": "absorb",
+        "type": "absorb"
     },
 
     "consumes": {
-        "power": 5,
+        "power": 5
     },
 	"requirements": [
-                { "item": "titanium", "amount": 500},
+                { "item": "titanium", "amount": 500}
     ],
     "category": "effect",
     "research": "force-projector"

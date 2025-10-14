@@ -33,9 +33,9 @@
                     "colorTo": "FCF387"
                 },
                 {
-                    "type": "ParticleEffect",
-                },
-            ],
+                    "type": "ParticleEffect"
+                }
+            ]
         },
     
     "type": "LaserBulletType",
@@ -48,7 +48,7 @@
     "length": 750,
     "width": 60,
     "ammoMultiplier": 1.00,
-    "status" : "blasted",
+    "status" : "blasted"
     },
 
 	"requirements": [
@@ -57,14 +57,14 @@
         { "item": "silicon", "amount": 700},
         { "item": "plastanium", "amount": 300},
         { "item": "thorium", "amount": 500},
-        { "item": "surge-alloy", "amount": 750},
+        { "item": "surge-alloy", "amount": 750}
         
     ],
 
     "consumes" : {
         "power": 30,
-        "liquid": {"liquid":"cryofluid","amount":0.75 },
+        "liquid": {"liquid":"cryofluid","amount":0.75 }
         },
 
-	"category": "turret",
+	"category": "turret"
 }

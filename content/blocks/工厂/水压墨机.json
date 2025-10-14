@@ -20,12 +20,12 @@
         "power": 0.8,
         "items": {
 		"items": [
-				{ "item": "coal", "amount": 3 },		
+				{ "item": "coal", "amount": 3 }
 			]
 		},
          "liquid": "water/0.05"
     },
    "researchCostMultiplier": 0.2,
-    "outputItem": {"item": "graphite","amount":2, },
+    "outputItem": {"item": "graphite","amount":2 },
     "research": "空气冷凝器"
 }

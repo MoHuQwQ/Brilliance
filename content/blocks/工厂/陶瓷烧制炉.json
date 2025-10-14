@@ -19,7 +19,7 @@
         "power": 0.4,
         "items": {
 		"items": [
-				{ "item": "粘土", "amount": 2 },		
+				{ "item": "粘土", "amount": 2 }
 			]
 		}
     },

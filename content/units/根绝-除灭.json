@@ -14,7 +14,7 @@
     "mechStepParticles": true,
     "weapons":[
     	{
-    		"name": "末光快速磁轨炮",//你猜AWA~
+    		"name": "末光快速磁轨炮",
             "shootSound": "missile",
             "mirror": false,
             "showStatSprite": false,
@@ -32,9 +32,9 @@
         "bullet": {
             "type": "ArtilleryBulletType",
             "speed": 10,
-            "damage": 175, 
+            "damage": 175
 
-        },
+        }
 
     	}
     	

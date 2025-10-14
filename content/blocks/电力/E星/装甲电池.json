@@ -7,12 +7,12 @@
     "size": 2,
     "armor": 10,
     "requirements": [
-        { "item": "beryllium", "amount": 20}
-        { "item": "tungsten", "amount":15 }
+        { "item": "beryllium", "amount": 20},
+        { "item": "tungsten", "amount":15 },
         { "item": "silicon", "amount":10 }        
     ],
     "consumes": {
 		"powerBuffered": 5000.00
 	},
-	"research": "beam-node",
+	"research": "beam-node"
 }

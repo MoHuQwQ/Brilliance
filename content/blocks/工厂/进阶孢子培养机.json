@@ -30,7 +30,7 @@
         { "item": "lead", "amount": 100},
         { "item": "titanium", "amount": 55},
         { "item": "silicon", "amount": 70},
-        { "item": "plastanium", "amount": 45},
+        { "item": "plastanium", "amount": 45}
 
        ],
 

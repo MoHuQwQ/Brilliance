@@ -11,11 +11,11 @@
 	"itemCapacity": 20,
 
 	"consumes":{
-	"power": 0.3,
+	"power": 0.3
     },
     
 	"requirements": [
-		{"item": "beryllium", "amount":100 }
+		{"item": "beryllium", "amount":100 },
 		{"item": "纳米铜", "amount":150 }
 	],
 

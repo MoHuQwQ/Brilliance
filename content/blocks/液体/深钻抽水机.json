@@ -11,15 +11,15 @@
 	"baseEfficiency": 1.25,
 
 	"requirements": [
-		{"item": "titanium", "amount":50 }
-		{"item": "metaglass", "amount":60 }
-		{"item": "silicon", "amount":50 }
-		{"item": "封装铍", "amount":75 }
+		{"item": "titanium", "amount":50 },
+		{"item": "metaglass", "amount":60 },
+		{"item": "silicon", "amount":50 },
+		{"item": "封装铍", "amount":75 },
 		{"item": "高纯钨", "amount":75 }
 	],
 
 	"consumes": {
-        "power": 3,
+        "power": 3
     },
 
 	"category": "production",

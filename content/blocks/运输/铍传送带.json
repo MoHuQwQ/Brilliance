@@ -8,8 +8,8 @@
 	"displayedSpeed": "26.0",
 	"itemCapacity": "3",
 	"requirements": [
-        { "item": "titanium", "amount": 1}
+        { "item": "titanium", "amount": 1},
         { "item": "封装铍", "amount": 1 }       
     ],
-    "research": "提速传送带",
+    "research": "提速传送带"
 }

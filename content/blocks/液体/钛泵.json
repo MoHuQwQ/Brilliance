@@ -6,11 +6,10 @@
 	"health":85 ,
 	"pumpAmount": 0.2,
 	"liquidCapacity": 12,
-	//"attribute": "light",
 
 	"requirements": [
-		{"item": "metaglass", "amount":15 }
-		{"item": "titanium", "amount":10 }
+		{"item": "metaglass", "amount":15 },
+		{"item": "titanium", "amount":10 },
 		{"item": "silicon", "amount":10 }
 	],
 

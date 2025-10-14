@@ -24,7 +24,7 @@
 		{"item": "graphite", "amount":35 }
 	],
 	"consumes": {
-        "power": 0.3,
+        "power": 0.3
     },
 
     "drawer":{

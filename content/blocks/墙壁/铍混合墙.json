@@ -8,9 +8,9 @@
 	"insulated": "flase",
 	"absorbLasers": "true",
 	"requirements": [
-		{ "item": "metaglass", "amount": 2 }
-		{ "item": "plastanium", "amount": 3 }
+		{ "item": "metaglass", "amount": 2 },
+		{ "item": "plastanium", "amount": 3 },
 		{ "item": "封装铍", "amount": 2 }
 	],
-	"research": "plastanium-wall",
+	"research": "plastanium-wall"
 }

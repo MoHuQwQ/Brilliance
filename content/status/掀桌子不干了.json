@@ -6,5 +6,5 @@
 "damageMultiplier":100,
 "reloadMultiplier":10,
 "damage":250,
-"permanent":true,
+"permanent":true
 }

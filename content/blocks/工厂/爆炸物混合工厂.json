@@ -10,7 +10,6 @@
     "craftTime": 60,
     "hasPower": "true",
     "hasItems": "true",
-    //"craftEffect": "smeltsmoke",//
     "requirements": [
         { "item": "graphite", "amount":75},
         { "item": "titanium", "amount":100},
@@ -29,7 +28,7 @@
 
         "items": {
 		"items": [
-				{ "item": "pyratite", "amount": 3 },		
+				{ "item": "pyratite", "amount": 3 }
 			]
 		}
     },

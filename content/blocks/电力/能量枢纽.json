@@ -10,9 +10,9 @@
     "outputsPower" : true,
     "placeableLiquid":true,
     "requirements": [
-        { "item": "copper", "amount": 6}
-        { "item": "lead", "amount": 6}
-        { "item": "陶瓷", "amount": 2}
+        { "item": "copper", "amount": 6},
+        { "item": "lead", "amount": 6},
+        { "item": "陶瓷", "amount": 2},
         { "item": "silicon", "amount": 4}       
     ],
 
@@ -20,5 +20,5 @@
         "powerBuffered": 500
     },
 
-	"research": "power-node",
+	"research": "power-node"
 }

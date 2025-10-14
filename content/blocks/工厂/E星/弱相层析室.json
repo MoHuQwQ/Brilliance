@@ -9,15 +9,15 @@
     "consumes": {
         "power": 1,
         "liquid": {
-        "liquid": "slag", "amount": 1,
+        "liquid": "slag", "amount": 1
        }
     },
     "requirements": [
 		{"item": "beryllium", "amount":10 }
 	],
     "results": [
-        { "item": "纳米铜", "amount": 9 }
-        { "item": "晶体铅", "amount": 9 }
+        { "item": "纳米铜", "amount": 9 },
+        { "item": "晶体铅", "amount": 9 },
         { "item": "silicon", "amount": 1 }
                
         ],

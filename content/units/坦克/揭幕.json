@@ -24,9 +24,9 @@
         "x": -31,
         "y": -38,
         "width": 19,
-        "height": 76,
+        "height": 76
     }
-    ], //treadRects = new Rect[]{new Rect(17 - 96f/2f, 10 - 96f/2f, 19, 76)};
+    ],
     "treadPullOffset": 5,
 
 	"weapons": [
@@ -91,12 +91,12 @@
 			    "hitSize": 4,
 			    "trailWidth": 2.8,
 			    "trailLength": 6,
-			    "buildingDamageMultiplier": 3.0,
-			},
-		},
-	},
+			    "buildingDamageMultiplier": 3.0
+			}
+		}
+	}
 	],
 
-	"research": "轻型单位构造工厂",
+	"research": "轻型单位构造工厂"
 
 }

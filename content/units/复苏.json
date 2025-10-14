@@ -33,8 +33,8 @@
 	    "repairSpeed": 0.5,
         "type":"RepairBeamWeapon",
         "bullet": {
-				"maxRange": 200,
-			},
+				"maxRange": 200
+			}
 	},
 
 	{"name":"标准化拦截激光",
@@ -48,11 +48,11 @@
         "type":"PointDefenseWeapon",
         "bullet": {
 				"maxRange": 200,
-				"damage": 10,
-			},
+				"damage": 10
+			}
 	}
 	],
 
-	"research": "调息",
+	"research": "调息"
 
 }

@@ -8,8 +8,8 @@
 	"displayedSpeed": "6.0",
 	"itemCapacity": "1",
 	"requirements": [
-        { "item": "copper", "amount": 2}
+        { "item": "copper", "amount": 2},
         { "item": "lead", "amount": 2 }       
     ],
-    "research": "原生科技-建筑",
+    "research": "原生科技-建筑"
 }

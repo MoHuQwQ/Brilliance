@@ -8,15 +8,15 @@
 	"itemCapacity": 300,
 	"launchTime": 300,
 	"liquidCapacity": 60,
-	"buildCostMultiplier": 2.5,//awa
+	"buildCostMultiplier": 2.5,
 	"requirements": [
-        { "item": "copper", "amount": 1400}
-        { "item": "lead", "amount": 1000}
-        { "item": "titanium", "amount": 850}
-        { "item": "silicon", "amount": 550}
-        { "item": "plastanium", "amount": 900}
-        { "item": "surge-alloy", "amount": 500}
-        { "item": "封装铍", "amount": 550}
+        { "item": "copper", "amount": 1400},
+        { "item": "lead", "amount": 1000},
+        { "item": "titanium", "amount": 850},
+        { "item": "silicon", "amount": 550},
+        { "item": "plastanium", "amount": 900},
+        { "item": "surge-alloy", "amount": 500},
+        { "item": "封装铍", "amount": 550},
         { "item": "高纯钨", "amount": 350}
       ],
 "consumes": {

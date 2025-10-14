@@ -17,15 +17,14 @@
         { "item": "titanium", "amount": 30}
 
     ]
-    },
-
+    }
     },
 
     "upgrades":[
 
         ["星萤","萤光"],
         ["调息","复苏"],
-        ["dagger","reign"],
+        ["dagger","reign"]
 
     ],
 

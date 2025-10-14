@@ -8,9 +8,9 @@
 
     "powerProduction": 0.2,
     "requirements": [
-        { "item": "纳米铜", "amount": 15}
-        { "item": "晶体铅", "amount":15 }
+        { "item": "纳米铜", "amount": 15},
+        { "item": "晶体铅", "amount":15 },
         { "item": "silicon", "amount":5 }        
     ],
-	"research": "弱相层析室",
+	"research": "弱相层析室"
 }

@@ -7,9 +7,9 @@
 	"size": "1",
 	"flashHit": "ture",
 	"requirements": [
-		{ "item": "phase-fabric", "amount": 10 }
+		{ "item": "phase-fabric", "amount": 10 },
 		{ "item": "高纯钨", "amount": 5 }
 	],
 	"chanceDeflect": "35",
-	"research": "surge-wall",
+	"research": "surge-wall"
 }

@@ -24,7 +24,7 @@
         "items": {
 		"items": [
 				{ "item": "coal", "amount": 6 },
-				{ "item": "pyratite", "amount": 2 }	,
+				{ "item": "pyratite", "amount": 2 }
 			]
 		}
     },
@@ -33,7 +33,7 @@
         "drawers":[
         "DrawRegion",
         "DrawArcSmelt",
-        "DrawDefault",
+        "DrawDefault"
     ]},
     "outputItem": {"item": "silicon","amount":15 },
     "research": "silicon-crucible"

@@ -6,7 +6,6 @@
 	"health":1000 ,
 	"reload": 15,
     "range": 150,
-	//"shootSound" : "laser",
     "buildCostMultiplier": 0.7,
     "liquidCapacity": 36,
     "hasItems": true,
@@ -33,8 +32,8 @@
     "graphite": {
         "type":"BasicBulletType",
         "speed": 4.5,
-        "damage": 35,
-    },
+        "damage": 35
+    }
     },
 
 	"requirements": [
@@ -48,10 +47,10 @@
         "power": 0.6,
         "coolant": {
         "amount": 0.15,
-        "optional": true,
-        },
+        "optional": true
+        }
     },
 
 	"category": "turret",
-    "research": "原生科技-炮台",
+    "research": "原生科技-炮台"
 }

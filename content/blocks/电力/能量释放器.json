@@ -36,8 +36,8 @@
         "liquid": {
             "liquid": "water",
             "amount": 0.2,
-            "booster":false,
-        },
+            "booster":false
+        }
 
     },
 
@@ -47,5 +47,5 @@
                 { "item": "plastanium", "amount": 75}
     ],
     "category": "power",
-    "research": "能量封包器",
+    "research": "能量封包器"
 }

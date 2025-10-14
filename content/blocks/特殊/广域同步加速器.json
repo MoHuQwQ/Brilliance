@@ -17,12 +17,12 @@
     "consumes": {
         "power": 280,
         "liquid": {
-            "liquid": "cryofluid", "amount": 1.8,
+            "liquid": "cryofluid", "amount": 1.8
        },
         "items": {
         "items": [
                 { "item": "phase-fabric", "amount": 35 },
-                { "item": "surge-alloy", "amount": 45 },           
+                { "item": "surge-alloy", "amount": 45 }
             ]
         }
     },
@@ -31,7 +31,7 @@
                 { "item": "plastanium", "amount": 2750},
                 { "item": "silicon", "amount": 1750},
                 { "item": "metaglass", "amount": 2500},
-                { "item": "surge-alloy", "amount": 1500},
+                { "item": "surge-alloy", "amount": 1500}
     ],
     "category": "effect",
     "research": "overdrive-dome"

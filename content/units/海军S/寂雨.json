@@ -8,12 +8,12 @@
 
         "bullet":{
 
-            "type":"FlakBulletType",
-        },
+            "type":"FlakBulletType"
+        }
 
 
 
     }
-    ],
+    ]
 
 }

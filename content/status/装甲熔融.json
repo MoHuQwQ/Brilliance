@@ -9,11 +9,11 @@
 	"burning",
 	"melting",
 	"tarred",
-	"blasted",
+	"blasted"
 ],
 "transitionDamage": 18,
 "opposites":[
 	"wet",
-	"freezing",
+	"freezing"
 ]
 }

@@ -14,7 +14,7 @@
         { "item": "titanium", "amount": 3500},
         { "item": "silicon", "amount": 2000},
         { "item": "封装铍", "amount": 1000},
-        { "item": "高纯钨", "amount": 1000},
+        { "item": "高纯钨", "amount": 1000}
        ],
     "category": "effect",
     "research": "core-foundation",

@@ -17,12 +17,12 @@
     "range": 50,
 
     "ammoType":{
-    "type":"PowerAmmoType",
+    "type":"PowerAmmoType"
     },
 
     "mineTier": 2,
     "mineSpeed": 3,
     "engineOffset": 0,
-    "research": "轻型单位构造工厂",
+    "research": "轻型单位构造工厂"
 
 }

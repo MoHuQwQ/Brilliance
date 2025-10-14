@@ -16,9 +16,9 @@
         "repairSpeed": 0.5,
         "type":"RepairBeamWeapon",
         "bullet": {
-                "maxRange": 150,
-            },
-    },
+                "maxRange": 150
+            }
+    }
 
     ],
 
@@ -28,8 +28,8 @@
         "effect": "蜂群网络-T3",
         "duration": 600.0,
         "reload": 360.0,
-        "range": 120.0,
+        "range": 120.0
     }
-],
+]
 
 }

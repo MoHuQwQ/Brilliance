@@ -19,19 +19,19 @@
     "consumes": {
         "power": 100,
         "liquid": {
-            "liquid": "cryofluid", "amount": 1,
+            "liquid": "cryofluid", "amount": 1
        },
         "items": {
             "items": [
                 "phase-fabric/10",
-                "surge-alloy/10",
+                "surge-alloy/10"
             ],
             "booster": true,
             "optional": true
         }
     },
 	"requirements": [
-                { "item": "titanium", "amount": 1000},
+                { "item": "titanium", "amount": 1000}
     ],
     "category": "effect",
     "research": "overdrive-dome"

@@ -11,9 +11,9 @@
         { "item": "silicon", "amount": 75},
         { "item": "thorium", "amount": 75},
         { "item": "封装铍", "amount": 100},
-        { "item": "高纯钨", "amount": 100},
+        { "item": "高纯钨", "amount": 100}
     ],
 
 	"category": "distribution",
-	"research": "货运装载点",
+	"research": "货运装载点"
 }

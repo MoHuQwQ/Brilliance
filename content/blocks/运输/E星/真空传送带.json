@@ -7,9 +7,9 @@
 	"speed": "2",
 	"itemCapacity": "2",
 	"requirements": [
-		{ "item": "beryllium", "amount": 1}
-        { "item": "纳米铜", "amount": 1}
+		{ "item": "beryllium", "amount": 1},
+        { "item": "纳米铜", "amount": 1},
         { "item": "晶体铅", "amount": 1 }       
     ],
-    "research": "duct",
+    "research": "duct"
 }

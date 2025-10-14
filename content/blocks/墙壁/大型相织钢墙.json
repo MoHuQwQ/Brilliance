@@ -7,9 +7,9 @@
 	"size": "2",
 	"flashHit": "ture",
 	"requirements": [
-		{ "item": "phase-fabric", "amount": 40 }
+		{ "item": "phase-fabric", "amount": 40 },
 		{ "item": "高纯钨", "amount": 20 }
 	],
 	"chanceDeflect": "27",
-	"research": "相织钢墙",
+	"research": "相织钢墙"
 }

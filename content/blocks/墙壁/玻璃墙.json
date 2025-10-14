@@ -11,5 +11,5 @@
 		{ "item": "metaglass", "amount": 6 }
 	],
 	"research": "copper-wall",
-	"category": "defense",
+	"category": "defense"
 }

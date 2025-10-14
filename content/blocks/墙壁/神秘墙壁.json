@@ -6,9 +6,9 @@
 	"health": "1600",
 	"size": "2",
 	"requirements": [
-		{ "item": "titanium", "amount": 10 }
-		{ "item": "phase-fabric", "amount": 30 }
-		{ "item": "surge-alloy", "amount": 15 }
+		{ "item": "titanium", "amount": 10 },
+		{ "item": "phase-fabric", "amount": 30 },
+		{ "item": "surge-alloy", "amount": 15 },
 		{ "item": "plastanium", "amount": 15 }
 	],
 	"outputsPower": false,
@@ -20,5 +20,5 @@
 	"regenSpeed": 4,
 	"glowColor": "D1EFFF",
 	"glowMag": 1.2,
-	"glowScl": 16,
+	"glowScl": 16
 }

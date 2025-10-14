@@ -9,7 +9,7 @@
     "consumes": {
         "power": 2,
         "liquid": {
-        "liquid": "slag", "amount": 2,
+        "liquid": "slag", "amount": 2
        }
     },
     "requirements": [
@@ -18,8 +18,8 @@
         {"item": "晶体铅", "amount":30 }
 	],
     "results": [
-        { "item": "轻钛", "amount": 9 }
-        { "item": "thorium", "amount": 1 }
+        { "item": "轻钛", "amount": 9 },
+        { "item": "thorium", "amount": 1 },
         { "item": "silicon", "amount": 4 }
                
         ],

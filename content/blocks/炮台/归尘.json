@@ -35,7 +35,7 @@
         "ammoMultiplier": 3,
         "reloadMultiplier": 1.1,
         "pierceCap": 2,
-        "knockback": 2,
+        "knockback": 2
     },
         "titanium":{
         "type":"BasicBulletType",
@@ -48,7 +48,7 @@
         "pierceBuilding": true,
         "ammoMultiplier": 3,
         "pierceCap": 2,
-        "knockback": 3,
+        "knockback": 3
         },
         "thorium": {
         "type":"BasicBulletType",
@@ -62,8 +62,8 @@
         "ammoMultiplier": 1,
         "reloadMultiplier": 0.85,
         "pierceCap": 2,
-        "knockback": 4,
-        },
+        "knockback": 4
+        }
     },
 
 	"requirements": [
@@ -78,10 +78,10 @@
     "consumes" : {
         "coolant": {
         "amount": 1.2,
-        "optional": true,
-        },
+        "optional": true
+        }
     },
 
 	"category": "turret",
-    "research": "spectre",
+    "research": "spectre"
 }

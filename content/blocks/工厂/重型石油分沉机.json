@@ -24,8 +24,8 @@
     "requirements": [
         { "item": "copper", "amount":80},
         { "item": "graphite", "amount":25},
-        { "item": "titanium", "amount": 50}
-        { "item": "plastanium", "amount": 45}
+        { "item": "titanium", "amount": 50},
+        { "item": "plastanium", "amount": 45},
         { "item": "thorium", "amount": 25}
        ],
     "consumes": {
@@ -33,6 +33,6 @@
          "liquid": "oil/0.25"
     },
    
-    "outputItem": {"item": "coal","amount":4, },
+    "outputItem": {"item": "coal","amount":4 },
     "research": "coal-centrifuge"
 }

@@ -17,7 +17,7 @@
     "range":130,
 
     "ammoType":{
-    "type":"PowerAmmoType",
+    "type":"PowerAmmoType"
     },
 
     "abilities": [
@@ -26,13 +26,13 @@
         "effect": "蜂群网络-T1",
         "duration": 360.0,
         "reload": 360.0,
-        "range": 60.0,
+        "range": 60.0
     }
 ],
 
     "mineTier": 3,
     "mineSpeed": 4.0,
     "engineOffset": 0,
-    "research": "星萤",
+    "research": "星萤"
 
 }

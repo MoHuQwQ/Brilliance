@@ -16,19 +16,19 @@
         { "item": "graphite", "amount":125},
         { "item": "silicon", "amount":100},
         { "item": "plastanium", "amount":150},
-        { "item": "surge-alloy", "amount":50},
+        { "item": "surge-alloy", "amount":50}
        ],
     "consumes": {
         "power": 4,
         "items": {
 		"items": [
 				{ "item": "coal", "amount": 9 },
-                { "item": "graphite", "amount": 1 },		
+                { "item": "graphite", "amount": 1 }
 			]
 		},
          "liquid": "cryofluid/0.1"
     },
    "researchCostMultiplier": 0.35,
-    "outputItem": {"item": "graphite","amount":25, },
+    "outputItem": {"item": "graphite","amount":25 },
     "research": "multi-press"
 }

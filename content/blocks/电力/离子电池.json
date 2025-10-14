@@ -5,12 +5,12 @@
     "category": "power",
     "health": 150,
     "requirements": [
-        { "item": "copper", "amount": 10}
-        { "item": "lead", "amount":10 }
+        { "item": "copper", "amount": 10},
+        { "item": "lead", "amount":10 },
         { "item": "封装铍", "amount":5 }        
     ],
     "consumes": {
 		"powerBuffered": 16000.00
 	},
-	"research": "battery-large",
+	"research": "battery-large"
 }

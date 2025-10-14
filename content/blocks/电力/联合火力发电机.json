@@ -20,8 +20,8 @@
 
     "consumes": {
         "itemFlammable": {},
-        "itemExplode": {},
-    },//Anuken 你个老六！为什么消耗燃烧物要这么写！
+        "itemExplode": {}
+    },
 
     "drawer": {
     "type": "DrawMulti",
@@ -36,5 +36,5 @@
     "ambientSound": "smelter",
 
 	"category": "power",
-	"research": "combustion-generator",
+	"research": "combustion-generator"
 }

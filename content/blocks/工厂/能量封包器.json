@@ -18,11 +18,13 @@
         "sparkColor":"00FFFF",
         "waveLife":240,
         "waveStroke":1,
-        "waveRad":96,
+        "waveRad":96
     }],
     "consumes": {
         "power": 12.5,
-        "liquid": {"liquid":"water","amount":0.4,"booster":false,"update":true,}
+        "liquid": {
+          "liquid":"water","amount":0.4,"booster":false,"update":true
+        }
     },
 
     "outputItem": {"item": "封装能量水晶","amount":1 },

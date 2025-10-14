@@ -12,7 +12,7 @@
 	"pulse": true,
 
 	"consumes": {
-        "power": 0.6,
+        "power": 0.6
     },
 	"requirements": [
         { "item": "titanium", "amount": 25}
@@ -20,5 +20,5 @@
         { "item": "phase-fabric", "amount": 10} 
         { "item": "surge-alloy", "amount": 8}      
     ],
-    "research": "钛传送带桥",
+    "research": "钛传送带桥"
 }

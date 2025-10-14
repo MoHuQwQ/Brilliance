@@ -23,12 +23,6 @@
 		"liquids": {
 			"liquids":[ "water/0.2"]
 		}
-		//SB 2024/3/6
-		//"liquid": {
-		//"liquid": "cryofluid", "amount": 0.2,
-		//"optional": true,
-		//"booster":true,
-		//},
 
 	},
 

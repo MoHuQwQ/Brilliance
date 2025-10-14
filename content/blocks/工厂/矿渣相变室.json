@@ -27,5 +27,5 @@
                 { "item": "metaglass", "amount": 35}
     ],
     "category": "crafting",
-    "research": "separator",
+    "research": "separator"
 }

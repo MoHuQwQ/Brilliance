@@ -8,7 +8,7 @@
 
     "consumes": {
 
-        "power": 1.8,
+        "power": 1.8
 
        },
 
@@ -43,7 +43,7 @@
             "unit": "mono",
             "time": 1200.0,
             "requirements": [ "silicon/40","lead/20","陶瓷/8" ]
-        },
+        }
 
         ],
 

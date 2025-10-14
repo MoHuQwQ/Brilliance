@@ -6,8 +6,8 @@
 	"health": 6000,
 	"size": 2,
 	"requirements": [
-		{ "item": "tungsten", "amount": 24 }
+		{ "item": "tungsten", "amount": 24 },
 		{ "item": "轻钛", "amount": 24 }
 	],
-	"research": "blast-door",
+	"research": "blast-door"
 }

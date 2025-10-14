@@ -37,8 +37,8 @@
         "liquid": {
             "liquid": "cryofluid",
             "amount": 0.1,
-            "booster":false,
-        },
+            "booster":false
+        }
 
     },
 
@@ -53,5 +53,5 @@
 
     ],
     "category": "power",
-    "research": "thorium-reactor",
+    "research": "thorium-reactor"
 }

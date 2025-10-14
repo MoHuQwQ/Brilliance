@@ -7,10 +7,10 @@
 	"speed": 0,
 	"buildCostMultiplier": 6,
 	"requirements": [
-                { "item": "copper", "amount": 2}
+                { "item": "copper", "amount": 2},
                 { "item": "titanium", "amount": 2}
     ],
 
 	"category": "distribution",
-	"research": "提速传送带",
+	"research": "提速传送带"
 }

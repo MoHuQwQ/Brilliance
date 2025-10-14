@@ -21,9 +21,9 @@
         {
 		"type":"DrawHeatInput",
 		"suffix":"-heat"
-		},
+		}
 
     ]},
 
-     "research": "unloader",
+     "research": "unloader"
 }

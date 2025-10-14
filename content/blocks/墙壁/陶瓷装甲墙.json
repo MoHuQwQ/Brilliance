@@ -8,9 +8,9 @@
 	"armor": 5,
 	"flashHit": "ture",
 	"requirements": [
-		{ "item": "silicon", "amount": 4 }
+		{ "item": "silicon", "amount": 4 },
 		{ "item": "陶瓷", "amount": 20 }
 	],
 	"chanceDeflect": "5",
-	"research": "玻璃墙",
+	"research": "玻璃墙"
 }

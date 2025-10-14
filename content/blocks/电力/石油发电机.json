@@ -12,10 +12,10 @@
 
 	"requirements": [
 
-		{"item": "lead", "amount":125 }
-		{"item": "metaglass", "amount":100 }
-		{"item": "graphite", "amount":100 }
-		{"item": "silicon", "amount":55 }
+		{"item": "lead", "amount":125 },
+		{"item": "metaglass", "amount":100 },
+		{"item": "graphite", "amount":100 },
+		{"item": "silicon", "amount":55 },
 		{"item": "titanium", "amount":75 }
 
 	],
@@ -26,9 +26,9 @@
         "power": 1.0,
         "liquids": [
 
-        {"liquid": "oil","amount":0.1}
+        {"liquid": "oil","amount":0.1},
 		{"liquid": "water","amount":0.2}
-		],
+		]
 
     },
 

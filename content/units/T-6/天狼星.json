@@ -30,11 +30,11 @@
                 "pierceEffect": "railHit",
                 "pointEffect": "railTrail",
                 "hitEffect": "massiveExplosion",
-                "smokeEffect": "shootBig2",
+                "smokeEffect": "shootBig2"
 
-            },
-         },
+            }
+         }
      ],
 
-     "alwaysUnlocked": true,
+     "alwaysUnlocked": true
 }
