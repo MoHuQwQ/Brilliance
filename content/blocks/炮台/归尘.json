@@ -12,7 +12,7 @@
     "maxAmmo": 100,
     "targetGround": true,
     "targetAir":true,
-    "coolantMultiplier": 0.35,
+    "coolantMultiplier": 1,
 
     "shoot": {
         "type": "ShootAlternate",
@@ -67,9 +67,9 @@
     },
 
 	"requirements": [
-        { "item": "copper", "amount": 45}
-        { "item": "lead", "amount": 45}
-        { "item": "silicon", "amount": 20}
+        { "item": "copper", "amount": 45},
+        { "item": "lead", "amount": 45},
+        { "item": "silicon", "amount": 20},
         { "item": "metaglass", "amount": 30}
       
     ],

@@ -7,9 +7,9 @@
     "liquidCapacity": 160,
 
     "consumes": {
-        "power": 2,
+        "power": 3,
         "liquid": {
-        "liquid": "slag", "amount": 2
+        "liquid": "slag", "amount": 0.4
        }
     },
     "requirements": [
@@ -24,7 +24,7 @@
                
         ],
 
-    "craftTime": 8,
+    "craftTime": 60,
 	"category": "crafting",
 	"research":"弱相层析室"
 }
