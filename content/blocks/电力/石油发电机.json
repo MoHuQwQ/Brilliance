@@ -4,7 +4,7 @@
 	"description": "消耗石油进行发电，需要水进行冷却",
 	"size":3 ,
 	"health":1200 ,
-	"liquidCapacity": 18,
+	"liquidCapacity": 24,
 	"warmupSpeed": 0.005,
 	"hasItems" : false,
 	"ambientSound": "lasercharge2",
@@ -20,10 +20,10 @@
 
 	],
 
-    "powerProduction": 9,
+    "powerProduction": 20,
 
 	"consumes": {
-        "power": 1.0,
+        "power": 1.5,
         "liquids": [
 
         {"liquid": "oil","amount":0.1},
