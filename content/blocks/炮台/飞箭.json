@@ -1,0 +1,48 @@
+{
+	"name": "飞箭",
+	"description": "远程导弹发射器",
+	"type": "ItemTurret",
+	"size":2 ,
+	"health":1000 ,
+	"reload": 150,
+    "range": 500,
+    "buildCostMultiplier": 0.7,
+    "liquidCapacity": 36,
+    "hasItems": true,
+
+    "recoils": 2,
+    "alternate": true,
+
+    "shootWarmupSpeed": 0.03,
+    "ammoPerShot": 4,
+    "maxAmmo": 12,
+
+	"ammoTypes": {
+        "titanium": {
+            "ammoMultiplier": 1,
+            "smokeEffect": "shootSmallFlame",
+            "speed": 0,
+            "spawnUnit": "scathe-missile"
+        }
+    },
+
+	"requirements": [
+        { "item": "copper", "amount": 200},
+        { "item": "graphite", "amount": 175},
+        { "item": "titanium", "amount": 150},
+        { "item": "graphite", "amount": 100}
+
+      
+    ],
+
+    "consumes" : {
+        "power": 0.6,
+        "coolant": {
+        "amount": 0.15,
+        "optional": true
+        }
+    },
+
+	"category": "turret",
+    "research": "原生科技-炮台"
+}
