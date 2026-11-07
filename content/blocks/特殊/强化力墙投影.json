@@ -12,9 +12,11 @@
 
     "radius":150,
     "shieldHealth": 1750,
-    "cooldownNormal": 1.75,
-    "cooldownLiquid": 1.5,
-    "cooldownBrokenBase": 2,
+    
+    "cooldownNormal": 8,
+	"cooldownLiquid": 2.5,
+	"cooldownBrokenBase": 6,
+	"coolantConsumption": 0.5,
 
     "absorbEffect": {
         "type": "absorb"

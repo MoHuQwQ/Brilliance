@@ -1,5 +1,4 @@
 {
-	"type": "LiquidConverter",
 	"type": "AttributeCrafter",
 	"name": "高压冷却厂",
 	"description": "高效率的生成冷冻液",

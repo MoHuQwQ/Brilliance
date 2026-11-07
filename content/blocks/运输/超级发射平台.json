@@ -10,7 +10,7 @@
 	"liquidCapacity": 60,
 	"buildCostMultiplier": 2.5,
 	"requirements": [
-        { "item": "copper", "amount": 1400},
+        { "item": "copper", "amount": 10},
         { "item": "lead", "amount": 1000},
         { "item": "titanium", "amount": 850},
         { "item": "silicon", "amount": 550},
@@ -20,10 +20,10 @@
         { "item": "高纯钨", "amount": 350}
       ],
 "consumes": {
-        "power": 60,
-        "liquid": "cryofluid/0.2"
+        "power": 30,
+        "liquid": "cryofluid/0.15"
     },
     "category" : "effect",
-    "research": "launch-pad",
+    "research": "原生科技-建筑",
     "researchCostMultiplier": 0.1
 }

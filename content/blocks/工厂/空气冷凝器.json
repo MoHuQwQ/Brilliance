@@ -1,5 +1,4 @@
 {
-	"type": "LiquidConverter",
 	"type": "AttributeCrafter",
 	"name": "空气冷凝器",
 	"description": "从空气中获取水",

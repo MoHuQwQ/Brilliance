@@ -1,0 +1,103 @@
+{
+  "type": "ItemTurret",
+  "name": "flintfire",
+  "size": 2,
+  "health": 800,
+  "range": 240,
+  "reload": 60,
+  "shootY": 5,
+  "recoil": 1.5,
+  "rotateSpeed": 8,
+  "inaccuracy": 0,
+  "shootSound": "shootBig",
+  "requirements": [
+    { "item": "copper", "amount": 85 },
+    { "item": "graphite", "amount": 45 },
+    { "item": "silicon", "amount": 30 }
+  ],
+  "ammoTypes": {
+    "graphite": {
+      "type": "BasicBulletType",
+      "speed": 6,
+      "damage": 50,
+      "width": 8,
+      "height": 12,
+      "lifetime": 32,
+      "knockback": 15,
+      "pierce": true,
+      "pierceCap": 1,
+      "hitEffect": "hitBulletBig",
+      "despawnEffect": "none",
+      "fragBullets": 4,
+      "fragBullet": {
+        "type": "ArtilleryBulletType",
+        "speed": 2,
+        "splashDamage": 40,
+        "splashDamageRadius": 60,
+        "knockback": 5,
+        "lifetime": 6,
+        "hitEffect": "flakExplosion",
+        "backColor": "ffa500",
+        "frontColor": "ffffff"
+      },
+      "backColor": "ffa500",
+      "frontColor": "ffffff"
+    },
+    
+    "silicon": {
+  "type": "BasicBulletType",
+  "speed": 4.5,
+  "damage": 120,
+  "width": 10,
+  "height": 14,
+  "lifetime": 40,
+  "knockback": 8,
+  "pierce": false,
+  "homingPower": 0.12,
+  "homingRange": 100,
+  "hitEffect": "hitBulletBig",
+  "despawnEffect": "none",
+  "splashDamage": 90,
+  "splashDamageRadius": 95,
+  "backColor": "c4b5fd",
+  "frontColor": "ffffff"
+},
+
+"graphite": {
+  "type": "BasicBulletType",
+  "speed": 7,
+  "damage": 80,
+  "width": 9,
+  "height": 14,
+  "lifetime": 45,
+  "knockback": 10,
+  "pierce": false,
+  "homingPower": 0.08,
+  "homingRange": 120,
+  "hitEffect": "hitBulletBig",
+  "despawnEffect": "none",
+  "splashDamage": 50,
+  "splashDamageRadius": 70,
+  "status": "electrified",
+  "statusDuration": 180,
+  "fragBullets": 4,
+  "fragBullet": {
+    "type": "ArtilleryBulletType",
+    "speed": 3,
+    "damage": 25,
+    "splashDamage": 25,
+    "splashDamageRadius": 40,
+    "status": "burning",
+    "statusDuration": 300,
+    "lifetime": 12,
+    "hitEffect": "flakExplosion",
+    "backColor": "ff6600",
+    "frontColor": "ffffff"
+  },
+  "backColor": "a855f7",
+  "frontColor": "ffffff"
+}
+    
+  }
+  "category": "turret",
+}

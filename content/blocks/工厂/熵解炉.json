@@ -1,0 +1,44 @@
+{
+	"type": "GenericCrafter",
+	"name": "熵解炉",
+	"description": "将废料通过一系列步骤合成为硫化物并且输出多余的钛合金",
+    "category": "crafting",
+    "size": 2,
+    "health": 320,
+    "itemCapacity": 18,
+    "liquidCapacity": 18,
+    "craftTime": 60,
+    "hasPower": "true",
+    "hasItems": "true",
+    "hasLiquids": "true",
+    "craftEffect": "smeltsmoke",
+    "requirements": [
+    { "item": "copper", "amount": 65},
+    { "item": "lead", "amount": 35},
+    { "item": "graphite", "amount": 45},
+    { "item": "silicon", "amount": 20},
+    { "item": "titanium", "amount": 30}
+       ],
+    "consumes": {
+        "power": 2.4,
+        "items": {
+		"items": [
+				{ "item": "scrap", "amount": 2 }
+			]
+		},
+		"liquid": "water/0.1"
+    },
+    "drawer": {
+    "type": "DrawMulti",
+    "drawers": [
+    "DrawDefault",
+    "DrawFlame"
+        ]
+    },
+    "outputItems":
+    [
+      {"item": "pyratite","amount":2 },
+      {"item": "titanium","amount":1 }
+      ],
+    "research": "钛钢窑炉"
+}

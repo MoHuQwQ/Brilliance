@@ -7,7 +7,7 @@
 	"hasPower": true,
     "hasLiquids": true,
     "hasItems": true,
-    "craftTime": 12,
+    "craftTime": 30,
     "liquidCapacity": 240,
     "itemCapacity": 40,
     "craftEffect": "smeltsmoke",
@@ -15,11 +15,11 @@
         "power": 3,
         "items": {
 		"items": [
-				{ "item": "scrap", "amount": 2 }				
+				{ "item": "scrap", "amount": 4 }				
 			]
 		}
     },
-    "outputLiquid": {"liquid": "slag", "amount": 3},
+    "outputLiquid": {"liquid": "slag", "amount": 4},
 	"requirements": [
                 { "item": "titanium", "amount": 50},
                 { "item": "silicon", "amount": 30},

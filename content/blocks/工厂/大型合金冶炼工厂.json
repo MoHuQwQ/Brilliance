@@ -14,16 +14,13 @@
     "craftEffect": "smeltsmoke",
     "consumes": {
         "power": 7.5,
-        "items": {
-		"items": [
-				{ "item": "titanium", "amount": 5 }
-                { "item": "silicon", "amount": 6 }
-                { "item": "thorium", "amount": 3 }
-                { "item": "graphite", "amount": 4 }				
-			]
-		},
-        "liquid": "cryofluid/0.2"
+        "liquids": [
+            {"liquid": "cryofluid", "amount": 0.1},
+            {"liquid": "slag", "amount": 0.5},
+            {"liquid": "hydrogen", "amount": 0.5}
+       ]
     },
+    
     "outputItem": {"item": "surge-alloy","amount": 4 },
 	"requirements": [
                 { "item": "titanium", "amount": 150},

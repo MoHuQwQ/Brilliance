@@ -6,7 +6,7 @@
     "size": 2,
     "health": 320,
     "itemCapacity": 10,
-    "craftTime": 30,
+    "craftTime": 25,
     "hasPower": "true",
     "hasItems": "true",
     "craftEffect": "smeltsmoke",
@@ -16,7 +16,7 @@
         { "item": "graphite", "amount": 55}
        ],
     "consumes": {
-        "power": 1,
+        "power": 1.5,
         "items": {
 		"items": [
 				{ "item": "copper", "amount": 1 },
@@ -32,6 +32,6 @@
     "DrawFlame"
         ]
     },
-    "outputItem": {"item": "scrap","amount":2 },
+    "outputItem": {"item": "scrap","amount":3 },
     "research": "melter"
 }

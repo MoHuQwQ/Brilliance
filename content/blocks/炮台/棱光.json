@@ -5,7 +5,7 @@
 	"size":4,
 	"health":1000 ,
 	"reload": 200.00,
-    "range": 500,
+    "range": 660,
 	"shootSound" : "laserblast",
     "buildCostMultiplier": 0.7,
     "liquidCapacity": 96,
@@ -39,7 +39,7 @@
         },
     
     "type": "LaserBulletType",
-    "damage": 4000,
+    "damage": 8000,
     "colors": ["8CA9E8", "b7d6f9", "ffffffff"],
     "hitSize": 4,
     "lifetime": 60.00,

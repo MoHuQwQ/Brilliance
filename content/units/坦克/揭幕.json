@@ -52,7 +52,7 @@
 			"sprite": "missile-large",
 			"smokeEffect": "shootTitan",
 			"shootEffect": "shootSmokeTitan",
-			"frontColor":"white",
+			"frontColor":"FFFFFF",
 			"trailWidth": 2,
 			"trailLength": 6,
 			"splashDamageRadius": 10,

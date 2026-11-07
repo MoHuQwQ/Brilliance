@@ -7,9 +7,9 @@
     "liquidCapacity": 160,
 
     "consumes": {
-        "power": 3,
+        "power": 1.8,
         "liquid": {
-        "liquid": "slag", "amount": 0.4
+        "liquid": "slag", "amount": 0.2
        }
     },
     "requirements": [
@@ -18,13 +18,13 @@
         {"item": "晶体铅", "amount":30 }
 	],
     "results": [
-        { "item": "轻钛", "amount": 9 },
-        { "item": "thorium", "amount": 1 },
-        { "item": "silicon", "amount": 4 }
+        { "item": "轻钛", "amount": 8 },
+        { "item": "thorium", "amount": 2 },
+        { "item": "silicon", "amount": 3 }
                
         ],
 
-    "craftTime": 60,
+    "craftTime": 30,
 	"category": "crafting",
 	"research":"弱相层析室"
 }
