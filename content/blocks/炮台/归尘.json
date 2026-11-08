@@ -110,7 +110,7 @@
 			"trailLength": 10
 			
 		},
-		"silicon": {
+		"三相弹": {
 			"type": "BasicBulletType",
 			"speed": 12,
 			"damage": 200,

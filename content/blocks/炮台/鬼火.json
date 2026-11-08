@@ -30,7 +30,7 @@
     "graphite": {
       "type": "BasicBulletType",
       "speed": 7.5,
-      "damage": 28,
+      "damage": 20,
       "width": 9,
       "height": 13,
       "lifetime": 27,
@@ -92,7 +92,7 @@
       "ammoMultiplier": 3,
       "reloadMultiplier": 0.9
     },
-    "surge-alloy": {
+    "三相弹": {
   "type": "BasicBulletType",
   "speed": 8,
   "damage": 35,
@@ -113,7 +113,7 @@
   "backColor": "A855F7",
   "frontColor": "FFFFFF",
   "trailColor": "A855F7",
-  "ammoMultiplier": 1,
+  "ammoMultiplier": 2,
   "reloadMultiplier": 0.7,
   "fragBullets": 4,
   "fragBullet": {
@@ -134,18 +134,12 @@
     
   },
   "requirements": [
-    { "item": "copper", "amount": 120 },
-    { "item": "graphite", "amount": 80 },
-    { "item": "titanium", "amount": 50 },
-    { "item": "surge-alloy", "amount": 20 }
+    { "item": "copper", "amount": 150 },
+    { "item": "graphite", "amount": 120 },
+    { "item": "silicon", "amount": 50 }
   ],
   "category": "turret",
   "research": {
-    "parent": "spectre",
-    "requirements": [
-      { "item": "copper", "amount": 1200 },
-      { "item": "graphite", "amount": 800 },
-      { "item": "surge-alloy", "amount": 200 }
-    ]
+    "parent": "燧火",
   }
 }

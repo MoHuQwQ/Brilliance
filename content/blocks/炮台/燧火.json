@@ -63,7 +63,7 @@
   "frontColor": "ffffff"
 },
 
-"lead": {
+"三相弹": {
   "type": "BasicBulletType",
   "speed": 7,
   "damage": 80,
@@ -100,4 +100,5 @@
     
   }
   "category": "turret",
+  "research": "原生科技-炮台"
 }

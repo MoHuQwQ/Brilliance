@@ -1,0 +1,3 @@
+[
+  { "op": "replace", "path": "/block/conveyor/health", "value": 9999 },
+]

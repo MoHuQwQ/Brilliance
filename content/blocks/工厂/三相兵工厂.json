@@ -1,0 +1,28 @@
+{
+	"type": "GenericCrafter",
+	"name": "三相弹兵工厂",
+	"description": "将铜、硫化物、硅组装成高性能弹药",
+    "category": "crafting",
+    "size": 3,
+    "health": 200,
+    "itemCapacity": 10,
+    "craftTime": 60,
+    "hasPower": "true",
+    "hasItems": "true",
+    "requirements": [
+        { "item": "copper", "amount":50},
+        { "item": "lead", "amount": 45},
+        { "item": "graphite", "amount": 20}
+       ],
+    "consumes": {
+        "items": {
+		"items": [
+				{ "item": "copper", "amount": 1 }
+				{ "item": "pyratite", "amount": 1 }
+				{ "item": "silicon", "amount": 1 }
+			]
+		},
+    },
+    "outputItem": {"item": "三相弹","amount":4 },
+    "research": "原生科技-建筑"
+}

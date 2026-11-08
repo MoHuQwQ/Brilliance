@@ -1,0 +1,8 @@
+{
+"name":"三相弹",
+"buildable": false,
+"hardness":0,
+"description":"混合弹药，能够造成电磁干扰爆炸及燃烧",
+"color":"595E72",
+"research": "陶瓷"
+}
