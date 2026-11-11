@@ -10,16 +10,16 @@
   "rotateSpeed": 8,
   "inaccuracy": 0,
   "shootSound": "shootBig",
+  "buildCostMultiplier": "0.5",
   "requirements": [
-    { "item": "copper", "amount": 85 },
-    { "item": "graphite", "amount": 45 },
-    { "item": "silicon", "amount": 30 }
+    { "item": "copper", "amount": 80 },
+    { "item": "graphite", "amount": 30 }
   ],
   "ammoTypes": {
     "graphite": {
       "type": "BasicBulletType",
       "speed": 6,
-      "damage": 50,
+      "damage": 40,
       "width": 8,
       "height": 12,
       "lifetime": 32,
@@ -32,7 +32,7 @@
       "fragBullet": {
         "type": "ArtilleryBulletType",
         "speed": 2,
-        "splashDamage": 40,
+        "splashDamage": 15,
         "splashDamageRadius": 60,
         "knockback": 5,
         "lifetime": 6,
@@ -47,7 +47,7 @@
     "silicon": {
   "type": "BasicBulletType",
   "speed": 4.5,
-  "damage": 120,
+  "damage": 100,
   "width": 10,
   "height": 14,
   "lifetime": 40,
@@ -57,7 +57,7 @@
   "homingRange": 100,
   "hitEffect": "hitBulletBig",
   "despawnEffect": "none",
-  "splashDamage": 90,
+  "splashDamage": 45,
   "splashDamageRadius": 95,
   "backColor": "c4b5fd",
   "frontColor": "ffffff"
@@ -98,7 +98,7 @@
   "frontColor": "ffffff"
 }
     
-  }
+  },
   "category": "turret",
   "research": "原生科技-炮台"
 }

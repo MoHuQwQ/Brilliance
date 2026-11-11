@@ -26,17 +26,17 @@
     "updateEffectChance": "0.03",
     "drillEffect": "mineHuge",
 	"requirements": [
-		{"item": "copper", "amount":140 }
-		{"item": "silicon", "amount":75 }
-		{"item": "titanium", "amount":80 }
-		{"item": "thorium", "amount":100}
-		{"item": "高纯钨", "amount":35 }
-		{"item": "封装铍", "amount":90 }
+		{"item": "copper", "amount":140 },
+		{"item": "silicon", "amount":75 },
+		{"item": "titanium", "amount":80 },
+		{"item": "thorium", "amount":100},
+		{"item": "高纯钨", "amount":35 },
+		{"item": "封装铍", "amount":90 },
 		{"item": "surge-alloy", "amount":50 }
 	],
 	"category": "production",
 	"research": {
-    "parent": "弱电钻头",
+    "parent": "合金钻头",
     "objectives": [
             {
                 "type": "OnSector",

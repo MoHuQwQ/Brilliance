@@ -7,7 +7,7 @@
     "health": 200,
     "itemCapacity": 10,
     "liquidCapacity": 10,
-    "craftTime": 120,
+    "craftTime": 60,
     "hasPower": "true",
     "hasItems": "true",
     "requirements": [

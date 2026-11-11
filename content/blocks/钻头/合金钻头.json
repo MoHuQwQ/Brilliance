@@ -27,13 +27,13 @@
 	},
 
 	"requirements": [
-		{"item": "titanium", "amount":115 }
-		{"item": "thorium", "amount":150 }
-		{"item": "silicon", "amount":120 }
-		{"item": "plastanium", "amount":100 }
-		{"item": "graphite", "amount":200 }
+		{"item": "titanium", "amount":115 },
+		{"item": "thorium", "amount":150 },
+		{"item": "silicon", "amount":120 },
+		{"item": "plastanium", "amount":100 },
+		{"item": "graphite", "amount":200 },
 		{"item": "surge-alloy", "amount":75 }
 	],
 	"category": "production",
-	"research":"弱电钻头"
+	"research":"塑钢钻头"
 }

@@ -14,12 +14,12 @@
 		}
 	},
 	"requirements": [
-		{"item": "titanium", "amount":25 }
-		{"item": "lead", "amount":15 }
-		{"item": "graphite", "amount":45 }
-		{"item": "thorium", "amount":30}
+		{"item": "titanium", "amount":25 },
+		{"item": "lead", "amount":15 },
+		{"item": "graphite", "amount":45 },
+		{"item": "thorium", "amount":30},
 		{"item": "silicon", "amount":25 }
 	],
 	"category": "production",
-	"research":"塑钢钻头"
+	"research":"电动钻头"
 }
