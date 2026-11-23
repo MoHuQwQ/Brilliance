@@ -18,6 +18,7 @@
   "ammoUseEffect": "casing2",
   "shake": 1.5,
   "depositCooldown": 1.5,
+  "buildCostMultiplier": 0.5,
   "targetAir": true,
   "targetGround": true,
   "shoot": {

@@ -13,6 +13,7 @@
     "targetGround": true,
     "targetAir":true,
     "coolantMultiplier": 0.8,
+	"buildCostMultiplier": 0.5,
     "shootY": 12,
 	"rotateSpeed": 5,
 	"recoil": 2,
@@ -43,7 +44,7 @@
 			"knockback": 2,
 			"backColor": "A9A9A9",
 			"frontColor": "FFFFFF",
-			"trailColor": "A9A9A9"
+			"trailColor": "A9A9A9",
 			
 			"shootEffect": "shootBigColor",
 			"smokeEffect": "shootBigSmoke",
@@ -69,9 +70,9 @@
 			"ammoMultiplier": 3,
 			"reloadMultiplier": 1.0,
 			"knockback": 3,
-			"backColor": "8A2BE2",
-			"frontColor": "D8BFD8",
-			"trailColor": "8A2BE2"
+			"backColor": "7575C8",
+			"frontColor": "A4B8FA",
+			"trailColor": "7575C8",
 			
 			"shootEffect": "shootBigColor",
 			"smokeEffect": "shootBigSmoke",
@@ -96,9 +97,9 @@
 			"ammoMultiplier": 2,
 			"reloadMultiplier": 0.85,
 			"knockback": 4,
-			"backColor": "FF5555",
-			"frontColor": "FFDDDD",
-			"trailColor": "FF5555"
+			"backColor": "CB8EBF",
+			"frontColor": "F9A3C7",
+			"trailColor": "CB8EBF",
 			
 			"shootEffect": "shootBigColor",
 			"smokeEffect": "shootBigSmoke",
@@ -130,9 +131,9 @@
 			"ammoMultiplier": 1,
 			"reloadMultiplier": 1.5,
 			"knockback": 3,
-			"backColor": "A855F7",
-			"frontColor": "FFFFFF",
-			"trailColor": "A855F7",
+			"backColor": "E28654",
+			"frontColor": "FFCD66",
+			"trailColor": "E28654",
 			"fragBullets": 4,
 			
 			"shootEffect": "shootBigColor",
@@ -142,7 +143,7 @@
 			"hitEffect": "hitBulletColor",
 			"despawnEffect": "hitBulletColor",
 			"trailWidth": 2.1,
-			"trailLength": 10
+			"trailLength": 10,
 			
 			"fragBullet": {
 				"type": "ArtilleryBulletType",
@@ -160,10 +161,10 @@
     },
 
 	"requirements": [
-        { "item": "copper", "amount": 45},
-        { "item": "lead", "amount": 45},
-        { "item": "silicon", "amount": 20},
-        { "item": "metaglass", "amount": 30}
+        { "item": "titanium", "amount":1500},
+        { "item": "silicon", "amount": 1000},
+        { "item": "thorium", "amount": 450},
+        { "item": "surge-alloy", "amount": 450}
       
     ],
 

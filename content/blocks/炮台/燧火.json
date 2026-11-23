@@ -66,7 +66,7 @@
 "三相弹": {
   "type": "BasicBulletType",
   "speed": 7,
-  "damage": 80,
+  "damage": 50,
   "width": 9,
   "height": 14,
   "lifetime": 45,
@@ -84,7 +84,7 @@
   "fragBullet": {
     "type": "ArtilleryBulletType",
     "speed": 3,
-    "damage": 25,
+    "damage": 20,
     "splashDamage": 25,
     "splashDamageRadius": 40,
     "status": "burning",
