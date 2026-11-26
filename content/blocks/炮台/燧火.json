@@ -1,6 +1,6 @@
 {
   "type": "ItemTurret",
-  "name": "flintfire",
+  "name": "燧火",
   "size": 2,
   "health": 800,
   "range": 240,
@@ -9,7 +9,7 @@
   "recoil": 1.5,
   "rotateSpeed": 8,
   "inaccuracy": 0,
-  "shootSound": "shootBig",
+  "shootSound": "shootArtillerySmall",
   "buildCostMultiplier": "0.5",
   "requirements": [
     { "item": "copper", "amount": 80 },
@@ -37,10 +37,10 @@
         "knockback": 5,
         "lifetime": 6,
         "hitEffect": "flakExplosion",
-        "backColor": "ffa500",
+        "backColor": "626F9B",
         "frontColor": "ffffff"
       },
-      "backColor": "ffa500",
+      "backColor": "626F9B",
       "frontColor": "ffffff"
     },
     
@@ -59,7 +59,7 @@
   "despawnEffect": "none",
   "splashDamage": 45,
   "splashDamageRadius": 95,
-  "backColor": "c4b5fd",
+  "backColor": "767A84",
   "frontColor": "ffffff"
 },
 
@@ -91,11 +91,11 @@
     "statusDuration": 300,
     "lifetime": 12,
     "hitEffect": "flakExplosion",
-    "backColor": "ff6600",
-    "frontColor": "ffffff"
+    "backColor": "E28654",
+    "frontColor": "FFCD66"
   },
-  "backColor": "a855f7",
-  "frontColor": "ffffff"
+  "backColor": "E28654",
+  "frontColor": "FFCD66"
 }
     
   },

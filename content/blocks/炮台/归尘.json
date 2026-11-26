@@ -6,7 +6,7 @@
 	"health": 4200,
 	"reload": 10,
     "range": 360,
-	"shootSound" : "shootBig",
+	"shootSound": "shootSpectre",
     "liquidCapacity": 144,
     "hasItems": true,
     "maxAmmo": 100,
