@@ -22,8 +22,7 @@ const DEBUG_PATH = "scripts/debug.txt";
 
 // 名单文件不存在 / 读取失败时使用的默认名单
 const DEFAULT_LIST = [
-    "Tech-tree-full-display_科技树全显示",
-    "科技树全显示"
+    "Vanilla Expansion"
 ];
 
 var checked = false;
